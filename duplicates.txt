@@ -2,9 +2,9 @@ Number of s-files: 1575
 Number of checked s-files: 1575
 Number of decompiled duplicates found: 458
 Number of undecompiled duplicates found: 860
-Number of overall exact duplicates found: 195
+Number of overall exact duplicates found: 188
 
-ref. - MAIN - ReturnFromException - found 51 matches total:
+ref. - MAIN - ResetEntryInt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
 0.99 - MAIN - Load - (decompiled)
 0.99 - MAIN - Exec - (decompiled)
@@ -26,7 +26,7 @@ ref. - MAIN - ReturnFromException - found 51 matches total:
 0.99 - MAIN - PAD_dr
 0.99 - MAIN - ChangeClearRCnt
 0.99 - MAIN - _96_remove
-0.99 - MAIN - ResetEntryInt
+0.99 - MAIN - ReturnFromException
 0.99 - MAIN - HookEntryInt
 0.99 - MAIN - exit - (decompiled)
 0.99 - MAIN - puts - (decompiled)
@@ -57,43 +57,24 @@ ref. - MAIN - ReturnFromException - found 51 matches total:
 0.99 - MAIN - DisableEvent - (decompiled)
 0.99 - MAIN - TestEvent - (decompiled)
 
-ref. - NO3  - func_801C57FC - found 17 matches total:
-1.00 - CEN  - func_80194DFC - (decompiled)
-1.00 - DRE  - func_8019AF40 - (decompiled)
-1.00 - NP3  - func_801BD06C - (decompiled)
-1.00 - NZ0  - func_801BD484 - (decompiled)
-1.00 - ST0  - func_801B56F4 - (decompiled)
-1.00 - WRP  - func_8018C198 - (decompiled)
-1.00 - RWRP - func_8018E118
-0.99 - CEN  - func_80194C68
-0.99 - DRE  - func_8019ADAC - (decompiled)
-0.99 - MAD  - func_80192994 - (decompiled)
-0.99 - MAD  - func_80192B28 - (decompiled)
-0.99 - NO3  - func_801C5668 - (decompiled)
-0.99 - NP3  - func_801BCED8 - (decompiled)
-0.99 - NZ0  - func_801BD2F0 - (decompiled)
-0.99 - ST0  - func_801B5560
-0.99 - WRP  - func_8018C004 - (decompiled)
-0.99 - RWRP - func_8018DF84
-
-ref. - RWRP - func_8018C34C - found 17 matches total:
-0.99 - CEN  - func_80192D7C
-0.99 - CEN  - func_80193030
-0.99 - DRE  - func_80198EC0 - (decompiled)
-0.99 - DRE  - func_80199174 - (decompiled)
-0.99 - MAD  - func_80190884 - (decompiled)
-0.99 - MAD  - func_80190B24 - (decompiled)
-0.99 - NO3  - func_801C377C - (decompiled)
-0.99 - NO3  - func_801C3A30 - (decompiled)
-0.99 - NP3  - func_801BAFEC
-0.99 - NP3  - func_801BB2A0
-0.99 - NZ0  - func_801BB404 - (decompiled)
-0.99 - NZ0  - func_801BB6B8 - (decompiled)
-0.99 - ST0  - func_801B3420
-0.99 - ST0  - func_801B36D4
-0.99 - WRP  - func_8018A118 - (decompiled)
-0.99 - WRP  - func_8018A3CC - (decompiled)
-0.99 - RWRP - func_8018C098
+ref. - NP3  - func_801BB044 - found 17 matches total:
+0.99 - CEN  - func_80192DD4
+0.99 - CEN  - func_80193088
+0.99 - DRE  - func_80198F18
+0.99 - DRE  - func_801991CC
+0.99 - MAD  - func_801908DC
+0.99 - MAD  - func_80190B7C
+0.99 - NO3  - func_801C37D4
+0.99 - NO3  - func_801C3A88
+0.99 - NP3  - func_801BB2F8
+0.99 - NZ0  - func_801BB45C
+0.99 - NZ0  - func_801BB710
+0.99 - ST0  - func_801B3478
+0.99 - ST0  - func_801B372C
+0.99 - WRP  - func_8018A170
+0.99 - WRP  - func_8018A424
+0.99 - RWRP - func_8018C0F0
+0.99 - RWRP - func_8018C3A4
 
 ref. - ST0  - func_801B31A4 - found 17 matches total:
 0.99 - CEN  - func_80192B00
@@ -114,26 +95,45 @@ ref. - ST0  - func_801B31A4 - found 17 matches total:
 0.99 - RWRP - func_8018BE1C
 0.99 - RWRP - func_8018BF34
 
-ref. - WRP  - func_8018A170 - found 17 matches total:
-0.99 - CEN  - func_80192DD4
-0.99 - CEN  - func_80193088
-0.99 - DRE  - func_80198F18
-0.99 - DRE  - func_801991CC
-0.99 - MAD  - func_801908DC
-0.99 - MAD  - func_80190B7C
-0.99 - NO3  - func_801C37D4
-0.99 - NO3  - func_801C3A88
-0.99 - NP3  - func_801BB044
-0.99 - NP3  - func_801BB2F8
-0.99 - NZ0  - func_801BB45C
-0.99 - NZ0  - func_801BB710
-0.99 - ST0  - func_801B3478
-0.99 - ST0  - func_801B372C
-0.99 - WRP  - func_8018A424
-0.99 - RWRP - func_8018C0F0
-0.99 - RWRP - func_8018C3A4
+ref. - RWRP - func_8018DF84 - found 17 matches total:
+0.99 - CEN  - func_80194C68
+0.99 - CEN  - func_80194DFC - (decompiled)
+0.99 - DRE  - func_8019ADAC - (decompiled)
+0.99 - DRE  - func_8019AF40 - (decompiled)
+0.99 - MAD  - func_80192994 - (decompiled)
+0.99 - MAD  - func_80192B28 - (decompiled)
+0.99 - NO3  - func_801C5668 - (decompiled)
+0.99 - NO3  - func_801C57FC
+0.99 - NP3  - func_801BCED8 - (decompiled)
+0.99 - NP3  - func_801BD06C - (decompiled)
+0.99 - NZ0  - func_801BD2F0 - (decompiled)
+0.99 - NZ0  - func_801BD484 - (decompiled)
+0.99 - ST0  - func_801B5560
+0.99 - ST0  - func_801B56F4 - (decompiled)
+0.99 - WRP  - func_8018C004 - (decompiled)
+0.99 - WRP  - func_8018C198 - (decompiled)
+0.99 - RWRP - func_8018E118
 
-ref. - RWRP - func_8018C04C - found 17 matches total:
+ref. - CEN  - func_80193030 - found 17 matches total:
+0.99 - CEN  - func_80192D7C
+0.99 - DRE  - func_80198EC0 - (decompiled)
+0.99 - DRE  - func_80199174 - (decompiled)
+0.99 - MAD  - func_80190884 - (decompiled)
+0.99 - MAD  - func_80190B24 - (decompiled)
+0.99 - NO3  - func_801C377C - (decompiled)
+0.99 - NO3  - func_801C3A30 - (decompiled)
+0.99 - NP3  - func_801BAFEC
+0.99 - NP3  - func_801BB2A0
+0.99 - NZ0  - func_801BB404 - (decompiled)
+0.99 - NZ0  - func_801BB6B8 - (decompiled)
+0.99 - ST0  - func_801B3420
+0.99 - ST0  - func_801B36D4
+0.99 - WRP  - func_8018A118 - (decompiled)
+0.99 - WRP  - func_8018A3CC - (decompiled)
+0.99 - RWRP - func_8018C098
+0.99 - RWRP - func_8018C34C
+
+ref. - ST0  - func_801B33D4 - found 17 matches total:
 0.99 - CEN  - func_80192D30
 0.99 - CEN  - func_80192FE4
 0.99 - DRE  - func_80198E74 - (decompiled)
@@ -146,10 +146,10 @@ ref. - RWRP - func_8018C04C - found 17 matches total:
 0.99 - NP3  - func_801BB254
 0.99 - NZ0  - func_801BB3B8 - (decompiled)
 0.99 - NZ0  - func_801BB66C - (decompiled)
-0.99 - ST0  - func_801B33D4
 0.99 - ST0  - func_801B3688
 0.99 - WRP  - func_8018A0CC - (decompiled)
 0.99 - WRP  - func_8018A380 - (decompiled)
+0.99 - RWRP - func_8018C04C
 0.99 - RWRP - func_8018C300
 
 ref. - NO3  - func_801C3B84 - found 16 matches total:
@@ -187,7 +187,7 @@ ref. - MAIN - PadStop - found 15 matches total:
 0.99 - SEL  - func_801BA668 - (decompiled)
 0.99 - SEL  - func_801BA688 - (decompiled)
 
-ref. - NZ0  - func_801CA160 - found 12 matches total:
+ref. - ST0  - EntityRedDoor - found 12 matches total:
 0.99 - RIC  - func_8017091C
 0.99 - RIC  - func_80170F64
 0.99 - CEN  - func_8019362C
@@ -197,21 +197,9 @@ ref. - NZ0  - func_801CA160 - found 12 matches total:
 0.99 - NP3  - EntityRedDoor
 0.99 - NZ0  - EntityRedDoor
 0.99 - NZ0  - func_801C7D68
-0.99 - ST0  - EntityRedDoor
+0.99 - NZ0  - func_801CA160
 0.99 - WRP  - EntityRedDoor
 0.99 - RWRP - func_8018C948
-
-ref. - RWRP - func_8018D580 - found 10 matches total:
-1.00 - RIC  - func_80156C60 - (decompiled)
-1.00 - CEN  - func_80194264 - (decompiled)
-1.00 - DRE  - DestroyEntity - (decompiled)
-1.00 - NO3  - DestroyEntity - (decompiled)
-1.00 - NP3  - DestroyEntity - (decompiled)
-1.00 - NZ0  - DestroyEntity - (decompiled)
-1.00 - SEL  - func_801B4B30 - (decompiled)
-1.00 - ST0  - DestroyEntity - (decompiled)
-1.00 - WRP  - DestroyEntity - (decompiled)
-0.99 - MAD  - DestroyEntity - (decompiled)
 
 ref. - ST0  - func_801B61DC - found 10 matches total:
 1.00 - ST0  - func_801B6314
@@ -225,16 +213,50 @@ ref. - ST0  - func_801B61DC - found 10 matches total:
 0.99 - WRP  - func_8018CFF8 - (decompiled)
 0.99 - RWRP - func_8018EF78
 
-ref. - NP3  - EntityUnkId0E - found 9 matches total:
+ref. - RWRP - func_8018D580 - found 10 matches total:
+1.00 - RIC  - func_80156C60 - (decompiled)
+1.00 - CEN  - func_80194264 - (decompiled)
+1.00 - DRE  - DestroyEntity - (decompiled)
+1.00 - NO3  - DestroyEntity - (decompiled)
+1.00 - NP3  - DestroyEntity - (decompiled)
+1.00 - NZ0  - DestroyEntity - (decompiled)
+1.00 - SEL  - func_801B4B30 - (decompiled)
+1.00 - ST0  - DestroyEntity - (decompiled)
+1.00 - WRP  - DestroyEntity - (decompiled)
+0.99 - MAD  - DestroyEntity - (decompiled)
+
+ref. - WRP  - EntityWarpSmallRocks - found 9 matches total:
 0.99 - CEN  - func_80197B28
 0.99 - DRE  - func_8019DC6C
 0.99 - NO3  - EntityUnkId0E
+0.99 - NP3  - EntityUnkId0E
 0.99 - NZ0  - func_801C01B0
 0.99 - ST0  - EntitySecretStairsChunk
-0.99 - WRP  - EntityWarpSmallRocks
 0.99 - WRP  - EntityUnkId0E
 0.99 - RWRP - func_80189E9C
 0.99 - RWRP - func_80190E44
+
+ref. - RWRP - func_8018D5EC - found 9 matches total:
+0.99 - DRA  - func_801065F4 - (decompiled)
+0.99 - CEN  - func_801942D0
+0.99 - DRE  - DestroyEntityFromIndex - (decompiled)
+0.99 - MAD  - DestroyEntityFromIndex - (decompiled)
+0.99 - NO3  - DestroyEntityFromIndex - (decompiled)
+0.99 - NP3  - DestroyEntityFromIndex - (decompiled)
+0.99 - NZ0  - DestroyEntityFromIndex - (decompiled)
+0.99 - ST0  - DestroyEntityFromIndex - (decompiled)
+0.99 - WRP  - DestroyEntityFromIndex - (decompiled)
+
+ref. - RWRP - func_8018D6B0 - found 9 matches total:
+0.99 - CEN  - func_80194394
+0.99 - DRE  - AnimateEntity - (decompiled)
+0.99 - MAD  - AnimateEntity - (decompiled)
+0.99 - NO3  - AnimateEntity - (decompiled)
+0.99 - NP3  - AnimateEntity - (decompiled)
+0.99 - NZ0  - AnimateEntity - (decompiled)
+0.99 - SEL  - AnimateEntity - (decompiled)
+0.99 - ST0  - AnimateEntity - (decompiled)
+0.99 - WRP  - AnimateEntity - (decompiled)
 
 ref. - RWRP - func_8018C8D0 - found 9 matches total:
 1.00 - CEN  - func_801935B4
@@ -247,157 +269,85 @@ ref. - RWRP - func_8018C8D0 - found 9 matches total:
 0.99 - MAD  - func_801910A8 - (decompiled)
 0.99 - NZ0  - func_801C7CF0 - (decompiled)
 
-ref. - CEN  - func_80194394 - found 9 matches total:
-0.99 - DRE  - AnimateEntity - (decompiled)
-0.99 - MAD  - AnimateEntity - (decompiled)
-0.99 - NO3  - AnimateEntity - (decompiled)
-0.99 - NP3  - AnimateEntity - (decompiled)
-0.99 - NZ0  - AnimateEntity - (decompiled)
-0.99 - SEL  - AnimateEntity - (decompiled)
-0.99 - ST0  - AnimateEntity - (decompiled)
-0.99 - WRP  - AnimateEntity - (decompiled)
-0.99 - RWRP - func_8018D6B0
+ref. - DRE  - func_8019EAF0 - found 8 matches total:
+0.99 - CEN  - func_801989AC
+0.99 - MAD  - func_80195F64
+0.99 - NO3  - func_801C93AC
+0.99 - NP3  - func_801C0C1C
+0.99 - NZ0  - func_801C1034
+0.99 - ST0  - func_801B8434
+0.99 - WRP  - func_8018FD48
+0.99 - RWRP - func_80191CC8
 
-ref. - CEN  - func_801942D0 - found 9 matches total:
-0.99 - DRA  - func_801065F4 - (decompiled)
-0.99 - DRE  - DestroyEntityFromIndex - (decompiled)
-0.99 - MAD  - DestroyEntityFromIndex - (decompiled)
-0.99 - NO3  - DestroyEntityFromIndex - (decompiled)
-0.99 - NP3  - DestroyEntityFromIndex - (decompiled)
-0.99 - NZ0  - DestroyEntityFromIndex - (decompiled)
-0.99 - ST0  - DestroyEntityFromIndex - (decompiled)
-0.99 - WRP  - DestroyEntityFromIndex - (decompiled)
-0.99 - RWRP - func_8018D5EC
+ref. - NP3  - func_801BD430 - found 8 matches total:
+0.99 - CEN  - func_801951C0
+0.99 - DRE  - func_8019B304
+0.99 - MAD  - func_80192EF8
+0.99 - NO3  - func_801C5BC0
+0.99 - NZ0  - func_801BD848
+0.99 - ST0  - func_801B5A98
+0.99 - WRP  - func_8018C55C
+0.99 - RWRP - func_8018E4DC
 
-ref. - NO3  - func_801D6C68 - found 8 matches total:
-0.99 - CEN  - func_8019C2BC
-0.99 - DRE  - func_801A2400
-0.99 - MAD  - func_80199388
-0.99 - NP3  - func_801D2320
-0.99 - NZ0  - func_801C9D18
-0.99 - ST0  - func_801BD4A8
-0.99 - WRP  - func_80193658
-0.99 - RWRP - func_801955D8
+ref. - DRE  - func_8019E3C8 - found 8 matches total:
+0.99 - CEN  - func_80198284
+0.99 - MAD  - func_8019583C
+0.99 - NO3  - func_801C8C84
+0.99 - NP3  - func_801C04F4
+0.99 - NZ0  - func_801C090C
+0.99 - ST0  - func_801B7D0C
+0.99 - WRP  - func_8018F620
+0.99 - RWRP - func_801915A0
 
-ref. - MAD  - func_80198FA0 - found 8 matches total:
+ref. - WRP  - func_80193270 - found 8 matches total:
 0.99 - CEN  - func_8019BED4
 0.99 - DRE  - func_801A2018
+0.99 - MAD  - func_80198FA0
 0.99 - NO3  - func_801D6880
 0.99 - NP3  - func_801D1F38
 0.99 - NZ0  - func_801C9930
 0.99 - ST0  - func_801BD0C0
-0.99 - WRP  - func_80193270
 0.99 - RWRP - func_801951F0
 
-ref. - ST0  - func_801B8D00 - found 8 matches total:
-0.99 - CEN  - func_80199278
-0.99 - DRE  - func_8019F3BC
-0.99 - MAD  - func_801969EC
-0.99 - NO3  - func_801C9C78
-0.99 - NP3  - func_801C14E8
-0.99 - NZ0  - func_801C1900
-0.99 - WRP  - func_80190614
-0.99 - RWRP - func_80192594
+ref. - NO3  - func_801C8E9C - found 8 matches total:
+0.99 - CEN  - func_8019849C
+0.99 - DRE  - func_8019E5E0 - (decompiled)
+0.99 - MAD  - func_80195A54 - (decompiled)
+0.99 - NP3  - func_801C070C
+0.99 - NZ0  - func_801C0B24 - (decompiled)
+0.99 - ST0  - func_801B7F24
+0.99 - WRP  - func_8018F838
+0.99 - RWRP - func_801917B8
 
-ref. - CEN  - func_80194AD4 - found 8 matches total:
-0.99 - DRE  - AllocEntity - (decompiled)
-0.99 - MAD  - AllocEntity - (decompiled)
-0.99 - NO3  - AllocEntity - (decompiled)
-0.99 - NP3  - AllocEntity - (decompiled)
-0.99 - NZ0  - AllocEntity - (decompiled)
-0.99 - ST0  - AllocEntity - (decompiled)
-0.99 - WRP  - AllocEntity - (decompiled)
-0.99 - RWRP - func_8018DDF0
+ref. - NP3  - UpdateStageEntities - found 8 matches total:
+0.99 - CEN  - func_80190E7C
+0.99 - DRE  - UpdateStageEntities
+0.99 - MAD  - UpdateStageEntities
+0.99 - NO3  - UpdateStageEntities
+0.99 - NZ0  - func_801B9504
+0.99 - ST0  - UpdateStageEntities
+0.99 - WRP  - UpdateStageEntities
+0.99 - RWRP - UpdateStageEntities
 
-ref. - RWRP - func_8018E38C - found 8 matches total:
-1.00 - CEN  - func_80195070 - (decompiled)
-1.00 - DRE  - func_8019B1B4 - (decompiled)
-1.00 - MAD  - EntityDummy - (decompiled)
-1.00 - NO3  - EntityDummy - (decompiled)
-1.00 - NP3  - EntityDummy - (decompiled)
-1.00 - NZ0  - func_801BD6F8 - (decompiled)
-1.00 - ST0  - EntityDummy
-1.00 - WRP  - EntityDummy - (decompiled)
+ref. - CEN  - func_80194F74 - found 8 matches total:
+1.00 - DRE  - InitializeEntity - (decompiled)
+1.00 - NO3  - InitializeEntity - (decompiled)
+1.00 - NP3  - InitializeEntity - (decompiled)
+1.00 - NZ0  - InitializeEntity - (decompiled)
+1.00 - ST0  - InitializeEntity
+1.00 - WRP  - InitializeEntity - (decompiled)
+1.00 - RWRP - func_8018E290
+0.99 - MAD  - InitializeEntity - (decompiled)
 
-ref. - NO3  - func_801D6DE8 - found 8 matches total:
-1.00 - CEN  - func_8019C43C - (decompiled)
-1.00 - DRE  - func_801A2580
-1.00 - MAD  - func_80199508
-1.00 - NP3  - func_801D24A0
-1.00 - NZ0  - func_801C9E98
-1.00 - ST0  - func_801BD628
-1.00 - WRP  - func_801937D8 - (decompiled)
-1.00 - RWRP - func_80195758
-
-ref. - NP3  - func_801BC810 - found 8 matches total:
-1.00 - CEN  - func_801945A0 - (decompiled)
-1.00 - DRE  - func_8019A6E4 - (decompiled)
-1.00 - NO3  - func_801C4FA0 - (decompiled)
-1.00 - NZ0  - func_801BCC28 - (decompiled)
-1.00 - ST0  - func_801B4C44 - (decompiled)
-1.00 - WRP  - func_8018B93C - (decompiled)
-1.00 - RWRP - func_8018D8BC
-0.99 - MAD  - func_80192078 - (decompiled)
-
-ref. - CEN  - func_80194C20 - found 8 matches total:
-0.99 - DRE  - func_8019AD64 - (decompiled)
-0.99 - MAD  - func_8019294C - (decompiled)
-0.99 - NO3  - func_801C5620 - (decompiled)
-0.99 - NP3  - func_801BCE90 - (decompiled)
-0.99 - NZ0  - func_8019AD64 - (decompiled)
-0.99 - ST0  - func_801B5518
-0.99 - WRP  - func_8018BFBC - (decompiled)
-0.99 - RWRP - func_8018DF3C
-
-ref. - ST0  - CreateEntity - found 8 matches total:
-0.99 - CEN  - func_80192A3C
-0.99 - DRE  - CreateEntity - (decompiled)
-0.99 - MAD  - CreateEntity - (decompiled)
-0.99 - NO3  - CreateEntity
-0.99 - NP3  - CreateEntity
-0.99 - NZ0  - CreateEntity - (decompiled)
-0.99 - WRP  - CreateEntity
-0.99 - RWRP - func_8018BD58
-
-ref. - ST0  - func_801B5F4C - found 8 matches total:
-0.99 - CEN  - func_80195798
-0.99 - DRE  - func_8019B8DC - (decompiled)
-0.99 - MAD  - func_801934D0 - (decompiled)
-0.99 - NO3  - func_801C6198
-0.99 - NP3  - func_801BDA08
-0.99 - NZ0  - func_801BDE20 - (decompiled)
-0.99 - WRP  - func_8018CB34 - (decompiled)
-0.99 - RWRP - func_8018EAB4
-
-ref. - MAD  - func_80192DD0 - found 8 matches total:
-0.99 - CEN  - func_80195098
-0.99 - DRE  - func_8019B1DC
-0.99 - NO3  - func_801C5A98
-0.99 - NP3  - func_801BD308
-0.99 - NZ0  - func_801BD720
-0.99 - ST0  - func_801B5970
-0.99 - WRP  - func_8018C434
-0.99 - RWRP - func_8018E3B4
-
-ref. - NZ0  - func_801C2E3C - found 8 matches total:
-0.99 - CEN  - func_8019B608
-0.99 - DRE  - func_801A174C
-0.99 - MAD  - EntityEnemyBlood
-0.99 - NO3  - EntityEnemyBlood
-0.99 - NP3  - EntityEnemyBlood
-0.99 - ST0  - func_801BA23C
-0.99 - WRP  - EntityEnemyBlood
-0.99 - RWRP - func_80194924
-
-ref. - NO3  - func_801CAD28 - found 8 matches total:
-0.99 - CEN  - func_8019A328
-0.99 - DRE  - func_801A046C
-0.99 - MAD  - func_80197A9C
-0.99 - NP3  - func_801C2598
-0.99 - NZ0  - func_801C29B0
-0.99 - ST0  - func_801B9DB0
-0.99 - WRP  - func_801916C4
-0.99 - RWRP - func_80193644
+ref. - CEN  - func_8019444C - found 8 matches total:
+0.99 - DRE  - func_8019A590
+0.99 - MAD  - func_80191F24
+0.99 - NO3  - func_801C4E4C
+0.99 - NP3  - func_801BC6BC
+0.99 - NZ0  - func_801BCAD4
+0.99 - ST0  - func_801B4AF0
+0.99 - WRP  - func_8018B7E8
+0.99 - RWRP - func_8018D768
 
 ref. - DRE  - func_8019B858 - found 8 matches total:
 1.00 - CEN  - func_80195714
@@ -409,186 +359,6 @@ ref. - DRE  - func_8019B858 - found 8 matches total:
 1.00 - RWRP - func_8018EA30
 0.99 - MAD  - func_8019344C
 
-ref. - ST0  - func_801B4AF0 - found 8 matches total:
-0.99 - CEN  - func_8019444C
-0.99 - DRE  - func_8019A590
-0.99 - MAD  - func_80191F24
-0.99 - NO3  - func_801C4E4C
-0.99 - NP3  - func_801BC6BC
-0.99 - NZ0  - func_801BCAD4
-0.99 - WRP  - func_8018B7E8
-0.99 - RWRP - func_8018D768
-
-ref. - NZ0  - func_801BCF74 - found 8 matches total:
-0.99 - CEN  - func_801948EC
-0.99 - DRE  - func_8019AA30
-0.99 - MAD  - func_80192618
-0.99 - NO3  - func_801C52EC
-0.99 - NP3  - func_801BCB5C
-0.99 - ST0  - func_801B51E4
-0.99 - WRP  - func_8018BC88
-0.99 - RWRP - func_8018DC08
-
-ref. - ST0  - func_801B542C - found 8 matches total:
-0.99 - CEN  - func_80194B34
-0.99 - DRE  - func_8019AC78 - (decompiled)
-0.99 - MAD  - func_80192860 - (decompiled)
-0.99 - NO3  - func_801C5534 - (decompiled)
-0.99 - NP3  - func_801BCDA4 - (decompiled)
-0.99 - NZ0  - func_801BD1BC - (decompiled)
-0.99 - WRP  - func_8018BED0 - (decompiled)
-0.99 - RWRP - func_8018DE50
-
-ref. - ST0  - func_801B5458 - found 8 matches total:
-0.99 - CEN  - func_80194B60
-0.99 - DRE  - func_8019ACA4 - (decompiled)
-0.99 - MAD  - func_8019288C - (decompiled)
-0.99 - NO3  - func_801C5560 - (decompiled)
-0.99 - NP3  - func_801BCDD0 - (decompiled)
-0.99 - NZ0  - func_801BD1E8 - (decompiled)
-0.99 - WRP  - func_8018BEFC - (decompiled)
-0.99 - RWRP - func_8018DE7C
-
-ref. - CEN  - func_80199A30 - found 8 matches total:
-0.99 - DRE  - func_8019FB74
-0.99 - MAD  - func_801971A4
-0.99 - NO3  - func_801CA430
-0.99 - NP3  - func_801C1CA0
-0.99 - NZ0  - func_801C20B8
-0.99 - ST0  - func_801B94B8
-0.99 - WRP  - func_80190DCC
-0.99 - RWRP - func_80192D4C
-
-ref. - NO3  - EntityAbsorbOrb - found 8 matches total:
-0.99 - CEN  - func_8019B274
-0.99 - DRE  - EntityAbsorbOrb
-0.99 - MAD  - EntityAbsorbOrb
-0.99 - NP3  - EntityAbsorbOrb
-0.99 - NZ0  - EntityAbsorbOrb
-0.99 - ST0  - EntityAbsorbOrb
-0.99 - WRP  - EntityAbsorbOrb
-0.99 - RWRP - func_80194590
-
-ref. - CEN  - func_8019A130 - found 8 matches total:
-1.00 - DRE  - func_801A0274
-1.00 - NO3  - func_801CAB30
-1.00 - NP3  - func_801C23A0
-1.00 - NZ0  - func_801C27B8
-1.00 - ST0  - func_801B9BB8
-1.00 - WRP  - func_801914CC
-1.00 - RWRP - func_8019344C
-0.99 - MAD  - func_801978A4
-
-ref. - MAD  - LoadObjLayout - found 8 matches total:
-0.99 - CEN  - func_80193298
-0.99 - DRE  - func_801993DC
-0.99 - NO3  - LoadObjLayout
-0.99 - NP3  - LoadObjLayout
-0.99 - NZ0  - func_801BB920
-0.99 - ST0  - func_801B393C
-0.99 - WRP  - LoadObjLayout
-0.99 - RWRP - func_8018C5B4
-
-ref. - NP3  - EntityRelicOrb - found 8 matches total:
-0.99 - CEN  - func_80196F30
-0.99 - DRE  - EntityRelicOrb
-0.99 - MAD  - EntityInventoryDrop
-0.99 - NO3  - EntityRelicOrb
-0.99 - NZ0  - func_801BF5B8
-0.99 - ST0  - func_801B6D34
-0.99 - WRP  - EntityRelicOrb
-0.99 - RWRP - func_8019024C
-
-ref. - NP3  - func_801BC8B8 - found 8 matches total:
-1.00 - CEN  - func_80194648 - (decompiled)
-1.00 - DRE  - FallEntity - (decompiled)
-1.00 - NO3  - FallEntity - (decompiled)
-1.00 - NZ0  - FallEntity - (decompiled)
-1.00 - ST0  - FallEntity - (decompiled)
-1.00 - WRP  - FallEntity - (decompiled)
-1.00 - RWRP - func_8018D964
-0.99 - MAD  - FallEntity - (decompiled)
-
-ref. - MAD  - UpdateStageEntities - found 8 matches total:
-0.99 - CEN  - func_80190E7C
-0.99 - DRE  - UpdateStageEntities
-0.99 - NO3  - UpdateStageEntities
-0.99 - NP3  - UpdateStageEntities
-0.99 - NZ0  - func_801B9504
-0.99 - ST0  - UpdateStageEntities
-0.99 - WRP  - UpdateStageEntities
-0.99 - RWRP - UpdateStageEntities
-
-ref. - NP3  - EntityExplosion - found 8 matches total:
-0.99 - CEN  - func_801964F8
-0.99 - DRE  - EntityExplosion - (decompiled)
-0.99 - MAD  - EntityExplosion - (decompiled)
-0.99 - NO3  - EntityExplosion
-0.99 - NZ0  - func_801BEB80 - (decompiled)
-0.99 - ST0  - func_801B6B60
-0.99 - WRP  - EntityExplosion - (decompiled)
-0.99 - RWRP - func_8018F814
-
-ref. - WRP  - func_801907EC - found 8 matches total:
-0.99 - CEN  - func_80199450
-0.99 - DRE  - func_8019F594
-0.99 - MAD  - func_80196BC4
-0.99 - NO3  - func_801C9E50
-0.99 - NP3  - func_801C16C0
-0.99 - NZ0  - func_801C1AD8
-0.99 - ST0  - func_801B8ED8
-0.99 - RWRP - func_8019276C
-
-ref. - CEN  - func_80193538 - found 8 matches total:
-0.99 - DRE  - func_8019967C - (decompiled)
-0.99 - MAD  - func_8019102C - (decompiled)
-0.99 - NO3  - func_801C3F38 - (decompiled)
-0.99 - NP3  - func_801BB7A8 - (decompiled)
-0.99 - NZ0  - func_801BBBC0 - (decompiled)
-0.99 - ST0  - func_801B3BDC - (decompiled)
-0.99 - WRP  - func_8018A8D4 - (decompiled)
-0.99 - RWRP - func_8018C854
-
-ref. - NZ0  - func_801BAA20 - found 8 matches total:
-0.99 - CEN  - func_80192398
-0.99 - DRE  - EntityNumericDamage
-0.99 - MAD  - EntityNumericDamage
-0.99 - NO3  - EntityNumericDamage
-0.99 - NP3  - EntityNumericDamage
-0.99 - ST0  - EntityNumericDamage
-0.99 - WRP  - EntityNumericDamage
-0.99 - RWRP - func_8018B6B4
-
-ref. - WRP  - func_8018F620 - found 8 matches total:
-0.99 - CEN  - func_80198284
-0.99 - DRE  - func_8019E3C8
-0.99 - MAD  - func_8019583C
-0.99 - NO3  - func_801C8C84
-0.99 - NP3  - func_801C04F4
-0.99 - NZ0  - func_801C090C
-0.99 - ST0  - func_801B7D0C
-0.99 - RWRP - func_801915A0
-
-ref. - NP3  - func_801D2470 - found 8 matches total:
-1.00 - CEN  - func_8019C40C - (decompiled)
-1.00 - DRE  - func_801A2550 - (decompiled)
-1.00 - MAD  - func_801994D8 - (decompiled)
-1.00 - NO3  - func_801D6DB8
-1.00 - NZ0  - func_801C9E68 - (decompiled)
-1.00 - ST0  - func_801BD5F8
-1.00 - WRP  - func_801937A8 - (decompiled)
-1.00 - RWRP - func_80195728
-
-ref. - RWRP - func_8018E4DC - found 8 matches total:
-0.99 - CEN  - func_801951C0
-0.99 - DRE  - func_8019B304
-0.99 - MAD  - func_80192EF8
-0.99 - NO3  - func_801C5BC0
-0.99 - NP3  - func_801BD430
-0.99 - NZ0  - func_801BD848
-0.99 - ST0  - func_801B5A98
-0.99 - WRP  - func_8018C55C
-
 ref. - NO3  - func_801C8A84 - found 8 matches total:
 0.99 - CEN  - func_80198084
 0.99 - DRE  - func_8019E1C8
@@ -599,265 +369,45 @@ ref. - NO3  - func_801C8A84 - found 8 matches total:
 0.99 - WRP  - func_8018F420
 0.99 - RWRP - func_801913A0
 
-ref. - ST0  - func_801B7F24 - found 8 matches total:
-0.99 - CEN  - func_8019849C
-0.99 - DRE  - func_8019E5E0 - (decompiled)
-0.99 - MAD  - func_80195A54 - (decompiled)
-0.99 - NO3  - func_801C8E9C
-0.99 - NP3  - func_801C070C
-0.99 - NZ0  - func_801C0B24 - (decompiled)
-0.99 - WRP  - func_8018F838
-0.99 - RWRP - func_801917B8
+ref. - NP3  - func_801C23A0 - found 8 matches total:
+1.00 - CEN  - func_8019A130
+1.00 - DRE  - func_801A0274
+1.00 - NO3  - func_801CAB30
+1.00 - NZ0  - func_801C27B8
+1.00 - ST0  - func_801B9BB8
+1.00 - WRP  - func_801914CC
+1.00 - RWRP - func_8019344C
+0.99 - MAD  - func_801978A4
 
-ref. - CEN  - func_801989AC - found 8 matches total:
-0.99 - DRE  - func_8019EAF0
-0.99 - MAD  - func_80195F64
-0.99 - NO3  - func_801C93AC
-0.99 - NP3  - func_801C0C1C
-0.99 - NZ0  - func_801C1034
-0.99 - ST0  - func_801B8434
-0.99 - WRP  - func_8018FD48
-0.99 - RWRP - func_80191CC8
+ref. - CEN  - func_80194C20 - found 8 matches total:
+0.99 - DRE  - func_8019AD64 - (decompiled)
+0.99 - MAD  - func_8019294C - (decompiled)
+0.99 - NO3  - func_801C5620 - (decompiled)
+0.99 - NP3  - func_801BCE90 - (decompiled)
+0.99 - NZ0  - func_8019AD64 - (decompiled)
+0.99 - ST0  - func_801B5518
+0.99 - WRP  - func_8018BFBC - (decompiled)
+0.99 - RWRP - func_8018DF3C
 
-ref. - RWRP - func_8019593C - found 8 matches total:
-0.99 - CEN  - func_8019C620
-0.99 - DRE  - func_801A2764 - (decompiled)
-0.99 - MAD  - func_801996EC - (decompiled)
-0.99 - NO3  - func_801D6FCC - (decompiled)
-0.99 - NP3  - func_801D2684 - (decompiled)
-0.99 - NZ0  - func_801CA07C - (decompiled)
-0.99 - ST0  - func_801BD80C - (decompiled)
-0.99 - WRP  - func_801939BC - (decompiled)
-
-ref. - CEN  - func_80198174 - found 8 matches total:
-0.99 - DRE  - func_8019E2B8
-0.99 - MAD  - func_8019572C
-0.99 - NO3  - func_801C8B74
-0.99 - NP3  - func_801C03E4
-0.99 - NZ0  - func_801C07FC - (decompiled)
-0.99 - ST0  - func_801B7BFC
-0.99 - WRP  - func_8018F510
-0.99 - RWRP - func_80191490
-
-ref. - NO3  - func_801C3E10 - found 8 matches total:
+ref. - ST0  - func_801B3AB4 - found 8 matches total:
 0.99 - CEN  - func_80193410
 0.99 - DRE  - func_80199554 - (decompiled)
 0.99 - MAD  - func_80190F04 - (decompiled)
+0.99 - NO3  - func_801C3E10
 0.99 - NP3  - func_801BB680
 0.99 - NZ0  - func_801BBA98
-0.99 - ST0  - func_801B3AB4
 0.99 - WRP  - func_8018A7AC - (decompiled)
 0.99 - RWRP - func_8018C72C
 
-ref. - ST0  - func_801B7E3C - found 8 matches total:
-0.99 - CEN  - func_801983B4
-0.99 - DRE  - func_8019E4F8
-0.99 - MAD  - func_8019596C
-0.99 - NO3  - func_801C8DB4
-0.99 - NP3  - func_801C0624
-0.99 - NZ0  - func_801C0A3C
-0.99 - WRP  - func_8018F750
-0.99 - RWRP - func_801916D0
-
-ref. - RWRP - func_8018DE98 - found 8 matches total:
-0.99 - CEN  - func_80194B7C
-0.99 - DRE  - func_8019ACC0 - (decompiled)
-0.99 - MAD  - func_801928A8 - (decompiled)
-0.99 - NO3  - func_801C557C
-0.99 - NP3  - func_801BCDEC - (decompiled)
-0.99 - NZ0  - func_801BD204 - (decompiled)
-0.99 - ST0  - func_801B5474
-0.99 - WRP  - func_8018BF18 - (decompiled)
-
-ref. - RWRP - func_8018DFCC - found 8 matches total:
-0.99 - CEN  - func_80194CB0
-0.99 - DRE  - func_8019ADF4 - (decompiled)
-0.99 - MAD  - func_801929DC - (decompiled)
-0.99 - NO3  - func_801C56B0
-0.99 - NP3  - func_801BCF20
-0.99 - NZ0  - func_801BD338 - (decompiled)
-0.99 - ST0  - func_801B55A8
-0.99 - WRP  - func_8018C04C - (decompiled)
-
-ref. - RWRP - func_8018D668 - found 8 matches total:
-1.00 - CEN  - func_8019434C - (decompiled)
-1.00 - DRE  - PreventEntityFromRespawning - (decompiled)
-1.00 - NO3  - PreventEntityFromRespawning - (decompiled)
-1.00 - NP3  - PreventEntityFromRespawning - (decompiled)
-1.00 - NZ0  - PreventEntityFromRespawning - (decompiled)
-1.00 - ST0  - PreventEntityFromRespawning - (decompiled)
-1.00 - WRP  - PreventEntityFromRespawning - (decompiled)
-0.99 - MAD  - PreventEntityFromRespawning - (decompiled)
-
-ref. - NP3  - func_801C08F0 - found 8 matches total:
-0.99 - CEN  - func_80198680
-0.99 - DRE  - func_8019E7C4
-0.99 - MAD  - func_80195C38
-0.99 - NO3  - func_801C9080
-0.99 - NZ0  - func_801C0D08
-0.99 - ST0  - func_801B8108
-0.99 - WRP  - func_8018FA1C
-0.99 - RWRP - func_8019199C
-
-ref. - CEN  - func_801988B0 - found 8 matches total:
-0.99 - DRE  - func_8019E9F4 - (decompiled)
-0.99 - MAD  - func_80195E68 - (decompiled)
-0.99 - NO3  - func_801C92B0 - (decompiled)
-0.99 - NP3  - func_801C0B20
-0.99 - NZ0  - func_801C0F38 - (decompiled)
-0.99 - ST0  - _peek_event - (decompiled)
-0.99 - WRP  - func_8018FC4C - (decompiled)
-0.99 - RWRP - func_80191BCC
-
-ref. - ST0  - func_801B54E0 - found 8 matches total:
-1.00 - CEN  - func_80194BE8 - (decompiled)
-1.00 - DRE  - func_8019AD2C - (decompiled)
-1.00 - MAD  - func_80192914 - (decompiled)
-1.00 - NO3  - func_801C55E8 - (decompiled)
-1.00 - NP3  - func_801BCE58 - (decompiled)
-1.00 - NZ0  - func_801BD270 - (decompiled)
-1.00 - WRP  - func_8018BF84 - (decompiled)
-1.00 - RWRP - func_8018DF04
-
-ref. - NZ0  - func_801BCCFC - found 8 matches total:
-0.99 - CEN  - func_80194674
-0.99 - DRE  - func_8019A7B8
-0.99 - MAD  - func_80192190
-0.99 - NO3  - func_801C5074
-0.99 - NP3  - func_801BC8E4
-0.99 - ST0  - func_801B4D5C
-0.99 - WRP  - func_8018BA10
-0.99 - RWRP - func_8018D990
-
-ref. - RWRP - func_8018A168 - found 8 matches total:
-1.00 - CEN  - func_80190E4C
-1.00 - DRE  - Random - (decompiled)
-1.00 - NO3  - Random - (decompiled)
-1.00 - NP3  - func_801B90BC
-1.00 - NZ0  - Random - (decompiled)
-1.00 - ST0  - Random - (decompiled)
-1.00 - WRP  - Random - (decompiled)
-0.99 - MAD  - Random - (decompiled)
-
-ref. - RWRP - func_8018E0E0 - found 8 matches total:
-1.00 - CEN  - func_80194DC4 - (decompiled)
-1.00 - DRE  - func_8019AF08 - (decompiled)
-1.00 - MAD  - func_80192AF0 - (decompiled)
-1.00 - NO3  - func_801C57C4 - (decompiled)
-1.00 - NP3  - func_801BD034 - (decompiled)
-1.00 - NZ0  - func_801BD44C - (decompiled)
-1.00 - ST0  - func_801B56BC - (decompiled)
-1.00 - WRP  - func_8018C160 - (decompiled)
-
-ref. - RWRP - func_8018E1E0 - found 8 matches total:
-1.00 - CEN  - func_80194EC4 - (decompiled)
-1.00 - DRE  - func_8019B008 - (decompiled)
-1.00 - NO3  - func_801C58C4 - (decompiled)
-1.00 - NP3  - func_801BD134 - (decompiled)
-1.00 - NZ0  - func_801BD54C - (decompiled)
-1.00 - ST0  - func_801B57B4 - (decompiled)
-1.00 - WRP  - func_8018C260 - (decompiled)
-0.99 - MAD  - func_80192BF0 - (decompiled)
-
-ref. - ST0  - func_801B8B80 - found 8 matches total:
-0.99 - CEN  - func_801990F8
-0.99 - DRE  - func_8019F23C - (decompiled)
-0.99 - MAD  - func_8019686C - (decompiled)
-0.99 - NO3  - func_801C9AF8
-0.99 - NP3  - func_801C1368
-0.99 - NZ0  - func_801C1780 - (decompiled)
-0.99 - WRP  - func_80190494 - (decompiled)
-0.99 - RWRP - func_80192414
-
-ref. - RWRP - func_801957D4 - found 8 matches total:
-0.99 - CEN  - func_8019C4B8
-0.99 - DRE  - func_801A25FC
-0.99 - MAD  - func_80199584 - (decompiled)
-0.99 - NO3  - func_801D6E64 - (decompiled)
-0.99 - NP3  - func_801D251C - (decompiled)
-0.99 - NZ0  - func_801C9F14 - (decompiled)
-0.99 - ST0  - func_801BD6A4 - (decompiled)
-0.99 - WRP  - func_80193854 - (decompiled)
-
-ref. - ST0  - InitializeEntity - found 8 matches total:
-1.00 - CEN  - func_80194F74
-1.00 - DRE  - InitializeEntity - (decompiled)
-1.00 - NO3  - InitializeEntity - (decompiled)
-1.00 - NP3  - InitializeEntity - (decompiled)
-1.00 - NZ0  - InitializeEntity - (decompiled)
-1.00 - WRP  - InitializeEntity - (decompiled)
-1.00 - RWRP - func_8018E290
-0.99 - MAD  - InitializeEntity - (decompiled)
-
-ref. - CEN  - func_8019902C - found 8 matches total:
-0.99 - DRE  - func_8019F170 - (decompiled)
-0.99 - MAD  - func_801965E4 - (decompiled)
-0.99 - NO3  - func_801C9A2C
-0.99 - NP3  - func_801C129C
-0.99 - NZ0  - func_801C16B4 - (decompiled)
-0.99 - ST0  - func_801B8AB4
-0.99 - WRP  - func_801903C8 - (decompiled)
-0.99 - RWRP - func_80192348
-
-ref. - RWRP - func_8018EF28 - found 8 matches total:
-0.99 - CEN  - func_80195C0C
-0.99 - DRE  - CollectLifeVessel - (decompiled)
-0.99 - MAD  - CollectHeartVessel - (decompiled)
-0.99 - MAD  - CollectLifeVessel - (decompiled)
-0.99 - NO3  - func_801C660C - (decompiled)
-0.99 - NP3  - func_801BDE7C
-0.99 - NZ0  - CollectLifeVessel - (decompiled)
-0.99 - WRP  - CollectLifeVessel - (decompiled)
-
-ref. - NP3  - func_801BC7D4 - found 8 matches total:
-1.00 - CEN  - func_80194564 - (decompiled)
-1.00 - DRE  - func_8019A6A8 - (decompiled)
-1.00 - NO3  - func_801C4F64 - (decompiled)
-1.00 - NZ0  - func_801BCBEC - (decompiled)
-1.00 - ST0  - func_801B4C08 - (decompiled)
-1.00 - WRP  - func_8018B900 - (decompiled)
-1.00 - RWRP - func_8018D880
-0.99 - MAD  - func_8019203C - (decompiled)
-
-ref. - NO3  - func_801C8F8C - found 8 matches total:
-0.99 - CEN  - func_8019858C
-0.99 - DRE  - func_8019E6D0 - (decompiled)
-0.99 - MAD  - func_80195B44 - (decompiled)
-0.99 - NP3  - func_801C07FC
-0.99 - NZ0  - func_801C0C14 - (decompiled)
-0.99 - ST0  - func_801B8014
-0.99 - WRP  - func_8018F928 - (decompiled)
-0.99 - RWRP - func_801918A8
-
-ref. - RWRP - func_80192248 - found 8 matches total:
-0.99 - CEN  - func_80198F2C
-0.99 - DRE  - EntityIntenseExplosion - (decompiled)
-0.99 - MAD  - EntityIntenseExplosion - (decompiled)
-0.99 - NO3  - EntityIntenseExplosion
-0.99 - NP3  - EntityIntenseExplosion
-0.99 - NZ0  - func_801C15B4 - (decompiled)
-0.99 - ST0  - EntityIntenseExplosion
-0.99 - WRP  - EntityIntenseExplosion - (decompiled)
-
-ref. - RWRP - func_80195990 - found 8 matches total:
-1.00 - CEN  - func_8019C674 - (decompiled)
-1.00 - DRE  - func_801A27B8 - (decompiled)
-1.00 - MAD  - func_80199740 - (decompiled)
-1.00 - NO3  - func_801D7020 - (decompiled)
-1.00 - NP3  - func_801D26D8 - (decompiled)
-1.00 - NZ0  - func_801CA0D0 - (decompiled)
-1.00 - ST0  - func_801BD860 - (decompiled)
-1.00 - WRP  - func_80193A10 - (decompiled)
-
-ref. - RWRP - func_8018E0B0 - found 8 matches total:
-1.00 - CEN  - func_80194D94 - (decompiled)
-1.00 - DRE  - func_8019AED8 - (decompiled)
-1.00 - MAD  - func_80192AC0 - (decompiled)
-1.00 - NO3  - func_801C5794 - (decompiled)
-1.00 - NP3  - func_801BD004 - (decompiled)
-1.00 - NZ0  - func_801BD41C - (decompiled)
-1.00 - ST0  - func_801B568C - (decompiled)
-1.00 - WRP  - func_8018C130 - (decompiled)
+ref. - RWRP - func_8019024C - found 8 matches total:
+0.99 - CEN  - func_80196F30
+0.99 - DRE  - EntityRelicOrb
+0.99 - MAD  - EntityInventoryDrop
+0.99 - NO3  - EntityRelicOrb
+0.99 - NP3  - EntityRelicOrb
+0.99 - NZ0  - func_801BF5B8
+0.99 - ST0  - func_801B6D34
+0.99 - WRP  - EntityRelicOrb
 
 ref. - RWRP - func_8019585C - found 8 matches total:
 1.00 - CEN  - func_8019C540 - (decompiled)
@@ -869,35 +419,325 @@ ref. - RWRP - func_8019585C - found 8 matches total:
 1.00 - ST0  - func_801BD72C - (decompiled)
 1.00 - WRP  - func_801938DC - (decompiled)
 
-ref. - RWRP - func_8018C7E0 - found 8 matches total:
-0.99 - CEN  - func_801934C4
-0.99 - DRE  - SpawnExplosionEntity - (decompiled)
-0.99 - MAD  - SpawnExplosionEntity - (decompiled)
-0.99 - NO3  - SpawnExplosionEntity - (decompiled)
-0.99 - NP3  - SpawnExplosionEntity - (decompiled)
-0.99 - NZ0  - SpawnExplosionEntity - (decompiled)
-0.99 - ST0  - func_801B3B68
-0.99 - WRP  - SpawnExplosionEntity - (decompiled)
+ref. - CEN  - func_80192A3C - found 8 matches total:
+0.99 - DRE  - CreateEntity - (decompiled)
+0.99 - MAD  - CreateEntity - (decompiled)
+0.99 - NO3  - CreateEntity
+0.99 - NP3  - CreateEntity
+0.99 - NZ0  - CreateEntity - (decompiled)
+0.99 - ST0  - CreateEntity
+0.99 - WRP  - CreateEntity
+0.99 - RWRP - func_8018BD58
 
-ref. - ST0  - func_801B8C48 - found 8 matches total:
+ref. - NP3  - func_801C1430 - found 8 matches total:
 0.99 - CEN  - func_801991C0
 0.99 - DRE  - func_8019F304 - (decompiled)
 0.99 - MAD  - func_80196934 - (decompiled)
 0.99 - NO3  - func_801C9BC0
-0.99 - NP3  - func_801C1430
 0.99 - NZ0  - func_801C1848 - (decompiled)
+0.99 - ST0  - func_801B8C48
 0.99 - WRP  - func_8019055C - (decompiled)
 0.99 - RWRP - func_801924DC
 
-ref. - ST0  - func_801B5600 - found 8 matches total:
+ref. - NZ0  - func_801C0A3C - found 8 matches total:
+0.99 - CEN  - func_801983B4
+0.99 - DRE  - func_8019E4F8
+0.99 - MAD  - func_8019596C
+0.99 - NO3  - func_801C8DB4
+0.99 - NP3  - func_801C0624
+0.99 - ST0  - func_801B7E3C
+0.99 - WRP  - func_8018F750
+0.99 - RWRP - func_801916D0
+
+ref. - NO3  - EntityIntenseExplosion - found 8 matches total:
+0.99 - CEN  - func_80198F2C
+0.99 - DRE  - EntityIntenseExplosion - (decompiled)
+0.99 - MAD  - EntityIntenseExplosion - (decompiled)
+0.99 - NP3  - EntityIntenseExplosion
+0.99 - NZ0  - func_801C15B4 - (decompiled)
+0.99 - ST0  - EntityIntenseExplosion
+0.99 - WRP  - EntityIntenseExplosion - (decompiled)
+0.99 - RWRP - func_80192248
+
+ref. - NZ0  - func_801C9E98 - found 8 matches total:
+1.00 - CEN  - func_8019C43C - (decompiled)
+1.00 - DRE  - func_801A2580
+1.00 - MAD  - func_80199508
+1.00 - NO3  - func_801D6DE8
+1.00 - NP3  - func_801D24A0
+1.00 - ST0  - func_801BD628
+1.00 - WRP  - func_801937D8 - (decompiled)
+1.00 - RWRP - func_80195758
+
+ref. - NO3  - func_801C5708 - found 8 matches total:
 1.00 - CEN  - func_80194D08 - (decompiled)
 1.00 - DRE  - func_8019AE4C - (decompiled)
-1.00 - NO3  - func_801C5708
 1.00 - NP3  - func_801BCF78 - (decompiled)
 1.00 - NZ0  - func_801BD390 - (decompiled)
+1.00 - ST0  - func_801B5600
 1.00 - WRP  - func_8018C0A4 - (decompiled)
 1.00 - RWRP - func_8018E024
 0.99 - MAD  - func_80192A34 - (decompiled)
+
+ref. - ST0  - func_801B5F4C - found 8 matches total:
+0.99 - CEN  - func_80195798
+0.99 - DRE  - func_8019B8DC - (decompiled)
+0.99 - MAD  - func_801934D0 - (decompiled)
+0.99 - NO3  - func_801C6198
+0.99 - NP3  - func_801BDA08
+0.99 - NZ0  - func_801BDE20 - (decompiled)
+0.99 - WRP  - func_8018CB34 - (decompiled)
+0.99 - RWRP - func_8018EAB4
+
+ref. - RWRP - func_8018D990 - found 8 matches total:
+0.99 - CEN  - func_80194674
+0.99 - DRE  - func_8019A7B8
+0.99 - MAD  - func_80192190
+0.99 - NO3  - func_801C5074
+0.99 - NP3  - func_801BC8E4
+0.99 - NZ0  - func_801BCCFC
+0.99 - ST0  - func_801B4D5C
+0.99 - WRP  - func_8018BA10
+
+ref. - RWRP - func_8018DF04 - found 8 matches total:
+1.00 - CEN  - func_80194BE8 - (decompiled)
+1.00 - DRE  - func_8019AD2C - (decompiled)
+1.00 - MAD  - func_80192914 - (decompiled)
+1.00 - NO3  - func_801C55E8 - (decompiled)
+1.00 - NP3  - func_801BCE58 - (decompiled)
+1.00 - NZ0  - func_801BD270 - (decompiled)
+1.00 - ST0  - func_801B54E0
+1.00 - WRP  - func_8018BF84 - (decompiled)
+
+ref. - RWRP - func_8018DE50 - found 8 matches total:
+1.00 - WRP  - func_8018BED0 - (decompiled)
+0.99 - CEN  - func_80194B34
+0.99 - DRE  - func_8019AC78 - (decompiled)
+0.99 - MAD  - func_80192860 - (decompiled)
+0.99 - NO3  - func_801C5534 - (decompiled)
+0.99 - NP3  - func_801BCDA4 - (decompiled)
+0.99 - NZ0  - func_801BD1BC - (decompiled)
+0.99 - ST0  - func_801B542C
+
+ref. - CEN  - func_80194AD4 - found 8 matches total:
+0.99 - DRE  - AllocEntity - (decompiled)
+0.99 - MAD  - AllocEntity - (decompiled)
+0.99 - NO3  - AllocEntity - (decompiled)
+0.99 - NP3  - AllocEntity - (decompiled)
+0.99 - NZ0  - AllocEntity - (decompiled)
+0.99 - ST0  - AllocEntity - (decompiled)
+0.99 - WRP  - AllocEntity - (decompiled)
+0.99 - RWRP - func_8018DDF0
+
+ref. - WRP  - func_80190614 - found 8 matches total:
+0.99 - CEN  - func_80199278
+0.99 - DRE  - func_8019F3BC
+0.99 - MAD  - func_801969EC
+0.99 - NO3  - func_801C9C78
+0.99 - NP3  - func_801C14E8
+0.99 - NZ0  - func_801C1900
+0.99 - ST0  - func_801B8D00
+0.99 - RWRP - func_80192594
+
+ref. - NZ0  - func_801BCF74 - found 8 matches total:
+0.99 - CEN  - func_801948EC
+0.99 - DRE  - func_8019AA30
+0.99 - MAD  - func_80192618
+0.99 - NO3  - func_801C52EC
+0.99 - NP3  - func_801BCB5C
+0.99 - ST0  - func_801B51E4
+0.99 - WRP  - func_8018BC88
+0.99 - RWRP - func_8018DC08
+
+ref. - NZ0  - func_801C0D08 - found 8 matches total:
+0.99 - CEN  - func_80198680
+0.99 - DRE  - func_8019E7C4
+0.99 - MAD  - func_80195C38
+0.99 - NO3  - func_801C9080
+0.99 - NP3  - func_801C08F0
+0.99 - ST0  - func_801B8108
+0.99 - WRP  - func_8018FA1C
+0.99 - RWRP - func_8019199C
+
+ref. - MAD  - func_80192DD0 - found 8 matches total:
+0.99 - CEN  - func_80195098
+0.99 - DRE  - func_8019B1DC
+0.99 - NO3  - func_801C5A98
+0.99 - NP3  - func_801BD308
+0.99 - NZ0  - func_801BD720
+0.99 - ST0  - func_801B5970
+0.99 - WRP  - func_8018C434
+0.99 - RWRP - func_8018E3B4
+
+ref. - CEN  - func_8019858C - found 8 matches total:
+0.99 - DRE  - func_8019E6D0 - (decompiled)
+0.99 - MAD  - func_80195B44 - (decompiled)
+0.99 - NO3  - func_801C8F8C
+0.99 - NP3  - func_801C07FC
+0.99 - NZ0  - func_801C0C14 - (decompiled)
+0.99 - ST0  - func_801B8014
+0.99 - WRP  - func_8018F928 - (decompiled)
+0.99 - RWRP - func_801918A8
+
+ref. - NZ0  - func_801BB920 - found 8 matches total:
+0.99 - CEN  - func_80193298
+0.99 - DRE  - func_801993DC
+0.99 - MAD  - LoadObjLayout
+0.99 - NO3  - LoadObjLayout
+0.99 - NP3  - LoadObjLayout
+0.99 - ST0  - func_801B393C
+0.99 - WRP  - LoadObjLayout
+0.99 - RWRP - func_8018C5B4
+
+ref. - NO3  - func_801CAD28 - found 8 matches total:
+0.99 - CEN  - func_8019A328
+0.99 - DRE  - func_801A046C
+0.99 - MAD  - func_80197A9C
+0.99 - NP3  - func_801C2598
+0.99 - NZ0  - func_801C29B0
+0.99 - ST0  - func_801B9DB0
+0.99 - WRP  - func_801916C4
+0.99 - RWRP - func_80193644
+
+ref. - MAD  - func_801971A4 - found 8 matches total:
+0.99 - CEN  - func_80199A30
+0.99 - DRE  - func_8019FB74
+0.99 - NO3  - func_801CA430
+0.99 - NP3  - func_801C1CA0
+0.99 - NZ0  - func_801C20B8
+0.99 - ST0  - func_801B94B8
+0.99 - WRP  - func_80190DCC
+0.99 - RWRP - func_80192D4C
+
+ref. - RWRP - func_80192348 - found 8 matches total:
+0.99 - CEN  - func_8019902C
+0.99 - DRE  - func_8019F170 - (decompiled)
+0.99 - MAD  - func_801965E4 - (decompiled)
+0.99 - NO3  - func_801C9A2C
+0.99 - NP3  - func_801C129C
+0.99 - NZ0  - func_801C16B4 - (decompiled)
+0.99 - ST0  - func_801B8AB4
+0.99 - WRP  - func_801903C8 - (decompiled)
+
+ref. - RWRP - func_8019276C - found 8 matches total:
+0.99 - CEN  - func_80199450
+0.99 - DRE  - func_8019F594
+0.99 - MAD  - func_80196BC4
+0.99 - NO3  - func_801C9E50
+0.99 - NP3  - func_801C16C0
+0.99 - NZ0  - func_801C1AD8
+0.99 - ST0  - func_801B8ED8
+0.99 - WRP  - func_801907EC
+
+ref. - MAD  - EntityEnemyBlood - found 8 matches total:
+0.99 - CEN  - func_8019B608
+0.99 - DRE  - func_801A174C
+0.99 - NO3  - EntityEnemyBlood
+0.99 - NP3  - EntityEnemyBlood
+0.99 - NZ0  - func_801C2E3C
+0.99 - ST0  - func_801BA23C
+0.99 - WRP  - EntityEnemyBlood
+0.99 - RWRP - func_80194924
+
+ref. - ST0  - func_801B6B60 - found 8 matches total:
+0.99 - CEN  - func_801964F8
+0.99 - DRE  - EntityExplosion - (decompiled)
+0.99 - MAD  - EntityExplosion - (decompiled)
+0.99 - NO3  - EntityExplosion
+0.99 - NP3  - EntityExplosion
+0.99 - NZ0  - func_801BEB80 - (decompiled)
+0.99 - WRP  - EntityExplosion - (decompiled)
+0.99 - RWRP - func_8018F814
+
+ref. - RWRP - func_8018C854 - found 8 matches total:
+0.99 - CEN  - func_80193538
+0.99 - DRE  - func_8019967C - (decompiled)
+0.99 - MAD  - func_8019102C - (decompiled)
+0.99 - NO3  - func_801C3F38 - (decompiled)
+0.99 - NP3  - func_801BB7A8 - (decompiled)
+0.99 - NZ0  - func_801BBBC0 - (decompiled)
+0.99 - ST0  - func_801B3BDC - (decompiled)
+0.99 - WRP  - func_8018A8D4 - (decompiled)
+
+ref. - CEN  - func_8019C4B8 - found 8 matches total:
+0.99 - DRE  - func_801A25FC
+0.99 - MAD  - func_80199584 - (decompiled)
+0.99 - NO3  - func_801D6E64 - (decompiled)
+0.99 - NP3  - func_801D251C - (decompiled)
+0.99 - NZ0  - func_801C9F14 - (decompiled)
+0.99 - ST0  - func_801BD6A4 - (decompiled)
+0.99 - WRP  - func_80193854 - (decompiled)
+0.99 - RWRP - func_801957D4
+
+ref. - RWRP - func_80191BCC - found 8 matches total:
+0.99 - CEN  - func_801988B0
+0.99 - DRE  - func_8019E9F4 - (decompiled)
+0.99 - MAD  - func_80195E68 - (decompiled)
+0.99 - NO3  - func_801C92B0 - (decompiled)
+0.99 - NP3  - func_801C0B20
+0.99 - NZ0  - func_801C0F38 - (decompiled)
+0.99 - ST0  - _peek_event - (decompiled)
+0.99 - WRP  - func_8018FC4C - (decompiled)
+
+ref. - NP3  - func_801B90BC - found 8 matches total:
+1.00 - CEN  - func_80190E4C
+1.00 - DRE  - Random - (decompiled)
+1.00 - NO3  - Random - (decompiled)
+1.00 - NZ0  - Random - (decompiled)
+1.00 - ST0  - Random - (decompiled)
+1.00 - WRP  - Random - (decompiled)
+1.00 - RWRP - func_8018A168
+0.99 - MAD  - Random - (decompiled)
+
+ref. - NP3  - func_801BC7D4 - found 8 matches total:
+1.00 - CEN  - func_80194564 - (decompiled)
+1.00 - DRE  - func_8019A6A8 - (decompiled)
+1.00 - NO3  - func_801C4F64 - (decompiled)
+1.00 - NZ0  - func_801BCBEC - (decompiled)
+1.00 - ST0  - func_801B4C08 - (decompiled)
+1.00 - WRP  - func_8018B900 - (decompiled)
+1.00 - RWRP - func_8018D880
+0.99 - MAD  - func_8019203C - (decompiled)
+
+ref. - ST0  - func_801B5474 - found 8 matches total:
+0.99 - CEN  - func_80194B7C
+0.99 - DRE  - func_8019ACC0 - (decompiled)
+0.99 - MAD  - func_801928A8 - (decompiled)
+0.99 - NO3  - func_801C557C
+0.99 - NP3  - func_801BCDEC - (decompiled)
+0.99 - NZ0  - func_801BD204 - (decompiled)
+0.99 - WRP  - func_8018BF18 - (decompiled)
+0.99 - RWRP - func_8018DE98
+
+ref. - ST0  - func_801B5458 - found 8 matches total:
+0.99 - CEN  - func_80194B60
+0.99 - DRE  - func_8019ACA4 - (decompiled)
+0.99 - MAD  - func_8019288C - (decompiled)
+0.99 - NO3  - func_801C5560 - (decompiled)
+0.99 - NP3  - func_801BCDD0 - (decompiled)
+0.99 - NZ0  - func_801BD1E8 - (decompiled)
+0.99 - WRP  - func_8018BEFC - (decompiled)
+0.99 - RWRP - func_8018DE7C
+
+ref. - NO3  - EntityAbsorbOrb - found 8 matches total:
+0.99 - CEN  - func_8019B274
+0.99 - DRE  - EntityAbsorbOrb
+0.99 - MAD  - EntityAbsorbOrb
+0.99 - NP3  - EntityAbsorbOrb
+0.99 - NZ0  - EntityAbsorbOrb
+0.99 - ST0  - EntityAbsorbOrb
+0.99 - WRP  - EntityAbsorbOrb
+0.99 - RWRP - func_80194590
+
+ref. - RWRP - func_80191490 - found 8 matches total:
+0.99 - CEN  - func_80198174
+0.99 - DRE  - func_8019E2B8
+0.99 - MAD  - func_8019572C
+0.99 - NO3  - func_801C8B74
+0.99 - NP3  - func_801C03E4
+0.99 - NZ0  - func_801C07FC - (decompiled)
+0.99 - ST0  - func_801B7BFC
+0.99 - WRP  - func_8018F510
 
 ref. - RWRP - func_8018D8F0 - found 8 matches total:
 1.00 - CEN  - func_801945D4 - (decompiled)
@@ -909,15 +749,145 @@ ref. - RWRP - func_8018D8F0 - found 8 matches total:
 1.00 - WRP  - func_8018B970 - (decompiled)
 0.99 - MAD  - func_801920AC - (decompiled)
 
-ref. - NP3  - func_801BC888 - found 8 matches total:
+ref. - RWRP - func_8018E0E0 - found 8 matches total:
+1.00 - CEN  - func_80194DC4 - (decompiled)
+1.00 - DRE  - func_8019AF08 - (decompiled)
+1.00 - MAD  - func_80192AF0 - (decompiled)
+1.00 - NO3  - func_801C57C4 - (decompiled)
+1.00 - NP3  - func_801BD034 - (decompiled)
+1.00 - NZ0  - func_801BD44C - (decompiled)
+1.00 - ST0  - func_801B56BC - (decompiled)
+1.00 - WRP  - func_8018C160 - (decompiled)
+
+ref. - RWRP - func_801955D8 - found 8 matches total:
+0.99 - CEN  - func_8019C2BC
+0.99 - DRE  - func_801A2400
+0.99 - MAD  - func_80199388
+0.99 - NO3  - func_801D6C68
+0.99 - NP3  - func_801D2320
+0.99 - NZ0  - func_801C9D18
+0.99 - ST0  - func_801BD4A8
+0.99 - WRP  - func_80193658
+
+ref. - NP3  - func_801D2470 - found 8 matches total:
+1.00 - CEN  - func_8019C40C - (decompiled)
+1.00 - DRE  - func_801A2550 - (decompiled)
+1.00 - MAD  - func_801994D8 - (decompiled)
+1.00 - NO3  - func_801D6DB8
+1.00 - NZ0  - func_801C9E68 - (decompiled)
+1.00 - ST0  - func_801BD5F8
+1.00 - WRP  - func_801937A8 - (decompiled)
+1.00 - RWRP - func_80195728
+
+ref. - ST0  - func_801B3B68 - found 8 matches total:
+0.99 - CEN  - func_801934C4
+0.99 - DRE  - SpawnExplosionEntity - (decompiled)
+0.99 - MAD  - SpawnExplosionEntity - (decompiled)
+0.99 - NO3  - SpawnExplosionEntity - (decompiled)
+0.99 - NP3  - SpawnExplosionEntity - (decompiled)
+0.99 - NZ0  - SpawnExplosionEntity - (decompiled)
+0.99 - WRP  - SpawnExplosionEntity - (decompiled)
+0.99 - RWRP - func_8018C7E0
+
+ref. - NO3  - func_801C9AF8 - found 8 matches total:
+0.99 - CEN  - func_801990F8
+0.99 - DRE  - func_8019F23C - (decompiled)
+0.99 - MAD  - func_8019686C - (decompiled)
+0.99 - NP3  - func_801C1368
+0.99 - NZ0  - func_801C1780 - (decompiled)
+0.99 - ST0  - func_801B8B80
+0.99 - WRP  - func_80190494 - (decompiled)
+0.99 - RWRP - func_80192414
+
+ref. - RWRP - func_8018B6B4 - found 8 matches total:
+0.99 - CEN  - func_80192398
+0.99 - DRE  - EntityNumericDamage
+0.99 - MAD  - EntityNumericDamage
+0.99 - NO3  - EntityNumericDamage
+0.99 - NP3  - EntityNumericDamage
+0.99 - NZ0  - func_801BAA20
+0.99 - ST0  - EntityNumericDamage
+0.99 - WRP  - EntityNumericDamage
+
+ref. - NP3  - func_801BC8B8 - found 8 matches total:
+1.00 - CEN  - func_80194648 - (decompiled)
+1.00 - DRE  - FallEntity - (decompiled)
+1.00 - NO3  - FallEntity - (decompiled)
+1.00 - NZ0  - FallEntity - (decompiled)
+1.00 - ST0  - FallEntity - (decompiled)
+1.00 - WRP  - FallEntity - (decompiled)
+1.00 - RWRP - func_8018D964
+0.99 - MAD  - FallEntity - (decompiled)
+
+ref. - ST0  - func_801B55A8 - found 8 matches total:
+0.99 - CEN  - func_80194CB0
+0.99 - DRE  - func_8019ADF4 - (decompiled)
+0.99 - MAD  - func_801929DC - (decompiled)
+0.99 - NO3  - func_801C56B0
+0.99 - NP3  - func_801BCF20
+0.99 - NZ0  - func_801BD338 - (decompiled)
+0.99 - WRP  - func_8018C04C - (decompiled)
+0.99 - RWRP - func_8018DFCC
+
+ref. - CEN  - func_80195C0C - found 8 matches total:
+0.99 - DRE  - CollectLifeVessel - (decompiled)
+0.99 - MAD  - CollectHeartVessel - (decompiled)
+0.99 - MAD  - CollectLifeVessel - (decompiled)
+0.99 - NO3  - func_801C660C - (decompiled)
+0.99 - NP3  - func_801BDE7C
+0.99 - NZ0  - CollectLifeVessel - (decompiled)
+0.99 - WRP  - CollectLifeVessel - (decompiled)
+0.99 - RWRP - func_8018EF28
+
+ref. - RWRP - func_8018D934 - found 8 matches total:
 1.00 - CEN  - func_80194618 - (decompiled)
 1.00 - DRE  - MoveEntity - (decompiled)
 1.00 - NO3  - MoveEntity - (decompiled)
+1.00 - NP3  - func_801BC888
 1.00 - NZ0  - MoveEntity - (decompiled)
 1.00 - ST0  - MoveEntity - (decompiled)
 1.00 - WRP  - MoveEntity - (decompiled)
-1.00 - RWRP - func_8018D934
 0.99 - MAD  - MoveEntity - (decompiled)
+
+ref. - RWRP - func_8018D8BC - found 8 matches total:
+1.00 - CEN  - func_801945A0 - (decompiled)
+1.00 - DRE  - func_8019A6E4 - (decompiled)
+1.00 - NO3  - func_801C4FA0 - (decompiled)
+1.00 - NP3  - func_801BC810
+1.00 - NZ0  - func_801BCC28 - (decompiled)
+1.00 - ST0  - func_801B4C44 - (decompiled)
+1.00 - WRP  - func_8018B93C - (decompiled)
+0.99 - MAD  - func_80192078 - (decompiled)
+
+ref. - RWRP - func_8018E1E0 - found 8 matches total:
+1.00 - CEN  - func_80194EC4 - (decompiled)
+1.00 - DRE  - func_8019B008 - (decompiled)
+1.00 - NO3  - func_801C58C4 - (decompiled)
+1.00 - NP3  - func_801BD134 - (decompiled)
+1.00 - NZ0  - func_801BD54C - (decompiled)
+1.00 - ST0  - func_801B57B4 - (decompiled)
+1.00 - WRP  - func_8018C260 - (decompiled)
+0.99 - MAD  - func_80192BF0 - (decompiled)
+
+ref. - CEN  - func_8019C620 - found 8 matches total:
+0.99 - DRE  - func_801A2764 - (decompiled)
+0.99 - MAD  - func_801996EC - (decompiled)
+0.99 - NO3  - func_801D6FCC - (decompiled)
+0.99 - NP3  - func_801D2684 - (decompiled)
+0.99 - NZ0  - func_801CA07C - (decompiled)
+0.99 - ST0  - func_801BD80C - (decompiled)
+0.99 - WRP  - func_801939BC - (decompiled)
+0.99 - RWRP - func_8019593C
+
+ref. - RWRP - func_8018E0B0 - found 8 matches total:
+1.00 - CEN  - func_80194D94 - (decompiled)
+1.00 - DRE  - func_8019AED8 - (decompiled)
+1.00 - MAD  - func_80192AC0 - (decompiled)
+1.00 - NO3  - func_801C5794 - (decompiled)
+1.00 - NP3  - func_801BD004 - (decompiled)
+1.00 - NZ0  - func_801BD41C - (decompiled)
+1.00 - ST0  - func_801B568C - (decompiled)
+1.00 - WRP  - func_8018C130 - (decompiled)
 
 ref. - RWRP - func_8018E1C0 - found 8 matches total:
 1.00 - CEN  - func_80194EA4 - (decompiled)
@@ -929,68 +899,44 @@ ref. - RWRP - func_8018E1C0 - found 8 matches total:
 1.00 - WRP  - func_8018C240 - (decompiled)
 0.99 - MAD  - func_80192BD0 - (decompiled)
 
-ref. - NO3  - func_801D06FC - found 7 matches total:
+ref. - RWRP - func_8018D668 - found 8 matches total:
+1.00 - CEN  - func_8019434C - (decompiled)
+1.00 - DRE  - PreventEntityFromRespawning - (decompiled)
+1.00 - NO3  - PreventEntityFromRespawning - (decompiled)
+1.00 - NP3  - PreventEntityFromRespawning - (decompiled)
+1.00 - NZ0  - PreventEntityFromRespawning - (decompiled)
+1.00 - ST0  - PreventEntityFromRespawning - (decompiled)
+1.00 - WRP  - PreventEntityFromRespawning - (decompiled)
+0.99 - MAD  - PreventEntityFromRespawning - (decompiled)
+
+ref. - RWRP - func_80195990 - found 8 matches total:
+1.00 - CEN  - func_8019C674 - (decompiled)
+1.00 - DRE  - func_801A27B8 - (decompiled)
+1.00 - MAD  - func_80199740 - (decompiled)
+1.00 - NO3  - func_801D7020 - (decompiled)
+1.00 - NP3  - func_801D26D8 - (decompiled)
+1.00 - NZ0  - func_801CA0D0 - (decompiled)
+1.00 - ST0  - func_801BD860 - (decompiled)
+1.00 - WRP  - func_80193A10 - (decompiled)
+
+ref. - ST0  - EntityDummy - found 8 matches total:
+1.00 - CEN  - func_80195070 - (decompiled)
+1.00 - DRE  - func_8019B1B4 - (decompiled)
+1.00 - MAD  - EntityDummy - (decompiled)
+1.00 - NO3  - EntityDummy - (decompiled)
+1.00 - NP3  - EntityDummy - (decompiled)
+1.00 - NZ0  - func_801BD6F8 - (decompiled)
+1.00 - WRP  - EntityDummy - (decompiled)
+1.00 - RWRP - func_8018E38C
+
+ref. - NP3  - func_801C3E14 - found 7 matches total:
 0.99 - CEN  - func_8019BBA4
 0.99 - DRE  - func_801A1CE8
-0.99 - NP3  - func_801C3E14
+0.99 - NO3  - func_801D06FC
 0.99 - NZ0  - func_801C33D8
 0.99 - ST0  - func_801BA7D8
 0.99 - WRP  - func_80192F40
 0.99 - RWRP - func_80194EC0
-
-ref. - RWRP - func_8018E634 - found 7 matches total:
-0.99 - CEN  - func_80195318
-0.99 - DRE  - func_8019B45C
-0.99 - MAD  - func_80193050
-0.99 - NO3  - func_801C5D18
-0.99 - NP3  - func_801BD588
-0.99 - NZ0  - func_801BD9A0
-0.99 - WRP  - func_8018C6B4
-
-ref. - WRP  - func_80188514 - found 7 matches total:
-1.00 - RWRP - func_8018A494
-0.99 - CEN  - func_80191178
-0.99 - DRE  - func_801972BC
-0.99 - NO3  - func_801C1B78
-0.99 - NP3  - func_801B93E8
-0.99 - NZ0  - func_801B9800
-0.99 - ST0  - func_801B1B98
-
-ref. - NP3  - func_801BD0B4 - found 7 matches total:
-0.99 - CEN  - func_80194E44
-0.99 - DRE  - func_8019AF88 - (decompiled)
-0.99 - MAD  - func_80192B70 - (decompiled)
-0.99 - NO3  - func_801C5844
-0.99 - NZ0  - func_801BD4CC - (decompiled)
-0.99 - WRP  - func_8018C1E0 - (decompiled)
-0.99 - RWRP - func_8018E160
-
-ref. - CEN  - func_8019C6A0 - found 7 matches total:
-0.99 - DRE  - func_801A27E4 - (decompiled)
-0.99 - NO3  - func_801D704C - (decompiled)
-0.99 - NP3  - func_801D2704 - (decompiled)
-0.99 - NZ0  - func_801CA0FC - (decompiled)
-0.99 - ST0  - func_801BD88C - (decompiled)
-0.99 - WRP  - func_80193A3C - (decompiled)
-0.99 - RWRP - func_801959BC
-
-ref. - NP3  - func_801BDBE4 - found 7 matches total:
-0.99 - CEN  - func_80195974
-0.99 - DRE  - func_8019BAB8
-0.99 - MAD  - func_801936E0 - (decompiled)
-0.99 - NO3  - func_801C6374
-0.99 - NZ0  - CollectGold - (decompiled)
-0.99 - WRP  - CollectGold - (decompiled)
-0.99 - RWRP - func_8018EC90
-
-ref. - NO3  - EntityRoomForeground - found 7 matches total:
-0.99 - CEN  - func_8019BAB8
-0.99 - DRE  - EntityRoomForeground - (decompiled)
-0.99 - NP3  - EntityRoomForeground - (decompiled)
-0.99 - NZ0  - EntityRoomForeground - (decompiled)
-0.99 - ST0  - EntityRoomForeground - (decompiled)
-0.99 - WRP  - EntityRoomForeground - (decompiled)
-0.99 - RWRP - func_80194DD4
 
 ref. - CEN  - func_8019565C - found 7 matches total:
 0.99 - DRE  - ReplaceBreakableWithItemDrop - (decompiled)
@@ -1001,61 +947,115 @@ ref. - CEN  - func_8019565C - found 7 matches total:
 0.99 - WRP  - ReplaceBreakableWithItemDrop - (decompiled)
 0.99 - RWRP - func_8018E978
 
-ref. - DRE  - func_8019697C - found 6 matches total:
+ref. - RWRP - func_8018E634 - found 7 matches total:
+0.99 - CEN  - func_80195318
+0.99 - DRE  - func_8019B45C
+0.99 - MAD  - func_80193050
+0.99 - NO3  - func_801C5D18
+0.99 - NP3  - func_801BD588
+0.99 - NZ0  - func_801BD9A0
+0.99 - WRP  - func_8018C6B4
+
+ref. - NO3  - func_801C1B78 - found 7 matches total:
+0.99 - CEN  - func_80191178
+0.99 - DRE  - func_801972BC
+0.99 - NP3  - func_801B93E8
+0.99 - NZ0  - func_801B9800
+0.99 - ST0  - func_801B1B98
+0.99 - WRP  - func_80188514
+0.99 - RWRP - func_8018A494
+
+ref. - RWRP - func_80194DD4 - found 7 matches total:
+0.99 - CEN  - func_8019BAB8
+0.99 - DRE  - EntityRoomForeground - (decompiled)
+0.99 - NO3  - EntityRoomForeground
+0.99 - NP3  - EntityRoomForeground - (decompiled)
+0.99 - NZ0  - EntityRoomForeground - (decompiled)
+0.99 - ST0  - EntityRoomForeground - (decompiled)
+0.99 - WRP  - EntityRoomForeground - (decompiled)
+
+ref. - NP3  - func_801BD0B4 - found 7 matches total:
+0.99 - CEN  - func_80194E44
+0.99 - DRE  - func_8019AF88 - (decompiled)
+0.99 - MAD  - func_80192B70 - (decompiled)
+0.99 - NO3  - func_801C5844
+0.99 - NZ0  - func_801BD4CC - (decompiled)
+0.99 - WRP  - func_8018C1E0 - (decompiled)
+0.99 - RWRP - func_8018E160
+
+ref. - DRE  - func_8019BAB8 - found 7 matches total:
+0.99 - CEN  - func_80195974
+0.99 - MAD  - func_801936E0 - (decompiled)
+0.99 - NO3  - func_801C6374
+0.99 - NP3  - func_801BDBE4
+0.99 - NZ0  - CollectGold - (decompiled)
+0.99 - WRP  - CollectGold - (decompiled)
+0.99 - RWRP - func_8018EC90
+
+ref. - RWRP - func_801959BC - found 7 matches total:
+0.99 - CEN  - func_8019C6A0
+0.99 - DRE  - func_801A27E4 - (decompiled)
+0.99 - NO3  - func_801D704C - (decompiled)
+0.99 - NP3  - func_801D2704 - (decompiled)
+0.99 - NZ0  - func_801CA0FC - (decompiled)
+0.99 - ST0  - func_801BD88C - (decompiled)
+0.99 - WRP  - func_80193A3C - (decompiled)
+
+ref. - MAD  - func_8018E674 - found 6 matches total:
+0.99 - CEN  - func_8018D6E0
+0.99 - DRE  - func_80191B44
+0.99 - NO3  - func_801B78A8
+0.99 - NP3  - func_801B2540
+0.99 - WRP  - func_801870B0
+0.99 - RWRP - func_80188ED0
+
+ref. - NO3  - func_801C14B8 - found 6 matches total:
+0.99 - DRE  - func_8019697C
 0.99 - DRE  - func_80196CC8
-0.99 - NO3  - func_801C14B8
 0.99 - NO3  - func_801CE98C
 0.99 - NP3  - func_801B65FC
 0.99 - NZ0  - func_801C6C6C
 0.99 - ST0  - EntitySecretButton
 
-ref. - NP3  - func_801BDDD8 - found 6 matches total:
-0.99 - CEN  - func_80195B68
-0.99 - DRE  - CollectHeartVessel - (decompiled)
-0.99 - NO3  - func_801C6568
-0.99 - NZ0  - CollectHeartVessel - (decompiled)
-0.99 - WRP  - CollectHeartVessel - (decompiled)
-0.99 - RWRP - func_8018EE84
+ref. - DRE  - func_801973C4 - found 6 matches total:
+0.99 - CEN  - func_80191280
+0.99 - NO3  - func_801C1C80
+0.99 - NP3  - func_801B94F0
+0.99 - NZ0  - func_801B9908
+0.99 - WRP  - func_8018861C
+0.99 - RWRP - func_8018A59C
 
-ref. - NZ0  - func_801C8ADC - found 6 matches total:
-0.99 - CEN  - func_8019A420
-0.99 - DRE  - func_801A0564
-0.99 - NO3  - func_801CAE20
-0.99 - NP3  - func_801C2690
-0.99 - WRP  - func_801917BC
-0.99 - RWRP - func_8019373C
-
-ref. - NP3  - EntityStageNamePopup - found 6 matches total:
-0.99 - CEN  - func_8019A5F0
+ref. - CEN  - func_8019A5F0 - found 6 matches total:
 0.99 - DRE  - EntityStageNamePopup
 0.99 - NO3  - EntityStageNamePopup
+0.99 - NP3  - EntityStageNamePopup
 0.99 - NZ0  - EntityStageNamePopup
 0.99 - WRP  - EntityStageNamePopup
 0.99 - RWRP - func_8019390C
 
-ref. - RWRP - func_8018F9B4 - found 6 matches total:
-0.99 - CEN  - func_80196698
-0.99 - DRE  - EntityInventoryDrop
-0.99 - NO3  - EntityInventoryDrop
-0.99 - NP3  - EntityInventoryDrop
-0.99 - NZ0  - EntityInventoryDrop
-0.99 - WRP  - EntityInventoryDrop
+ref. - RWRP - func_8018EE84 - found 6 matches total:
+0.99 - CEN  - func_80195B68
+0.99 - DRE  - CollectHeartVessel - (decompiled)
+0.99 - NO3  - func_801C6568
+0.99 - NP3  - func_801BDDD8
+0.99 - NZ0  - CollectHeartVessel - (decompiled)
+0.99 - WRP  - CollectHeartVessel - (decompiled)
 
-ref. - NP3  - EntityHeartDrop - found 6 matches total:
-0.99 - CEN  - func_80197A00
-0.99 - DRE  - EntityHeartDrop
-0.99 - NO3  - EntityHeartDrop
-0.99 - NZ0  - func_801C0088
-0.99 - WRP  - EntityHeartDrop
-0.99 - RWRP - func_80190D1C
-
-ref. - CEN  - func_801965F4 - found 6 matches total:
+ref. - RWRP - func_8018F910 - found 6 matches total:
+0.99 - CEN  - func_801965F4
 0.99 - DRE  - func_8019C738 - (decompiled)
 0.99 - NO3  - func_801C6FF4
 0.99 - NP3  - func_801BE864
 0.99 - NZ0  - func_801BEC7C - (decompiled)
 0.99 - WRP  - func_8018D990 - (decompiled)
-0.99 - RWRP - func_8018F910
+
+ref. - WRP  - EntityPriceDrop - found 6 matches total:
+0.99 - CEN  - func_80195C84
+0.99 - DRE  - EntityPriceDrop
+0.99 - NO3  - EntityPriceDrop
+0.99 - NP3  - EntityPriceDrop
+0.99 - NZ0  - EntityBreakable
+0.99 - RWRP - func_8018EFA0
 
 ref. - WRP  - func_8018CDEC - found 6 matches total:
 0.99 - CEN  - func_80195A50
@@ -1065,6 +1065,30 @@ ref. - WRP  - func_8018CDEC - found 6 matches total:
 0.99 - NZ0  - func_801BE0D8
 0.99 - RWRP - func_8018ED6C
 
+ref. - NO3  - EntityHeartDrop - found 6 matches total:
+0.99 - CEN  - func_80197A00
+0.99 - DRE  - EntityHeartDrop
+0.99 - NP3  - EntityHeartDrop
+0.99 - NZ0  - func_801C0088
+0.99 - WRP  - EntityHeartDrop
+0.99 - RWRP - func_80190D1C
+
+ref. - NO3  - EntityInventoryDrop - found 6 matches total:
+0.99 - CEN  - func_80196698
+0.99 - DRE  - EntityInventoryDrop
+0.99 - NP3  - EntityInventoryDrop
+0.99 - NZ0  - EntityInventoryDrop
+0.99 - WRP  - EntityInventoryDrop
+0.99 - RWRP - func_8018F9B4
+
+ref. - NP3  - func_801BDB64 - found 6 matches total:
+0.99 - CEN  - func_801958F4
+0.99 - DRE  - func_8019BA38 - (decompiled)
+0.99 - NO3  - func_801C62F4
+0.99 - NZ0  - CollectHeart - (decompiled)
+0.99 - WRP  - CollectHeart - (decompiled)
+0.99 - RWRP - func_8018EC10
+
 ref. - RWRP - func_8018E1FC - found 6 matches total:
 0.99 - CEN  - func_80194EE0
 0.99 - DRE  - func_8019B024 - (decompiled)
@@ -1073,29 +1097,13 @@ ref. - RWRP - func_8018E1FC - found 6 matches total:
 0.99 - NZ0  - func_801BD568 - (decompiled)
 0.99 - WRP  - func_8018C27C - (decompiled)
 
-ref. - NZ0  - func_801B9908 - found 6 matches total:
-0.99 - CEN  - func_80191280
-0.99 - DRE  - func_801973C4
-0.99 - NO3  - func_801C1C80
-0.99 - NP3  - func_801B94F0
-0.99 - WRP  - func_8018861C
-0.99 - RWRP - func_8018A59C
-
-ref. - NP3  - EntityPriceDrop - found 6 matches total:
-0.99 - CEN  - func_80195C84
-0.99 - DRE  - EntityPriceDrop
-0.99 - NO3  - EntityPriceDrop
-0.99 - NZ0  - EntityBreakable
-0.99 - WRP  - EntityPriceDrop
-0.99 - RWRP - func_8018EFA0
-
-ref. - RWRP - func_8018EC10 - found 6 matches total:
-0.99 - CEN  - func_801958F4
-0.99 - DRE  - func_8019BA38 - (decompiled)
-0.99 - NO3  - func_801C62F4
-0.99 - NP3  - func_801BDB64
-0.99 - NZ0  - CollectHeart - (decompiled)
-0.99 - WRP  - CollectHeart - (decompiled)
+ref. - WRP  - func_801917BC - found 6 matches total:
+0.99 - CEN  - func_8019A420
+0.99 - DRE  - func_801A0564
+0.99 - NO3  - func_801CAE20
+0.99 - NP3  - func_801C2690
+0.99 - NZ0  - func_801C8ADC
+0.99 - RWRP - func_8019373C
 
 ref. - WRP  - func_8018E01C - found 6 matches total:
 0.99 - CEN  - func_80196C80
@@ -1105,13 +1113,12 @@ ref. - WRP  - func_8018E01C - found 6 matches total:
 0.99 - NZ0  - func_801BF308
 0.99 - RWRP - func_8018FF9C
 
-ref. - CEN  - func_8018D6E0 - found 6 matches total:
-0.99 - DRE  - func_80191B44
-0.99 - MAD  - func_8018E674
-0.99 - NO3  - func_801B78A8
-0.99 - NP3  - func_801B2540
-0.99 - WRP  - func_801870B0
-0.99 - RWRP - func_80188ED0
+ref. - ST0  - EntityStageTitleFadeout - found 5 matches total:
+0.99 - RIC  - func_80162C84
+0.99 - RIC  - func_80169704
+0.99 - RIC  - func_8016E324
+0.99 - RIC  - func_801705EC
+0.99 - NO3  - func_801CED60
 
 ref. - RWRP - func_8018908C - found 5 matches total:
 0.99 - DRE  - EntityBreakable - (decompiled)
@@ -1119,13 +1126,6 @@ ref. - RWRP - func_8018908C - found 5 matches total:
 0.99 - NO3  - EntityBreakable - (decompiled)
 0.99 - NP3  - EntityBreakable - (decompiled)
 0.99 - WRP  - EntityBreakable - (decompiled)
-
-ref. - ST0  - EntityStageTitleFadeout - found 5 matches total:
-0.99 - RIC  - func_80162C84
-0.99 - RIC  - func_80169704
-0.99 - RIC  - func_8016E324
-0.99 - RIC  - func_801705EC
-0.99 - NO3  - func_801CED60
 
 ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - ResetCallback - (decompiled)
@@ -1140,23 +1140,11 @@ ref. - MAIN - SetIR123 - found 4 matches total:
 0.99 - MAIN - SetRii
 0.99 - MAIN - SetMAC123
 
-ref. - CEN  - func_8018E3BC - found 4 matches total:
-0.99 - DRE  - func_80194C24 - (decompiled)
-0.99 - NO3  - func_801BE9F4 - (decompiled)
-0.99 - SEL  - func_801B68E0 - (decompiled)
-0.99 - ST0  - func_801A8E34
-
-ref. - SEL  - func_801B66A4 - found 4 matches total:
-0.99 - CEN  - func_8018E180
-0.99 - DRE  - func_801949E8
-0.99 - ST0  - func_801A8BF8
-0.99 - NO3  - func_801BE7BC
-
-ref. - SEL  - func_801B675C - found 4 matches total:
+ref. - ST0  - func_801A8CB0 - found 4 matches total:
 0.99 - CEN  - func_8018E238
 0.99 - DRE  - func_80194AA0
 0.99 - NO3  - func_801BE870
-0.99 - ST0  - func_801A8CB0
+0.99 - SEL  - func_801B675C
 
 ref. - ST0  - func_801A8984 - found 4 matches total:
 0.99 - CEN  - func_8018DF0C
@@ -1164,17 +1152,23 @@ ref. - ST0  - func_801A8984 - found 4 matches total:
 0.99 - NO3  - func_801BE544 - (decompiled)
 0.99 - SEL  - func_801B642C - (decompiled)
 
-ref. - MAIN - SetVideoMode - found 4 matches total:
-0.99 - MAIN - func_800194F0 - (decompiled)
-0.99 - MAIN - CdSyncCallback - (decompiled)
-0.99 - MAIN - CdReadyCallback - (decompiled)
-0.99 - MAIN - CdReadCallback - (decompiled)
-
 ref. - MAIN - SetGeomScreen - found 4 matches total:
 0.99 - MAIN - SetIR0
 0.99 - MAIN - SetData32
 0.99 - MAIN - SetDQA
 0.99 - MAIN - SetDQB
+
+ref. - DRE  - func_801949E8 - found 4 matches total:
+0.99 - CEN  - func_8018E180
+0.99 - SEL  - func_801B66A4
+0.99 - ST0  - func_801A8BF8
+0.99 - NO3  - func_801BE7BC
+
+ref. - ST0  - func_801A8E34 - found 4 matches total:
+0.99 - CEN  - func_8018E3BC
+0.99 - DRE  - func_80194C24 - (decompiled)
+0.99 - NO3  - func_801BE9F4 - (decompiled)
+0.99 - SEL  - func_801B68E0 - (decompiled)
 
 ref. - MAIN - GetVideoMode - found 4 matches total:
 0.99 - MAIN - GetGraphType - (decompiled)
@@ -1182,371 +1176,377 @@ ref. - MAIN - GetVideoMode - found 4 matches total:
 0.99 - DRA  - .L8010B5CC - (decompiled)
 0.99 - DRA  - func_80131F28 - (decompiled)
 
-ref. - NP3  - func_801B5790 - found 3 matches total:
-0.99 - RIC  - func_8016DF74
-0.99 - RIC  - func_8016F6F0
-0.99 - NO3  - func_801BAEF0
-
-ref. - ST0  - func_801A89D8 - found 3 matches total:
-0.99 - CEN  - func_8018DF60
-0.99 - DRE  - func_801947C8
-0.99 - NO3  - func_801BE598
-
-ref. - CEN  - func_8018E6C4 - found 3 matches total:
-0.99 - DRE  - func_80194FF4
-0.99 - NO3  - func_801BEDAC
-0.99 - ST0  - func_801A910C
-
-ref. - CEN  - func_8018D600 - found 3 matches total:
-0.99 - DRE  - func_80191A64 - (decompiled)
-0.99 - WRP  - func_80186FD0 - (decompiled)
-0.99 - RWRP - func_80188DF0
-
-ref. - ST0  - func_801B0324 - found 3 matches total:
-0.99 - DRA  - func_800E376C - (decompiled)
-0.99 - SEL  - func_801B1A98 - (decompiled)
-0.99 - SEL  - func_801B1B88 - (decompiled)
-
-ref. - CEN  - func_8018E124 - found 3 matches total:
-1.00 - DRE  - func_8019498C - (decompiled)
-1.00 - SEL  - func_801B6648 - (decompiled)
-1.00 - ST0  - func_801A8B9C - (decompiled)
+ref. - MAIN - SetVideoMode - found 4 matches total:
+0.99 - MAIN - func_800194F0 - (decompiled)
+0.99 - MAIN - CdSyncCallback - (decompiled)
+0.99 - MAIN - CdReadyCallback - (decompiled)
+0.99 - MAIN - CdReadCallback - (decompiled)
 
 ref. - ST0  - func_801B01C0 - found 3 matches total:
 1.00 - DRA  - func_800E346C - (decompiled)
 1.00 - SEL  - func_801B1924 - (decompiled)
 0.99 - DRA  - func_800E34A4 - (decompiled)
 
-ref. - NO3  - func_801D59D0 - found 2 matches total:
-0.99 - NP3  - func_801C90E8
-0.99 - NZ0  - func_801C3708 - (decompiled)
+ref. - CEN  - func_8018D600 - found 3 matches total:
+0.99 - DRE  - func_80191A64 - (decompiled)
+0.99 - WRP  - func_80186FD0 - (decompiled)
+0.99 - RWRP - func_80188DF0
+
+ref. - RIC  - func_8016F6F0 - found 3 matches total:
+0.99 - RIC  - func_8016DF74
+0.99 - NO3  - func_801BAEF0
+0.99 - NP3  - func_801B5790
+
+ref. - NO3  - func_801BEDAC - found 3 matches total:
+0.99 - CEN  - func_8018E6C4
+0.99 - DRE  - func_80194FF4
+0.99 - ST0  - func_801A910C
+
+ref. - CEN  - func_8018DF60 - found 3 matches total:
+0.99 - DRE  - func_801947C8
+0.99 - NO3  - func_801BE598
+0.99 - ST0  - func_801A89D8
+
+ref. - CEN  - func_8018E124 - found 3 matches total:
+1.00 - DRE  - func_8019498C - (decompiled)
+1.00 - SEL  - func_801B6648 - (decompiled)
+1.00 - ST0  - func_801A8B9C - (decompiled)
+
+ref. - ST0  - func_801B0324 - found 3 matches total:
+0.99 - DRA  - func_800E376C - (decompiled)
+0.99 - SEL  - func_801B1A98 - (decompiled)
+0.99 - SEL  - func_801B1B88 - (decompiled)
+
+ref. - DRA  - func_80132F60 - found 2 matches total:
+0.99 - DRA  - func_80133290
+0.99 - DRA  - func_80133BDC
+
+ref. - NZ0  - func_801C3E94 - found 2 matches total:
+0.99 - NO3  - func_801D615C
+0.99 - NP3  - func_801C9874
+
+ref. - MAIN - RotMatrixY - found 2 matches total:
+0.99 - MAIN - RotMatrixX
+0.99 - MAIN - RotMatrixZ
+
+ref. - ST0  - func_801B0058 - found 2 matches total:
+1.00 - DRA  - func_800EAD7C - (decompiled)
+1.00 - SEL  - func_801B1DA8
 
 ref. - MAIN - SetVertex0 - found 2 matches total:
 0.99 - MAIN - SetVertex1
 0.99 - MAIN - SetVertex2
 
-ref. - NP3  - func_801C9874 - found 2 matches total:
-0.99 - NO3  - func_801D615C
-0.99 - NZ0  - func_801C3E94
+ref. - NO3  - EntityBoneScimitar - found 2 matches total:
+0.99 - NP3  - EntityBoneScimitar
+0.99 - NZ0  - EntityBoneScimitar
+
+ref. - NO3  - func_801D59D0 - found 2 matches total:
+0.99 - NP3  - func_801C90E8
+0.99 - NZ0  - func_801C3708 - (decompiled)
 
 ref. - MAIN - SetColorMatrix - found 2 matches total:
 0.99 - MAIN - SetRotMatrix
 0.99 - MAIN - SetLightMatrix
 
-ref. - MAIN - RotMatrixX - found 2 matches total:
-0.99 - MAIN - RotMatrixY
-0.99 - MAIN - RotMatrixZ
-
-ref. - MAIN - ReadColorMatrix - found 2 matches total:
+ref. - MAIN - func_80017C40 - found 2 matches total:
 0.99 - MAIN - func_80017BF8
-0.99 - MAIN - func_80017C40
+0.99 - MAIN - ReadColorMatrix
 
-ref. - DRA  - func_80133BDC - found 2 matches total:
-0.99 - DRA  - func_80132F60
-0.99 - DRA  - func_80133290
-
-ref. - SEL  - func_801B1DA8 - found 2 matches total:
-1.00 - DRA  - func_800EAD7C - (decompiled)
-1.00 - ST0  - func_801B0058
-
-ref. - NZ0  - EntityBoneScimitar - found 2 matches total:
-0.99 - NO3  - EntityBoneScimitar
-0.99 - NP3  - EntityBoneScimitar
-
-ref. - MAIN - DMA_memclr - found 2 matches total:
-1.00 - MAIN - memclr
+ref. - MAIN - memclr - found 2 matches total:
 1.00 - MAIN - VSync_memclr
-
-ref. - DRA  - func_800F2860 - found 2 matches total:
-0.99 - DRA  - func_800E7458
-0.99 - DRA  - func_800E7AEC
+1.00 - MAIN - DMA_memclr
 
 ref. - ST0  - func_801B0280 - found 2 matches total:
 0.99 - DRA  - func_800E3574 - (decompiled)
 0.99 - SEL  - func_801B19F4 - (decompiled)
 
-ref. - MAIN - ExitCriticalSection - found 1 matches total:
-0.99 - MAIN - EnterCriticalSection
-
-ref. - NP3  - func_801B44B4 - found 1 matches total:
-0.99 - NO3  - func_801B9C44
-
-ref. - MAD  - EntityRelicOrb - found 1 matches total:
-0.99 - ST0  - func_801B7308
-
-ref. - NP3  - func_801CA654 - found 1 matches total:
-0.99 - NZ0  - func_801C5568
-
-ref. - NP3  - func_801B3704 - found 1 matches total:
-0.99 - NO3  - func_801B8ED0
-
-ref. - NP3  - func_801C9F98 - found 1 matches total:
-0.99 - NZ0  - func_801C4EAC
-
-ref. - NP3  - func_801C6458 - found 1 matches total:
-0.99 - NO3  - func_801D2D40
-
-ref. - NO3  - func_801D3F38 - found 1 matches total:
-0.99 - NP3  - func_801C7650
-
-ref. - MAIN - AverageSZ3 - found 1 matches total:
-0.99 - MAIN - AverageSZ4
-
-ref. - NO3  - EntityBat - found 1 matches total:
-0.99 - NP3  - EntityBat
-
-ref. - NP3  - EntityMerman - found 1 matches total:
-0.99 - NO3  - EntityMerman
-
-ref. - ST0  - func_801B6204 - found 1 matches total:
-0.99 - MAD  - func_801937EC
-
-ref. - MAIN - RotMatrix - found 1 matches total:
-0.99 - MAIN - RotMatrixYXZ
-
-ref. - NO3  - func_801B8A74 - found 1 matches total:
-0.99 - NP3  - func_801B32A8
-
-ref. - NO3  - func_801D2840 - found 1 matches total:
-0.99 - NP3  - func_801C5F58
-
-ref. - SEL  - MDEC_in_sync - found 1 matches total:
-0.99 - SEL  - MDEC_out_sync
-
-ref. - DRA  - func_800E9880 - found 1 matches total:
-0.99 - SEL  - func_801B8A8C
-
-ref. - NP3  - func_801C8F54 - found 1 matches total:
-0.99 - NO3  - func_801D583C
-
-ref. - NP3  - func_801B4BE8 - found 1 matches total:
-0.99 - NO3  - func_801BA348
-
-ref. - NZ0  - func_801C5D20 - found 1 matches total:
-0.99 - NP3  - func_801CAE0C
-
-ref. - ST0  - func_801A8E60 - found 1 matches total:
-0.99 - NO3  - func_801BEA20
-
-ref. - DRA  - func_800E8EE4 - found 1 matches total:
-1.00 - SEL  - func_801B80F0 - (decompiled)
-
-ref. - DRA  - func_800E930C - found 1 matches total:
-0.99 - SEL  - func_801B8518
-
-ref. - NP3  - func_801B39CC - found 1 matches total:
-0.99 - NO3  - func_801B9198
-
-ref. - NO3  - func_801D0A2C - found 1 matches total:
-0.99 - NP3  - func_801C4144
-
-ref. - MAIN - func_80017994 - found 1 matches total:
-0.99 - MAIN - ScaleMatrix
-
-ref. - MAD  - func_8019362C - found 1 matches total:
-0.99 - ST0  - func_801B60A8
-
-ref. - NO3  - func_801D56D8 - found 1 matches total:
-0.99 - NP3  - func_801C8DF0
-
-ref. - RIC  - func_8015FA5C - found 1 matches total:
-0.99 - DRA  - func_80118C28
-
-ref. - NP3  - func_801B5C5C - found 1 matches total:
-0.99 - NO3  - func_801BB3BC
-
-ref. - DRA  - func_8011AC3C - found 1 matches total:
-0.99 - RIC  - func_80160788
-
-ref. - DRA  - func_800E2398 - found 1 matches total:
-0.99 - RIC  - func_8015E380
-
-ref. - MAIN - GsClearVcount - found 1 matches total:
-0.99 - MAIN - GsGetVcount
-
-ref. - NP3  - EntityZombie - found 1 matches total:
-0.99 - NO3  - EntityZombie
-
-ref. - DRA  - func_800EA48C - found 1 matches total:
-0.99 - SEL  - func_801B9698
-
-ref. - SEL  - LoadSaveData - found 1 matches total:
-1.00 - DRA  - func_800EA2B0
-
-ref. - ST0  - func_801B4FD4 - found 1 matches total:
-0.99 - MAD  - func_80192408
-
-ref. - DRA  - func_8011EDA8 - found 1 matches total:
-0.99 - RIC  - func_80161C2C
-
-ref. - NO3  - func_801D0B34 - found 1 matches total:
-0.99 - NP3  - func_801C424C
-
-ref. - NO3  - func_801BBE70 - found 1 matches total:
-0.99 - NP3  - func_801B5E98
-
-ref. - RIC  - func_8015BCD0 - found 1 matches total:
-0.99 - DRA  - func_80115DA0
-
-ref. - DRA  - func_80125E68 - found 1 matches total:
-0.99 - RIC  - func_80167A70
-
-ref. - NP3  - func_801B5488 - found 1 matches total:
-0.99 - NO3  - func_801BABE8
-
-ref. - SEL  - func_801B60D4 - found 1 matches total:
-0.99 - DRA  - func_80103ED4
-
-ref. - NP3  - func_801C61B4 - found 1 matches total:
-0.99 - NO3  - func_801D2A9C
-
-ref. - NP3  - func_801B644C - found 1 matches total:
-0.99 - NO3  - func_801BC3FC
-
-ref. - NP3  - func_801C56D8 - found 1 matches total:
-0.99 - NO3  - func_801D1FC0
-
-ref. - NZ0  - func_801C53AC - found 1 matches total:
-0.99 - NP3  - func_801CA498
-
-ref. - NP3  - func_801B2830 - found 1 matches total:
-0.99 - NO3  - func_801B7B98
-
-ref. - SEL  - func_801B873C - found 1 matches total:
-0.99 - DRA  - func_800E9530
-
-ref. - NP3  - func_801B653C - found 1 matches total:
-0.99 - NO3  - func_801C13F8
-
-ref. - RIC  - func_8015F96C - found 1 matches total:
-0.99 - DRA  - func_80118810
-
-ref. - NP3  - func_801C6564 - found 1 matches total:
-0.99 - NO3  - func_801D2E4C
-
-ref. - NP3  - func_801C8010 - found 1 matches total:
-0.99 - NO3  - func_801D48F8
-
-ref. - NP3  - func_801C7880 - found 1 matches total:
-0.99 - NO3  - func_801D4168
-
-ref. - NP3  - func_801C4DCC - found 1 matches total:
-0.99 - NO3  - func_801D16B4
-
-ref. - NP3  - func_801B5F60 - found 1 matches total:
-0.99 - NO3  - func_801BBF38
-
-ref. - DRE  - func_80194F14 - found 1 matches total:
-0.99 - NO3  - func_801BECCC
-
-ref. - NO3  - func_801D423C - found 1 matches total:
-0.99 - NP3  - func_801C7954
-
-ref. - NO3  - func_801CC5A4 - found 1 matches total:
-0.99 - NO3  - func_801CF438
-
-ref. - NP3  - func_801B2C20 - found 1 matches total:
-0.99 - NO3  - func_801B8254
-
-ref. - NO3  - func_801D24AC - found 1 matches total:
-0.99 - NP3  - func_801C5BC4
-
-ref. - NO3  - func_801D6710 - found 1 matches total:
-0.99 - NP3  - func_801C9E28
-
-ref. - NP3  - func_801CE69C - found 1 matches total:
-0.99 - NP3  - func_801CF94C
-
-ref. - RIC  - func_80159C04 - found 1 matches total:
-0.99 - DRA  - func_80113F7C
-
-ref. - MAIN - SetFarColor - found 1 matches total:
-0.99 - MAIN - SetBackColor
-
-ref. - NP3  - func_801B5DE8 - found 1 matches total:
-0.99 - NO3  - func_801BBDC0
-
-ref. - SEL  - func_801B3F94 - found 1 matches total:
-0.99 - DRA  - func_80102E04 - (decompiled)
-
-ref. - NP3  - func_801B4D60 - found 1 matches total:
-0.99 - NO3  - func_801BA4C0
-
-ref. - NO3  - func_801D4700 - found 1 matches total:
-0.99 - NP3  - func_801C7E18
-
-ref. - SEL  - StoreSaveData - found 1 matches total:
-0.99 - DRA  - func_800E9C14
-
-ref. - NP3  - func_801B5108 - found 1 matches total:
-0.99 - NO3  - func_801BA868
-
-ref. - NP3  - func_801C7D80 - found 1 matches total:
-0.99 - NO3  - func_801D4668
-
-ref. - NP3  - EntityMerman2 - found 1 matches total:
-0.99 - NO3  - EntityMerman2
-
-ref. - CEN  - func_8018F890 - found 1 matches total:
-0.99 - DRE  - func_801961DC - (decompiled)
-
-ref. - NO3  - func_801BA0A0 - found 1 matches total:
-0.99 - NP3  - func_801B4940
-
-ref. - ST0  - func_801B1198 - found 1 matches total:
-1.00 - SEL  - func_801B786C - (decompiled)
-
-ref. - NO3  - func_801B94F0 - found 1 matches total:
-0.99 - NP3  - func_801B3D24
-
-ref. - ST0  - func_801B6C5C - found 1 matches total:
-0.99 - MAD  - func_80194314 - (decompiled)
-
-ref. - NO3  - func_801CC90C - found 1 matches total:
-0.99 - NO3  - func_801CF6D8
-
-ref. - ST0  - func_801AF774 - found 1 matches total:
-0.99 - SEL  - func_801B69F8
-
-ref. - RIC  - func_80165DD8 - found 1 matches total:
-0.99 - DRA  - func_80124164
+ref. - DRA  - func_800E7AEC - found 2 matches total:
+0.99 - DRA  - func_800E7458
+0.99 - DRA  - func_800F2860
 
 ref. - RIC  - func_8015BB80 - found 1 matches total:
 1.00 - DRA  - func_80115C50 - (decompiled)
 
-ref. - RIC  - func_801601DC - found 1 matches total:
-0.99 - DRA  - func_8011F074
+ref. - NP3  - func_801B5E98 - found 1 matches total:
+0.99 - NO3  - func_801BBE70
 
-ref. - NO3  - func_801B9650 - found 1 matches total:
-0.99 - NP3  - func_801B3E84
+ref. - NO3  - func_801BABE8 - found 1 matches total:
+0.99 - NP3  - func_801B5488
 
-ref. - RIC  - func_80162E9C - found 1 matches total:
-1.00 - DRA  - func_8011BD48 - (decompiled)
+ref. - RIC  - func_80161C2C - found 1 matches total:
+0.99 - DRA  - func_8011EDA8
+
+ref. - RIC  - func_80167A70 - found 1 matches total:
+0.99 - DRA  - func_80125E68
+
+ref. - NO3  - func_801B9C44 - found 1 matches total:
+0.99 - NP3  - func_801B44B4
+
+ref. - NO3  - func_801D4668 - found 1 matches total:
+0.99 - NP3  - func_801C7D80
+
+ref. - ST0  - func_801A8E60 - found 1 matches total:
+0.99 - NO3  - func_801BEA20
+
+ref. - MAIN - func_80017994 - found 1 matches total:
+0.99 - MAIN - ScaleMatrix
 
 ref. - SEL  - func_801B881C - found 1 matches total:
 0.99 - DRA  - func_800E9610 - (decompiled)
 
-ref. - RIC  - func_8015D1D0 - found 1 matches total:
-1.00 - DRA  - func_8010EADC - (decompiled)
+ref. - DRA  - func_800EA48C - found 1 matches total:
+0.99 - SEL  - func_801B9698
 
-ref. - NO3  - func_801B9CE8 - found 1 matches total:
-0.99 - NP3  - func_801B4558
+ref. - RIC  - func_80165DD8 - found 1 matches total:
+0.99 - DRA  - func_80124164
 
-ref. - DRA  - func_801291C4 - found 1 matches total:
-0.99 - RIC  - func_8016CC74
+ref. - DRA  - func_80103ED4 - found 1 matches total:
+0.99 - SEL  - func_801B60D4
 
-ref. - SEL  - func_801B88F4 - found 1 matches total:
-0.99 - DRA  - func_800E96E8 - (decompiled)
+ref. - NO3  - EntityMerman - found 1 matches total:
+0.99 - NP3  - EntityMerman
 
-ref. - NP3  - func_801C8FEC - found 1 matches total:
-0.99 - NO3  - func_801D58D4
+ref. - NO3  - func_801D0A2C - found 1 matches total:
+0.99 - NP3  - func_801C4144
 
-ref. - RIC  - func_801719A4 - found 1 matches total:
-0.99 - DRA  - func_8012A89C
+ref. - RIC  - func_8015F96C - found 1 matches total:
+0.99 - DRA  - func_80118810
+
+ref. - NP3  - func_801C424C - found 1 matches total:
+0.99 - NO3  - func_801D0B34
+
+ref. - NP3  - func_801CAE0C - found 1 matches total:
+0.99 - NZ0  - func_801C5D20
 
 ref. - ST0  - func_801B633C - found 1 matches total:
 0.99 - MAD  - func_801939C4 - (decompiled)
 
+ref. - MAIN - SetBackColor - found 1 matches total:
+0.99 - MAIN - SetFarColor
+
+ref. - NP3  - func_801C8010 - found 1 matches total:
+0.99 - NO3  - func_801D48F8
+
+ref. - NP3  - EntityZombie - found 1 matches total:
+0.99 - NO3  - EntityZombie
+
+ref. - ST0  - func_801B60A8 - found 1 matches total:
+0.99 - MAD  - func_8019362C
+
+ref. - NP3  - func_801C7650 - found 1 matches total:
+0.99 - NO3  - func_801D3F38
+
+ref. - DRA  - func_800E9C14 - found 1 matches total:
+0.99 - SEL  - StoreSaveData
+
+ref. - NP3  - func_801CA498 - found 1 matches total:
+0.99 - NZ0  - func_801C53AC
+
+ref. - RIC  - func_80159C04 - found 1 matches total:
+0.99 - DRA  - func_80113F7C
+
+ref. - MAD  - EntityRelicOrb - found 1 matches total:
+0.99 - ST0  - func_801B7308
+
+ref. - NO3  - func_801BB3BC - found 1 matches total:
+0.99 - NP3  - func_801B5C5C
+
+ref. - RIC  - func_801719A4 - found 1 matches total:
+0.99 - DRA  - func_8012A89C
+
+ref. - NP3  - func_801C56D8 - found 1 matches total:
+0.99 - NO3  - func_801D1FC0
+
+ref. - NO3  - func_801CC90C - found 1 matches total:
+0.99 - NO3  - func_801CF6D8
+
+ref. - NP3  - func_801B4BE8 - found 1 matches total:
+0.99 - NO3  - func_801BA348
+
+ref. - DRA  - func_80115DA0 - found 1 matches total:
+0.99 - RIC  - func_8015BCD0
+
+ref. - NO3  - func_801D2840 - found 1 matches total:
+0.99 - NP3  - func_801C5F58
+
+ref. - NO3  - func_801B8254 - found 1 matches total:
+0.99 - NP3  - func_801B2C20
+
+ref. - NO3  - func_801B8ED0 - found 1 matches total:
+0.99 - NP3  - func_801B3704
+
+ref. - NO3  - func_801D4168 - found 1 matches total:
+0.99 - NP3  - func_801C7880
+
+ref. - NP3  - func_801C6564 - found 1 matches total:
+0.99 - NO3  - func_801D2E4C
+
+ref. - RIC  - func_8015E380 - found 1 matches total:
+0.99 - DRA  - func_800E2398
+
+ref. - DRA  - func_800E8EE4 - found 1 matches total:
+1.00 - SEL  - func_801B80F0 - (decompiled)
+
 ref. - NO3  - func_801BAD6C - found 1 matches total:
 0.99 - NP3  - func_801B560C
+
+ref. - NP3  - func_801CF94C - found 1 matches total:
+0.99 - NP3  - func_801CE69C
+
+ref. - NZ0  - func_801C4EAC - found 1 matches total:
+0.99 - NP3  - func_801C9F98
+
+ref. - SEL  - MDEC_in_sync - found 1 matches total:
+0.99 - SEL  - MDEC_out_sync
+
+ref. - NO3  - EntityBat - found 1 matches total:
+0.99 - NP3  - EntityBat
+
+ref. - SEL  - func_801B8518 - found 1 matches total:
+0.99 - DRA  - func_800E930C
+
+ref. - RIC  - func_801601DC - found 1 matches total:
+0.99 - DRA  - func_8011F074
+
+ref. - NP3  - func_801C9E28 - found 1 matches total:
+0.99 - NO3  - func_801D6710
+
+ref. - RIC  - func_8015D1D0 - found 1 matches total:
+1.00 - DRA  - func_8010EADC - (decompiled)
+
+ref. - NO3  - func_801BC3FC - found 1 matches total:
+0.99 - NP3  - func_801B644C
+
+ref. - NP3  - func_801B5DE8 - found 1 matches total:
+0.99 - NO3  - func_801BBDC0
+
+ref. - NP3  - func_801B5F60 - found 1 matches total:
+0.99 - NO3  - func_801BBF38
+
+ref. - NO3  - EntityMerman2 - found 1 matches total:
+0.99 - NP3  - EntityMerman2
+
+ref. - SEL  - func_801B3F94 - found 1 matches total:
+0.99 - DRA  - func_80102E04 - (decompiled)
+
+ref. - NP3  - func_801B4558 - found 1 matches total:
+0.99 - NO3  - func_801B9CE8
+
+ref. - NP3  - func_801C61B4 - found 1 matches total:
+0.99 - NO3  - func_801D2A9C
+
+ref. - NP3  - func_801C6458 - found 1 matches total:
+0.99 - NO3  - func_801D2D40
+
+ref. - MAIN - AverageSZ3 - found 1 matches total:
+0.99 - MAIN - AverageSZ4
+
+ref. - NP3  - func_801C7E18 - found 1 matches total:
+0.99 - NO3  - func_801D4700
+
+ref. - DRA  - func_801291C4 - found 1 matches total:
+0.99 - RIC  - func_8016CC74
+
+ref. - MAIN - RotMatrixYXZ - found 1 matches total:
+0.99 - MAIN - RotMatrix
+
+ref. - MAIN - GsClearVcount - found 1 matches total:
+0.99 - MAIN - GsGetVcount
+
+ref. - NO3  - func_801B7B98 - found 1 matches total:
+0.99 - NP3  - func_801B2830
+
+ref. - NZ0  - func_801C5568 - found 1 matches total:
+0.99 - NP3  - func_801CA654
+
+ref. - MAIN - EnterCriticalSection - found 1 matches total:
+0.99 - MAIN - ExitCriticalSection
+
+ref. - NP3  - func_801B653C - found 1 matches total:
+0.99 - NO3  - func_801C13F8
+
+ref. - NP3  - func_801C7954 - found 1 matches total:
+0.99 - NO3  - func_801D423C
+
+ref. - DRA  - func_800E9530 - found 1 matches total:
+0.99 - SEL  - func_801B873C
+
+ref. - NO3  - func_801B8A74 - found 1 matches total:
+0.99 - NP3  - func_801B32A8
+
+ref. - SEL  - LoadSaveData - found 1 matches total:
+1.00 - DRA  - func_800EA2B0
+
+ref. - DRA  - func_800E9880 - found 1 matches total:
+0.99 - SEL  - func_801B8A8C
+
+ref. - DRA  - func_80118C28 - found 1 matches total:
+0.99 - RIC  - func_8015FA5C
+
+ref. - CEN  - func_8018F890 - found 1 matches total:
+0.99 - DRE  - func_801961DC - (decompiled)
+
+ref. - ST0  - func_801B6C5C - found 1 matches total:
+0.99 - MAD  - func_80194314 - (decompiled)
+
+ref. - RIC  - func_80160788 - found 1 matches total:
+0.99 - DRA  - func_8011AC3C
+
+ref. - NO3  - func_801B94F0 - found 1 matches total:
+0.99 - NP3  - func_801B3D24
+
+ref. - NO3  - func_801BA0A0 - found 1 matches total:
+0.99 - NP3  - func_801B4940
+
+ref. - NO3  - func_801D24AC - found 1 matches total:
+0.99 - NP3  - func_801C5BC4
+
+ref. - NO3  - func_801B9650 - found 1 matches total:
+0.99 - NP3  - func_801B3E84
+
+ref. - NP3  - func_801B39CC - found 1 matches total:
+0.99 - NO3  - func_801B9198
+
+ref. - SEL  - func_801B88F4 - found 1 matches total:
+0.99 - DRA  - func_800E96E8 - (decompiled)
+
+ref. - ST0  - func_801B6204 - found 1 matches total:
+0.99 - MAD  - func_801937EC
+
+ref. - NP3  - func_801C8DF0 - found 1 matches total:
+0.99 - NO3  - func_801D56D8
+
+ref. - NP3  - func_801B5108 - found 1 matches total:
+0.99 - NO3  - func_801BA868
+
+ref. - NO3  - func_801BA4C0 - found 1 matches total:
+0.99 - NP3  - func_801B4D60
+
+ref. - MAD  - func_80192408 - found 1 matches total:
+0.99 - ST0  - func_801B4FD4
+
+ref. - DRE  - func_80194F14 - found 1 matches total:
+0.99 - NO3  - func_801BECCC
+
+ref. - NO3  - func_801D58D4 - found 1 matches total:
+0.99 - NP3  - func_801C8FEC
+
+ref. - ST0  - func_801B1198 - found 1 matches total:
+1.00 - SEL  - func_801B786C - (decompiled)
+
+ref. - NO3  - func_801CF438 - found 1 matches total:
+0.99 - NO3  - func_801CC5A4
+
+ref. - ST0  - func_801AF774 - found 1 matches total:
+0.99 - SEL  - func_801B69F8
+
+ref. - NO3  - func_801D16B4 - found 1 matches total:
+0.99 - NP3  - func_801C4DCC
+
+ref. - NO3  - func_801D583C - found 1 matches total:
+0.99 - NP3  - func_801C8F54
+
+ref. - RIC  - func_80162E9C - found 1 matches total:
+1.00 - DRA  - func_8011BD48 - (decompiled)
 
