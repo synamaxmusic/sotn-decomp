@@ -1,7 +1,7 @@
-Number of s-files: 1538
-Number of checked s-files: 1538
-Number of decompiled duplicates found: 486
-Number of undecompiled duplicates found: 826
+Number of s-files: 1537
+Number of checked s-files: 1537
+Number of decompiled duplicates found: 487
+Number of undecompiled duplicates found: 825
 Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -476,7 +476,7 @@ ref. - CEN  - func_80198084 - found 8 matches total:
 0.99 - NP3  - func_801C02F4
 0.99 - NZ0  - func_801C070C
 0.99 - ST0  - func_801B7B0C
-0.99 - WRP  - func_8018F420
+0.99 - WRP  - func_8018F420 - (decompiled)
 0.99 - RWRP - func_801913A0
 
 ref. - CEN  - func_80198284 - found 8 matches total:
