@@ -1,7 +1,7 @@
-Number of s-files: 1537
-Number of checked s-files: 1537
-Number of decompiled duplicates found: 487
-Number of undecompiled duplicates found: 825
+Number of s-files: 1534
+Number of checked s-files: 1534
+Number of decompiled duplicates found: 490
+Number of undecompiled duplicates found: 822
 Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -506,7 +506,7 @@ ref. - CEN  - func_8019849C - found 8 matches total:
 0.99 - NP3  - func_801C070C
 0.99 - NZ0  - func_801C0B24 - (decompiled)
 0.99 - ST0  - func_801B7F24
-0.99 - WRP  - func_8018F838
+0.99 - WRP  - func_8018F838 - (decompiled)
 0.99 - RWRP - func_801917B8
 
 ref. - CEN  - func_8019858C - found 8 matches total:
@@ -699,16 +699,6 @@ ref. - DRE  - func_801A2580 - found 8 matches total:
 1.00 - WRP  - func_801937D8 - (decompiled)
 1.00 - RWRP - func_80195758
 
-ref. - NO3  - func_801C5708 - found 8 matches total:
-1.00 - CEN  - func_80194D08 - (decompiled)
-1.00 - DRE  - func_8019AE4C - (decompiled)
-1.00 - NP3  - func_801BCF78 - (decompiled)
-1.00 - NZ0  - func_801BD390 - (decompiled)
-1.00 - ST0  - func_801B5600
-1.00 - WRP  - func_8018C0A4 - (decompiled)
-1.00 - RWRP - func_8018E024
-0.99 - MAD  - func_80192A34 - (decompiled)
-
 ref. - NP3  - func_801B90BC - found 8 matches total:
 1.00 - CEN  - Random - (decompiled)
 1.00 - DRE  - Random - (decompiled)
@@ -838,6 +828,16 @@ ref. - RWRP - func_8018DF3C - found 8 matches total:
 0.99 - NZ0  - func_8019AD64 - (decompiled)
 0.99 - ST0  - func_801B5518
 0.99 - WRP  - func_8018BFBC - (decompiled)
+
+ref. - RWRP - func_8018E024 - found 8 matches total:
+1.00 - CEN  - func_80194D08 - (decompiled)
+1.00 - DRE  - func_8019AE4C - (decompiled)
+1.00 - NO3  - func_801C5708 - (decompiled)
+1.00 - NP3  - func_801BCF78 - (decompiled)
+1.00 - NZ0  - func_801BD390 - (decompiled)
+1.00 - ST0  - func_801B5600
+1.00 - WRP  - func_8018C0A4 - (decompiled)
+0.99 - MAD  - func_80192A34 - (decompiled)
 
 ref. - RWRP - func_8018E0B0 - found 8 matches total:
 1.00 - CEN  - func_80194D94 - (decompiled)
@@ -1485,14 +1485,14 @@ ref. - NO3  - func_801D48F8 - found 1 matches total:
 ref. - NO3  - func_801D56D8 - found 1 matches total:
 0.99 - NP3  - func_801C8DF0
 
-ref. - NO3  - func_801D583C - found 1 matches total:
-0.99 - NP3  - func_801C8F54
-
 ref. - NO3  - func_801D58D4 - found 1 matches total:
 0.99 - NP3  - func_801C8FEC
 
 ref. - NO3  - func_801D6710 - found 1 matches total:
 0.99 - NP3  - func_801C9E28
+
+ref. - NP3  - func_801C8F54 - found 1 matches total:
+0.99 - NO3  - func_801D583C - (decompiled)
 
 ref. - NP3  - func_801C9F98 - found 1 matches total:
 0.99 - NZ0  - func_801C4EAC
