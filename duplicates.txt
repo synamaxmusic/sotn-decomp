@@ -1,8 +1,8 @@
-Number of s-files: 1548
-Number of checked s-files: 1548
-Number of decompiled duplicates found: 479
-Number of undecompiled duplicates found: 835
-Number of overall exact duplicates found: 192
+Number of s-files: 1538
+Number of checked s-files: 1538
+Number of decompiled duplicates found: 486
+Number of undecompiled duplicates found: 826
+Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -95,25 +95,6 @@ ref. - CEN  - func_80192DD4 - found 17 matches total:
 0.99 - RWRP - func_8018C0F0
 0.99 - RWRP - func_8018C3A4
 
-ref. - NO3  - func_801C57FC - found 17 matches total:
-1.00 - CEN  - func_80194DFC - (decompiled)
-1.00 - DRE  - func_8019AF40 - (decompiled)
-1.00 - NP3  - func_801BD06C - (decompiled)
-1.00 - NZ0  - func_801BD484 - (decompiled)
-1.00 - ST0  - func_801B56F4 - (decompiled)
-1.00 - WRP  - func_8018C198 - (decompiled)
-1.00 - RWRP - func_8018E118
-0.99 - CEN  - func_80194C68 - (decompiled)
-0.99 - DRE  - func_8019ADAC - (decompiled)
-0.99 - MAD  - func_80192994 - (decompiled)
-0.99 - MAD  - func_80192B28 - (decompiled)
-0.99 - NO3  - func_801C5668 - (decompiled)
-0.99 - NP3  - func_801BCED8 - (decompiled)
-0.99 - NZ0  - func_801BD2F0 - (decompiled)
-0.99 - ST0  - func_801B5560
-0.99 - WRP  - func_8018C004 - (decompiled)
-0.99 - RWRP - func_8018DF84
-
 ref. - NP3  - func_801BAFA0 - found 17 matches total:
 0.99 - CEN  - func_80192D30 - (decompiled)
 0.99 - CEN  - func_80192FE4 - (decompiled)
@@ -151,6 +132,25 @@ ref. - NP3  - func_801BAFEC - found 17 matches total:
 0.99 - WRP  - func_8018A3CC - (decompiled)
 0.99 - RWRP - func_8018C098
 0.99 - RWRP - func_8018C34C
+
+ref. - RWRP - func_8018DF84 - found 17 matches total:
+0.99 - CEN  - func_80194C68 - (decompiled)
+0.99 - CEN  - func_80194DFC - (decompiled)
+0.99 - DRE  - func_8019ADAC - (decompiled)
+0.99 - DRE  - func_8019AF40 - (decompiled)
+0.99 - MAD  - func_80192994 - (decompiled)
+0.99 - MAD  - func_80192B28 - (decompiled)
+0.99 - NO3  - func_801C5668 - (decompiled)
+0.99 - NO3  - func_801C57FC - (decompiled)
+0.99 - NP3  - func_801BCED8 - (decompiled)
+0.99 - NP3  - func_801BD06C - (decompiled)
+0.99 - NZ0  - func_801BD2F0 - (decompiled)
+0.99 - NZ0  - func_801BD484 - (decompiled)
+0.99 - ST0  - func_801B5560
+0.99 - ST0  - func_801B56F4 - (decompiled)
+0.99 - WRP  - func_8018C004 - (decompiled)
+0.99 - WRP  - func_8018C198 - (decompiled)
+0.99 - RWRP - func_8018E118
 
 ref. - CEN  - func_80192ED0 - found 16 matches total:
 0.99 - CEN  - func_80193184
@@ -402,7 +402,7 @@ ref. - CEN  - func_801948EC - found 8 matches total:
 ref. - CEN  - func_80194B7C - found 8 matches total:
 0.99 - DRE  - func_8019ACC0 - (decompiled)
 0.99 - MAD  - func_801928A8 - (decompiled)
-0.99 - NO3  - func_801C557C
+0.99 - NO3  - func_801C557C - (decompiled)
 0.99 - NP3  - func_801BCDEC - (decompiled)
 0.99 - NZ0  - func_801BD204 - (decompiled)
 0.99 - ST0  - func_801B5474
@@ -412,7 +412,7 @@ ref. - CEN  - func_80194B7C - found 8 matches total:
 ref. - CEN  - func_80194CB0 - found 8 matches total:
 0.99 - DRE  - func_8019ADF4 - (decompiled)
 0.99 - MAD  - func_801929DC - (decompiled)
-0.99 - NO3  - func_801C56B0
+0.99 - NO3  - func_801C56B0 - (decompiled)
 0.99 - NP3  - func_801BCF20
 0.99 - NZ0  - func_801BD338 - (decompiled)
 0.99 - ST0  - func_801B55A8
@@ -692,7 +692,7 @@ ref. - CEN  - func_8019C4B8 - found 8 matches total:
 ref. - DRE  - func_801A2580 - found 8 matches total:
 1.00 - CEN  - func_8019C43C - (decompiled)
 1.00 - MAD  - func_80199508
-1.00 - NO3  - func_801D6DE8
+1.00 - NO3  - func_8019C43C - (decompiled)
 1.00 - NP3  - func_801D24A0
 1.00 - NZ0  - func_801C9E98
 1.00 - ST0  - func_801BD628
@@ -708,16 +708,6 @@ ref. - NO3  - func_801C5708 - found 8 matches total:
 1.00 - WRP  - func_8018C0A4 - (decompiled)
 1.00 - RWRP - func_8018E024
 0.99 - MAD  - func_80192A34 - (decompiled)
-
-ref. - NO3  - func_801D6DB8 - found 8 matches total:
-1.00 - CEN  - func_8019C40C - (decompiled)
-1.00 - DRE  - func_801A2550 - (decompiled)
-1.00 - MAD  - func_801994D8 - (decompiled)
-1.00 - NP3  - func_801D2470
-1.00 - NZ0  - func_801C9E68 - (decompiled)
-1.00 - ST0  - func_801BD5F8
-1.00 - WRP  - func_801937A8 - (decompiled)
-1.00 - RWRP - func_80195728
 
 ref. - NP3  - func_801B90BC - found 8 matches total:
 1.00 - CEN  - Random - (decompiled)
@@ -778,6 +768,16 @@ ref. - NP3  - func_801BDE7C - found 8 matches total:
 0.99 - NZ0  - CollectLifeVessel - (decompiled)
 0.99 - WRP  - CollectLifeVessel - (decompiled)
 0.99 - RWRP - func_8018EF28
+
+ref. - NP3  - func_801D2470 - found 8 matches total:
+1.00 - CEN  - func_8019C40C - (decompiled)
+1.00 - DRE  - func_801A2550 - (decompiled)
+1.00 - MAD  - func_801994D8 - (decompiled)
+1.00 - NO3  - func_801D6DB8 - (decompiled)
+1.00 - NZ0  - func_801C9E68 - (decompiled)
+1.00 - ST0  - func_801BD5F8
+1.00 - WRP  - func_801937A8 - (decompiled)
+1.00 - RWRP - func_80195728
 
 ref. - RWRP - func_8018D668 - found 8 matches total:
 1.00 - CEN  - func_8019434C - (decompiled)
@@ -941,7 +941,7 @@ ref. - CEN  - func_80191178 - found 7 matches total:
 ref. - CEN  - func_80194E44 - found 7 matches total:
 0.99 - DRE  - func_8019AF88 - (decompiled)
 0.99 - MAD  - func_80192B70 - (decompiled)
-0.99 - NO3  - func_801C5844
+0.99 - NO3  - func_801C5844 - (decompiled)
 0.99 - NP3  - func_801BD0B4
 0.99 - NZ0  - func_801BD4CC - (decompiled)
 0.99 - WRP  - func_8018C1E0 - (decompiled)
@@ -1027,7 +1027,7 @@ ref. - CEN  - func_80194EE0 - found 6 matches total:
 
 ref. - CEN  - func_801958F4 - found 6 matches total:
 0.99 - DRE  - func_8019BA38 - (decompiled)
-0.99 - NO3  - func_801C62F4
+0.99 - NO3  - func_801C62F4 - (decompiled)
 0.99 - NP3  - func_801BDB64
 0.99 - NZ0  - CollectHeart - (decompiled)
 0.99 - WRP  - CollectHeart - (decompiled)
@@ -1436,9 +1436,6 @@ ref. - NO3  - func_801C13F8 - found 1 matches total:
 
 ref. - NO3  - func_801CC5A4 - found 1 matches total:
 0.99 - NO3  - func_801CF438
-
-ref. - NO3  - func_801CC90C - found 1 matches total:
-0.99 - NO3  - func_801CF6D8
 
 ref. - NO3  - func_801D0A2C - found 1 matches total:
 0.99 - NP3  - func_801C4144
