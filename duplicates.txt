@@ -300,14 +300,14 @@ ref. - CEN  - InitializeEntity - found 8 matches total:
 0.99 - MAD  - InitializeEntity - (decompiled)
 
 ref. - CEN  - func_80190E7C - found 8 matches total:
-0.99 - DRE  - UpdateStageEntities
-0.99 - MAD  - UpdateStageEntities
-0.99 - NO3  - UpdateStageEntities
-0.99 - NP3  - UpdateStageEntities
+0.99 - DRE  - Update
+0.99 - MAD  - Update
+0.99 - NO3  - Update
+0.99 - NP3  - Update
 0.99 - NZ0  - func_801B9504
-0.99 - ST0  - UpdateStageEntities
-0.99 - WRP  - UpdateStageEntities
-0.99 - RWRP - UpdateStageEntities
+0.99 - ST0  - Update
+0.99 - WRP  - Update
+0.99 - RWRP - Update
 
 ref. - CEN  - func_80192398 - found 8 matches total:
 0.99 - DRE  - EntityNumericDamage
@@ -331,12 +331,12 @@ ref. - CEN  - func_80192A3C - found 8 matches total:
 
 ref. - CEN  - func_80193298 - found 8 matches total:
 0.99 - DRE  - func_801993DC
-0.99 - MAD  - LoadObjLayout
-0.99 - NO3  - LoadObjLayout
-0.99 - NP3  - LoadObjLayout
+0.99 - MAD  - InitRoomEntities
+0.99 - NO3  - InitRoomEntities
+0.99 - NP3  - InitRoomEntities
 0.99 - NZ0  - func_801BB920
 0.99 - ST0  - func_801B393C
-0.99 - WRP  - LoadObjLayout
+0.99 - WRP  - InitRoomEntities
 0.99 - RWRP - func_8018C5B4
 
 ref. - CEN  - func_80193410 - found 8 matches total:
@@ -1014,7 +1014,7 @@ ref. - CEN  - func_80191280 - found 6 matches total:
 0.99 - NO3  - func_801C1C80
 0.99 - NP3  - func_801B94F0
 0.99 - NZ0  - func_801B9908
-0.99 - WRP  - func_8018861C
+0.99 - WRP  - TestCollisions
 0.99 - RWRP - func_8018A59C
 
 ref. - CEN  - func_80194EE0 - found 6 matches total:
