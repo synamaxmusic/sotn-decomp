@@ -1,5 +1,5 @@
-Number of s-files: 1531
-Number of checked s-files: 1531
+Number of s-files: 1530
+Number of checked s-files: 1530
 Number of decompiled duplicates found: 490
 Number of undecompiled duplicates found: 820
 Number of overall exact duplicates found: 185
