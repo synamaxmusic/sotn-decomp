@@ -1,7 +1,7 @@
-Number of s-files: 1533
-Number of checked s-files: 1533
+Number of s-files: 1531
+Number of checked s-files: 1531
 Number of decompiled duplicates found: 490
-Number of undecompiled duplicates found: 822
+Number of undecompiled duplicates found: 820
 Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1286,9 +1286,6 @@ ref. - DRA  - func_800EA2B0 - found 1 matches total:
 
 ref. - DRA  - func_800EA48C - found 1 matches total:
 0.99 - SEL  - func_801B9698
-
-ref. - DRA  - func_80103ED4 - found 1 matches total:
-0.99 - SEL  - func_801B60D4
 
 ref. - DRA  - func_80113F7C - found 1 matches total:
 0.99 - RIC  - func_80159C04
