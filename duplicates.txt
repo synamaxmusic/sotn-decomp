@@ -1,7 +1,7 @@
-Number of s-files: 1524
-Number of checked s-files: 1524
-Number of decompiled duplicates found: 495
-Number of undecompiled duplicates found: 815
+Number of s-files: 1521
+Number of checked s-files: 1521
+Number of decompiled duplicates found: 497
+Number of undecompiled duplicates found: 813
 Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -582,7 +582,7 @@ ref. - CEN  - func_801990F8 - found 8 matches total:
 ref. - CEN  - func_801991C0 - found 8 matches total:
 0.99 - DRE  - func_8019F304 - (decompiled)
 0.99 - MAD  - func_80196934 - (decompiled)
-0.99 - NO3  - func_801C9BC0
+0.99 - NO3  - func_801C9BC0 - (decompiled)
 0.99 - NP3  - func_801C1430
 0.99 - NZ0  - func_801C1848 - (decompiled)
 0.99 - ST0  - func_801B8C48
@@ -1425,9 +1425,6 @@ ref. - NO3  - func_801BC3FC - found 1 matches total:
 ref. - NO3  - func_801BEA20 - found 1 matches total:
 0.99 - ST0  - func_801A8E60
 
-ref. - NO3  - func_801C13F8 - found 1 matches total:
-0.99 - NP3  - func_801B653C
-
 ref. - NO3  - func_801CC5A4 - found 1 matches total:
 0.99 - NO3  - func_801CF438
 
@@ -1484,6 +1481,9 @@ ref. - NO3  - func_801D6710 - found 1 matches total:
 
 ref. - NP3  - func_801B5DE8 - found 1 matches total:
 0.99 - NO3  - func_801BBDC0 - (decompiled)
+
+ref. - NP3  - func_801B653C - found 1 matches total:
+0.99 - NO3  - func_801C13F8 - (decompiled)
 
 ref. - NP3  - func_801C7D80 - found 1 matches total:
 0.99 - NO3  - func_801D4668 - (decompiled)
