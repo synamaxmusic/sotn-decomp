@@ -1,7 +1,7 @@
-Number of s-files: 1530
-Number of checked s-files: 1530
-Number of decompiled duplicates found: 490
-Number of undecompiled duplicates found: 820
+Number of s-files: 1525
+Number of checked s-files: 1525
+Number of decompiled duplicates found: 495
+Number of undecompiled duplicates found: 815
 Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1019,7 +1019,7 @@ ref. - CEN  - func_80191280 - found 6 matches total:
 
 ref. - CEN  - func_80194EE0 - found 6 matches total:
 0.99 - DRE  - func_8019B024 - (decompiled)
-0.99 - NO3  - func_801C58E0
+0.99 - NO3  - func_801C58E0 - (decompiled)
 0.99 - NP3  - func_801BD150
 0.99 - NZ0  - func_801BD568 - (decompiled)
 0.99 - WRP  - func_8018C27C - (decompiled)
@@ -1043,7 +1043,7 @@ ref. - CEN  - func_80195A50 - found 6 matches total:
 
 ref. - CEN  - func_80195B68 - found 6 matches total:
 0.99 - DRE  - CollectHeartVessel - (decompiled)
-0.99 - NO3  - func_801C6568
+0.99 - NO3  - CollectHeartVessel - (decompiled)
 0.99 - NP3  - func_801BDDD8
 0.99 - NZ0  - CollectHeartVessel - (decompiled)
 0.99 - WRP  - CollectHeartVessel - (decompiled)
@@ -1059,7 +1059,7 @@ ref. - CEN  - func_80195C84 - found 6 matches total:
 
 ref. - CEN  - func_801965F4 - found 6 matches total:
 0.99 - DRE  - func_8019C738 - (decompiled)
-0.99 - NO3  - func_801C6FF4
+0.99 - NO3  - func_801C6FF4 - (decompiled)
 0.99 - NP3  - func_801BE864
 0.99 - NZ0  - func_801BEC7C - (decompiled)
 0.99 - WRP  - func_8018D990 - (decompiled)
@@ -1413,9 +1413,6 @@ ref. - NO3  - func_801BAD6C - found 1 matches total:
 ref. - NO3  - func_801BB3BC - found 1 matches total:
 0.99 - NP3  - func_801B5C5C
 
-ref. - NO3  - func_801BBDC0 - found 1 matches total:
-0.99 - NP3  - func_801B5DE8
-
 ref. - NO3  - func_801BBE70 - found 1 matches total:
 0.99 - NP3  - func_801B5E98
 
@@ -1470,9 +1467,6 @@ ref. - NO3  - func_801D4168 - found 1 matches total:
 ref. - NO3  - func_801D423C - found 1 matches total:
 0.99 - NP3  - func_801C7954
 
-ref. - NO3  - func_801D4668 - found 1 matches total:
-0.99 - NP3  - func_801C7D80
-
 ref. - NO3  - func_801D4700 - found 1 matches total:
 0.99 - NP3  - func_801C7E18
 
@@ -1487,6 +1481,12 @@ ref. - NO3  - func_801D58D4 - found 1 matches total:
 
 ref. - NO3  - func_801D6710 - found 1 matches total:
 0.99 - NP3  - func_801C9E28
+
+ref. - NP3  - func_801B5DE8 - found 1 matches total:
+0.99 - NO3  - func_801BBDC0 - (decompiled)
+
+ref. - NP3  - func_801C7D80 - found 1 matches total:
+0.99 - NO3  - func_801D4668 - (decompiled)
 
 ref. - NP3  - func_801C8F54 - found 1 matches total:
 0.99 - NO3  - func_801D583C - (decompiled)
