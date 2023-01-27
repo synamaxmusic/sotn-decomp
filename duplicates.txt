@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 510
-Number of undecompiled duplicates found: 800
+Number of decompiled duplicates found: 511
+Number of undecompiled duplicates found: 799
 Number of overall exact duplicates found: 185
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -500,7 +500,7 @@ ref. - CEN  - func_801983B4 - found 8 matches total:
 ref. - CEN  - func_8019849C - found 8 matches total:
 0.99 - DRE  - func_8019E5E0 - (decompiled)
 0.99 - MAD  - func_80195A54 - (decompiled)
-0.99 - NO3  - func_801C8E9C - (decompiled)
+0.99 - NO3  - EntityUnkId14 - (decompiled)
 0.99 - NP3  - func_801C070C
 0.99 - NZ0  - func_801C0B24 - (decompiled)
 0.99 - ST0  - func_801B7F24
@@ -510,7 +510,7 @@ ref. - CEN  - func_8019849C - found 8 matches total:
 ref. - CEN  - func_8019858C - found 8 matches total:
 0.99 - DRE  - func_8019E6D0 - (decompiled)
 0.99 - MAD  - func_80195B44 - (decompiled)
-0.99 - NO3  - func_801C8F8C - (decompiled)
+0.99 - NO3  - EntityUnkId15 - (decompiled)
 0.99 - NP3  - func_801C07FC
 0.99 - NZ0  - func_801C0C14 - (decompiled)
 0.99 - ST0  - func_801B8014
@@ -891,7 +891,7 @@ ref. - RWRP - func_80191490 - found 8 matches total:
 0.99 - CEN  - func_80198174 - (decompiled)
 0.99 - DRE  - func_8019E2B8 - (decompiled)
 0.99 - MAD  - func_8019572C - (decompiled)
-0.99 - NO3  - func_801C8B74 - (decompiled)
+0.99 - NO3  - EntityUnkId13 - (decompiled)
 0.99 - NP3  - func_801C03E4 - (decompiled)
 0.99 - NZ0  - func_801C07FC - (decompiled)
 0.99 - ST0  - func_801B7BFC - (decompiled)
@@ -1002,7 +1002,7 @@ ref. - CEN  - func_8019C6A0 - found 7 matches total:
 ref. - CEN  - func_8018D6E0 - found 6 matches total:
 0.99 - DRE  - func_80191B44
 0.99 - MAD  - func_8018E674
-0.99 - NO3  - func_801B78A8
+0.99 - NO3  - EntityUnkId12
 0.99 - NP3  - func_801B2540
 0.99 - WRP  - func_801870B0
 0.99 - RWRP - func_80188ED0
@@ -1105,8 +1105,8 @@ ref. - CEN  - func_8019A5F0 - found 6 matches total:
 
 ref. - DRE  - func_8019697C - found 6 matches total:
 0.99 - DRE  - func_80196CC8
-0.99 - NO3  - func_801C14B8
-0.99 - NO3  - func_801CE98C
+0.99 - NO3  - EntityWargExplosionPuffOpaque
+0.99 - NO3  - EntityStrongWargGroundWaveAttack
 0.99 - NP3  - func_801B65FC
 0.99 - NZ0  - func_801C6C6C
 0.99 - ST0  - EntitySecretButton
@@ -1118,7 +1118,7 @@ ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - StopCallback - (decompiled)
 0.99 - MAIN - RestartCallback - (decompiled)
 
-ref. - NO3  - func_801CED60 - found 5 matches total:
+ref. - NO3  - EntityUnkId2F - found 5 matches total:
 0.99 - RIC  - func_80162C84
 0.99 - RIC  - func_80169704
 0.99 - RIC  - func_8016E324
@@ -1195,7 +1195,7 @@ ref. - CEN  - func_8018E6C4 - found 3 matches total:
 0.99 - NO3  - func_801BEDAC
 0.99 - ST0  - func_801A910C
 
-ref. - NO3  - func_801BAEF0 - found 3 matches total:
+ref. - NO3  - EntityUnkId5C - found 3 matches total:
 0.99 - RIC  - func_8016DF74
 0.99 - RIC  - func_8016F6F0
 0.99 - NP3  - func_801B5790
@@ -1242,7 +1242,7 @@ ref. - NO3  - EntityBoneScimitar - found 2 matches total:
 0.99 - NP3  - EntityBoneScimitar
 0.99 - NZ0  - EntityBoneScimitar
 
-ref. - NO3  - func_801D615C - found 2 matches total:
+ref. - NO3  - EntityFallingRotatingDebris - found 2 matches total:
 0.99 - NP3  - func_801C9874
 0.99 - NZ0  - func_801C3E94
 
@@ -1351,8 +1351,41 @@ ref. - MAIN - ScaleMatrix - found 1 matches total:
 ref. - MAIN - SetBackColor - found 1 matches total:
 0.99 - MAIN - SetFarColor
 
+ref. - NO3  - EntityAlucardSplash - found 1 matches total:
+0.99 - NP3  - func_801C56D8
+
+ref. - NO3  - EntityAlucardWaterEffect - found 1 matches total:
+0.99 - NP3  - func_801C424C
+
+ref. - NO3  - EntityBackgroundBushes - found 1 matches total:
+0.99 - NP3  - func_801B32A8
+
 ref. - NO3  - EntityBat - found 1 matches total:
 0.99 - NP3  - EntityBat
+
+ref. - NO3  - EntityCavernDoorLever - found 1 matches total:
+0.99 - NP3  - func_801B3E84
+
+ref. - NO3  - EntityClickSwitch - found 1 matches total:
+0.99 - NP3  - func_801B4558
+
+ref. - NO3  - EntityExplosion2 - found 1 matches total:
+0.99 - NP3  - func_801C7650
+
+ref. - NO3  - EntityFallingRock - found 1 matches total:
+0.99 - NP3  - func_801B5C5C
+
+ref. - NO3  - EntityFallingRock2 - found 1 matches total:
+0.99 - NP3  - func_801B560C
+
+ref. - NO3  - EntityLargeFallingObject - found 1 matches total:
+0.99 - NP3  - func_801C8010
+
+ref. - NO3  - EntityLargeUpwardsSplash - found 1 matches total:
+0.99 - NP3  - func_801C4DCC
+
+ref. - NO3  - EntityLargeWaterSplash - found 1 matches total:
+0.99 - NP3  - func_801C7954
 
 ref. - NO3  - EntityMerman - found 1 matches total:
 0.99 - NP3  - EntityMerman
@@ -1360,62 +1393,71 @@ ref. - NO3  - EntityMerman - found 1 matches total:
 ref. - NO3  - EntityMerman2 - found 1 matches total:
 0.99 - NP3  - EntityMerman2
 
-ref. - NO3  - EntityZombie - found 1 matches total:
-0.99 - NP3  - EntityZombie
+ref. - NO3  - EntityMerman3 - found 1 matches total:
+0.99 - NP3  - func_801C6564
 
-ref. - NO3  - func_801B7B98 - found 1 matches total:
-0.99 - NP3  - func_801B2830
+ref. - NO3  - EntityMermanExplosion - found 1 matches total:
+0.99 - NP3  - func_801C8FEC
 
-ref. - NO3  - func_801B8254 - found 1 matches total:
+ref. - NO3  - EntityMermanFireball - found 1 matches total:
+0.99 - NP3  - func_801C8DF0
+
+ref. - NO3  - EntityMermanRockLeftSide - found 1 matches total:
+0.99 - NP3  - func_801B4D60
+
+ref. - NO3  - EntityMermanRockRightSide - found 1 matches total:
+0.99 - NP3  - func_801B5108
+
+ref. - NO3  - EntityShuttingWindow - found 1 matches total:
 0.99 - NP3  - func_801B2C20
 
-ref. - NO3  - func_801B8A74 - found 1 matches total:
-0.99 - NP3  - func_801B32A8
+ref. - NO3  - EntitySidewaysWaterDroplets - found 1 matches total:
+0.99 - NP3  - func_801C5BC4
 
-ref. - NO3  - func_801B8ED0 - found 1 matches total:
+ref. - NO3  - EntitySmallUpwardsSplash - found 1 matches total:
+0.99 - NP3  - func_801C5F58
+
+ref. - NO3  - EntitySmallWaterSplash - found 1 matches total:
+0.99 - NP3  - func_801C61B4
+
+ref. - NO3  - EntitySwitch - found 1 matches total:
+0.99 - NP3  - func_801B5F60
+
+ref. - NO3  - EntityTransparentWater - found 1 matches total:
+0.99 - NP3  - func_801B39CC
+
+ref. - NO3  - EntityTrapDoor - found 1 matches total:
+0.99 - NP3  - func_801B4BE8
+
+ref. - NO3  - EntityUnkId16 - found 1 matches total:
+0.99 - NP3  - func_801B2830
+
+ref. - NO3  - EntityUnkId1C - found 1 matches total:
 0.99 - NP3  - func_801B3704
 
-ref. - NO3  - func_801B9198 - found 1 matches total:
-0.99 - NP3  - func_801B39CC
+ref. - NO3  - EntityUnkId26 - found 1 matches total:
+0.99 - NP3  - func_801B5488
+
+ref. - NO3  - EntityUnkId3D - found 1 matches total:
+0.99 - NP3  - func_801C7E18
+
+ref. - NO3  - EntityUnkId49 - found 1 matches total:
+0.99 - NP3  - func_801B644C
+
+ref. - NO3  - EntityUnkId4D - found 1 matches total:
+0.99 - NP3  - func_801C9E28
+
+ref. - NO3  - EntityZoeTallWeight - found 1 matches total:
+0.99 - NP3  - func_801B4940
+
+ref. - NO3  - EntityZombie - found 1 matches total:
+0.99 - NP3  - EntityZombie
 
 ref. - NO3  - func_801B94F0 - found 1 matches total:
 0.99 - NP3  - func_801B3D24
 
-ref. - NO3  - func_801B9650 - found 1 matches total:
-0.99 - NP3  - func_801B3E84
-
 ref. - NO3  - func_801B9C44 - found 1 matches total:
 0.99 - NP3  - func_801B44B4
-
-ref. - NO3  - func_801B9CE8 - found 1 matches total:
-0.99 - NP3  - func_801B4558
-
-ref. - NO3  - func_801BA0A0 - found 1 matches total:
-0.99 - NP3  - func_801B4940
-
-ref. - NO3  - func_801BA348 - found 1 matches total:
-0.99 - NP3  - func_801B4BE8
-
-ref. - NO3  - func_801BA4C0 - found 1 matches total:
-0.99 - NP3  - func_801B4D60
-
-ref. - NO3  - func_801BA868 - found 1 matches total:
-0.99 - NP3  - func_801B5108
-
-ref. - NO3  - func_801BABE8 - found 1 matches total:
-0.99 - NP3  - func_801B5488
-
-ref. - NO3  - func_801BAD6C - found 1 matches total:
-0.99 - NP3  - func_801B560C
-
-ref. - NO3  - func_801BB3BC - found 1 matches total:
-0.99 - NP3  - func_801B5C5C
-
-ref. - NO3  - func_801BBF38 - found 1 matches total:
-0.99 - NP3  - func_801B5F60
-
-ref. - NO3  - func_801BC3FC - found 1 matches total:
-0.99 - NP3  - func_801B644C
 
 ref. - NO3  - func_801BEA20 - found 1 matches total:
 0.99 - ST0  - func_801A8E60
@@ -1426,68 +1468,26 @@ ref. - NO3  - func_801CC5A4 - found 1 matches total:
 ref. - NO3  - func_801D0A2C - found 1 matches total:
 0.99 - NP3  - func_801C4144
 
-ref. - NO3  - func_801D0B34 - found 1 matches total:
-0.99 - NP3  - func_801C424C
-
-ref. - NO3  - func_801D16B4 - found 1 matches total:
-0.99 - NP3  - func_801C4DCC
-
-ref. - NO3  - func_801D1FC0 - found 1 matches total:
-0.99 - NP3  - func_801C56D8
-
-ref. - NO3  - func_801D24AC - found 1 matches total:
-0.99 - NP3  - func_801C5BC4
-
-ref. - NO3  - func_801D2840 - found 1 matches total:
-0.99 - NP3  - func_801C5F58
-
-ref. - NO3  - func_801D2A9C - found 1 matches total:
-0.99 - NP3  - func_801C61B4
-
 ref. - NO3  - func_801D2D40 - found 1 matches total:
 0.99 - NP3  - func_801C6458
 
-ref. - NO3  - func_801D2E4C - found 1 matches total:
-0.99 - NP3  - func_801C6564
-
-ref. - NO3  - func_801D3F38 - found 1 matches total:
-0.99 - NP3  - func_801C7650
-
-ref. - NO3  - func_801D4168 - found 1 matches total:
-0.99 - NP3  - func_801C7880
-
-ref. - NO3  - func_801D423C - found 1 matches total:
-0.99 - NP3  - func_801C7954
-
-ref. - NO3  - func_801D4700 - found 1 matches total:
-0.99 - NP3  - func_801C7E18
-
-ref. - NO3  - func_801D48F8 - found 1 matches total:
-0.99 - NP3  - func_801C8010
-
-ref. - NO3  - func_801D56D8 - found 1 matches total:
-0.99 - NP3  - func_801C8DF0
-
-ref. - NO3  - func_801D58D4 - found 1 matches total:
-0.99 - NP3  - func_801C8FEC
-
-ref. - NO3  - func_801D6710 - found 1 matches total:
-0.99 - NP3  - func_801C9E28
-
 ref. - NP3  - func_801B5DE8 - found 1 matches total:
-0.99 - NO3  - func_801BBDC0 - (decompiled)
+0.99 - NO3  - EntityUnkId29 - (decompiled)
 
 ref. - NP3  - func_801B5E98 - found 1 matches total:
-0.99 - NO3  - func_801BBE70 - (decompiled)
+0.99 - NO3  - EntityUnkId2A - (decompiled)
 
 ref. - NP3  - func_801B653C - found 1 matches total:
 0.99 - NO3  - func_801C13F8 - (decompiled)
 
+ref. - NP3  - func_801C7880 - found 1 matches total:
+0.99 - NO3  - EntityMediumWaterSplash - (decompiled)
+
 ref. - NP3  - func_801C7D80 - found 1 matches total:
-0.99 - NO3  - func_801D4668 - (decompiled)
+0.99 - NO3  - EntityFallingObject2 - (decompiled)
 
 ref. - NP3  - func_801C8F54 - found 1 matches total:
-0.99 - NO3  - func_801D583C - (decompiled)
+0.99 - NO3  - EntityFallingObject - (decompiled)
 
 ref. - NP3  - func_801C9F98 - found 1 matches total:
 0.99 - NZ0  - func_801C4EAC
