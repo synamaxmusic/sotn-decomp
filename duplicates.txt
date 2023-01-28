@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 352
-Number of undecompiled duplicates found: 672
+Number of undecompiled duplicates found: 671
 Number of overall exact duplicates found: 139
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -898,10 +898,6 @@ ref. - CEN  - func_80196F30 - found 2 matches total:
 0.99 - ST0  - func_801B6D34
 0.99 - RWRP - func_8019024C
 
-ref. - DRA  - func_800E7458 - found 2 matches total:
-0.99 - DRA  - func_800E7AEC
-0.99 - DRA  - func_800F2860
-
 ref. - DRA  - func_80132F60 - found 2 matches total:
 0.99 - DRA  - func_80133290
 0.99 - DRA  - func_80133BDC
@@ -1069,6 +1065,9 @@ ref. - CEN  - func_8019BAB8 - found 1 matches total:
 
 ref. - DRA  - func_800E2398 - found 1 matches total:
 0.99 - RIC  - func_8015E380
+
+ref. - DRA  - func_800E7AEC - found 1 matches total:
+0.99 - DRA  - func_800F2860
 
 ref. - DRA  - func_800E8EE4 - found 1 matches total:
 1.00 - SEL  - func_801B80F0 - (decompiled)
