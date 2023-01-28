@@ -1,4 +1,4 @@
-Number of decompiled duplicates found: 359
+Number of decompiled duplicates found: 352
 Number of undecompiled duplicates found: 672
 Number of overall exact duplicates found: 139
 
@@ -163,16 +163,6 @@ ref. - CEN  - func_80192ED0 - found 12 matches total:
 0.99 - WRP  - func_8018A26C
 0.99 - RWRP - func_8018C1EC
 0.99 - RWRP - func_8018C4A0
-
-ref. - CEN  - func_80193538 - found 8 matches total:
-0.99 - DRE  - func_8019967C - (decompiled)
-0.99 - MAD  - func_8019102C - (decompiled)
-0.99 - NO3  - func_801C3F38 - (decompiled)
-0.99 - NP3  - func_801BB7A8 - (decompiled)
-0.99 - NZ0  - func_801BBBC0 - (decompiled)
-0.99 - ST0  - func_801B3BDC - (decompiled)
-0.99 - WRP  - func_8018A8D4 - (decompiled)
-0.99 - RWRP - func_8018C854
 
 ref. - CEN  - func_8019444C - found 8 matches total:
 0.99 - DRE  - func_8019A590
@@ -668,6 +658,13 @@ ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - StopCallback - (decompiled)
 0.99 - MAIN - RestartCallback - (decompiled)
 
+ref. - NP3  - func_801BB680 - found 5 matches total:
+0.99 - DRE  - func_80199554 - (decompiled)
+0.99 - NO3  - func_801C3E10 - (decompiled)
+0.99 - NZ0  - func_801BBA98
+0.99 - ST0  - func_801B3AB4
+0.99 - WRP  - func_8018A7AC - (decompiled)
+
 ref. - NZ0  - func_801B797C - found 5 matches total:
 0.99 - CEN  - func_8018E3BC - (decompiled)
 0.99 - DRE  - func_80194C24 - (decompiled)
@@ -747,12 +744,6 @@ ref. - MAIN - SetIR123 - found 4 matches total:
 0.99 - MAIN - SetSXSYfifo
 0.99 - MAIN - SetRii
 0.99 - MAIN - SetMAC123
-
-ref. - NP3  - func_801BB680 - found 4 matches total:
-0.99 - DRE  - func_80199554 - (decompiled)
-0.99 - NO3  - func_801C3E10 - (decompiled)
-0.99 - NZ0  - func_801BBA98
-0.99 - WRP  - func_8018A7AC - (decompiled)
 
 ref. - NP3  - func_801BE864 - found 4 matches total:
 0.99 - DRE  - func_8019C738 - (decompiled)
@@ -875,12 +866,8 @@ ref. - CEN  - func_80192398 - found 2 matches total:
 0.99 - ST0  - EntityNumericDamage
 0.99 - RWRP - func_8018B6B4
 
-ref. - CEN  - func_80193410 - found 2 matches total:
-0.99 - ST0  - func_801B3AB4
-0.99 - RWRP - func_8018C72C
-
 ref. - CEN  - func_801934C4 - found 2 matches total:
-0.99 - ST0  - func_801B3B68
+0.99 - ST0  - CreateEntityFromCurrentEntity
 0.99 - RWRP - func_8018C7E0
 
 ref. - CEN  - func_801935B4 - found 2 matches total:
@@ -1034,6 +1021,12 @@ ref. - CEN  - func_80191280 - found 1 matches total:
 
 ref. - CEN  - func_80192A3C - found 1 matches total:
 0.99 - RWRP - func_8018BD58
+
+ref. - CEN  - func_80193410 - found 1 matches total:
+0.99 - RWRP - func_8018C72C
+
+ref. - CEN  - func_80193538 - found 1 matches total:
+0.99 - RWRP - func_8018C854
 
 ref. - CEN  - func_80194EE0 - found 1 matches total:
 0.99 - DRE  - func_8019B024 - (decompiled)
