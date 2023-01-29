@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 352
-Number of undecompiled duplicates found: 671
+Number of decompiled duplicates found: 353
+Number of undecompiled duplicates found: 670
 Number of overall exact duplicates found: 139
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1108,9 +1108,6 @@ ref. - DRA  - func_8011EDA8 - found 1 matches total:
 ref. - DRA  - func_8011F074 - found 1 matches total:
 0.99 - RIC  - func_801601DC
 
-ref. - DRA  - func_80124164 - found 1 matches total:
-0.99 - RIC  - func_80165DD8
-
 ref. - DRA  - func_80125E68 - found 1 matches total:
 0.99 - RIC  - func_80167A70
 
@@ -1215,6 +1212,9 @@ ref. - RIC  - func_8015D1D0 - found 1 matches total:
 
 ref. - RIC  - func_80162E9C - found 1 matches total:
 1.00 - DRA  - func_8011BD48 - (decompiled)
+
+ref. - RIC  - func_80165DD8 - found 1 matches total:
+0.99 - DRA  - func_80124164 - (decompiled)
 
 ref. - RWRP - func_8018E290 - found 1 matches total:
 1.00 - ST0  - InitializeEntity
