@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 352
-Number of undecompiled duplicates found: 669
+Number of undecompiled duplicates found: 665
 Number of overall exact duplicates found: 139
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1009,9 +1009,6 @@ ref. - ST0  - func_801B0280 - found 2 matches total:
 ref. - CEN  - func_8018D6E0 - found 1 matches total:
 0.99 - RWRP - func_80188ED0
 
-ref. - CEN  - func_8018F890 - found 1 matches total:
-0.99 - DRE  - func_801961DC - (decompiled)
-
 ref. - CEN  - func_80191280 - found 1 matches total:
 0.99 - RWRP - func_8018A59C
 
@@ -1086,12 +1083,6 @@ ref. - DRA  - func_800EA2B0 - found 1 matches total:
 
 ref. - DRA  - func_800EA48C - found 1 matches total:
 0.99 - SEL  - func_801B9698
-
-ref. - DRA  - func_80113F7C - found 1 matches total:
-0.99 - RIC  - func_80159C04
-
-ref. - DRA  - func_80115DA0 - found 1 matches total:
-0.99 - RIC  - func_8015BCD0
 
 ref. - DRA  - func_80118810 - found 1 matches total:
 0.99 - RIC  - func_8015F96C
@@ -1203,6 +1194,9 @@ ref. - NP3  - func_801CE69C - found 1 matches total:
 
 ref. - NZ0  - func_801B9800 - found 1 matches total:
 0.99 - WRP  - func_80188514
+
+ref. - RIC  - func_80159C04 - found 1 matches total:
+0.99 - DRA  - func_80113F7C - (decompiled)
 
 ref. - RIC  - func_8015BB80 - found 1 matches total:
 1.00 - DRA  - func_80115C50 - (decompiled)
