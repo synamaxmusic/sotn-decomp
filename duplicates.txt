@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 505
-Number of undecompiled duplicates found: 819
+Number of undecompiled duplicates found: 818
 Number of overall exact duplicates found: 190
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1095,14 +1095,6 @@ ref. - CEN  - func_8019A5F0 - found 6 matches total:
 0.99 - WRP  - EntityStageNamePopup
 0.99 - RWRP - func_8019390C
 
-ref. - NO3  - EntityUnkId2F - found 6 matches total:
-0.99 - RIC  - func_80162C84
-0.99 - RIC  - func_80169704
-0.99 - RIC  - func_8016E324
-0.99 - RIC  - func_801705EC
-0.99 - NZ0  - func_801B4518
-0.99 - ST0  - EntityStageTitleFadeout
-
 ref. - CEN  - func_8018DF0C - found 5 matches total:
 0.99 - DRE  - func_80194774 - (decompiled)
 0.99 - NO3  - func_801BE544 - (decompiled)
@@ -1130,6 +1122,13 @@ ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - VSyncCallbacks - (decompiled)
 0.99 - MAIN - StopCallback - (decompiled)
 0.99 - MAIN - RestartCallback - (decompiled)
+
+ref. - NO3  - EntityUnkId2F - found 5 matches total:
+0.99 - RIC  - func_80162C84
+0.99 - RIC  - func_80169704
+0.99 - RIC  - func_801705EC
+0.99 - NZ0  - func_801B4518
+0.99 - ST0  - EntityStageTitleFadeout
 
 ref. - NZ0  - func_801B797C - found 5 matches total:
 0.99 - CEN  - func_8018E3BC - (decompiled)
