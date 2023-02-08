@@ -192,7 +192,7 @@ ref. - RWRP - func_8018D580 - found 11 matches total:
 1.00 - SEL  - func_801B4B30 - (decompiled)
 1.00 - ST0  - DestroyEntity - (decompiled)
 1.00 - WRP  - DestroyEntity - (decompiled)
-1.00 - TT_000 - func_80173E0C - (decompiled)
+1.00 - TT_000 - DestroyEntity - (decompiled)
 0.99 - MAD  - DestroyEntity - (decompiled)
 
 ref. - RWRP - func_8018EF78 - found 10 matches total:
