@@ -1,6 +1,6 @@
-Number of decompiled duplicates found: 503
-Number of undecompiled duplicates found: 814
-Number of overall exact duplicates found: 188
+Number of decompiled duplicates found: 504
+Number of undecompiled duplicates found: 815
+Number of overall exact duplicates found: 189
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -182,7 +182,7 @@ ref. - CEN  - func_8019362C - found 12 matches total:
 0.99 - WRP  - EntityRedDoor
 0.99 - RWRP - func_8018C948
 
-ref. - RWRP - func_8018D580 - found 10 matches total:
+ref. - RWRP - func_8018D580 - found 11 matches total:
 1.00 - RIC  - func_80156C60 - (decompiled)
 1.00 - CEN  - DestroyEntity - (decompiled)
 1.00 - DRE  - DestroyEntity - (decompiled)
@@ -192,6 +192,7 @@ ref. - RWRP - func_8018D580 - found 10 matches total:
 1.00 - SEL  - func_801B4B30 - (decompiled)
 1.00 - ST0  - DestroyEntity - (decompiled)
 1.00 - WRP  - DestroyEntity - (decompiled)
+1.00 - TT_000 - func_80173E0C - (decompiled)
 0.99 - MAD  - DestroyEntity - (decompiled)
 
 ref. - RWRP - func_8018EF78 - found 10 matches total:
@@ -1095,6 +1096,14 @@ ref. - CEN  - func_8019A5F0 - found 6 matches total:
 0.99 - WRP  - EntityStageNamePopup
 0.99 - RWRP - func_8019390C
 
+ref. - NO3  - EntityUnkId2F - found 6 matches total:
+0.99 - RIC  - func_80162C84
+0.99 - RIC  - func_80169704
+0.99 - RIC  - func_801705EC
+0.99 - NZ0  - func_801B4518
+0.99 - ST0  - EntityStageTitleFadeout
+0.99 - TT_000 - func_80174038
+
 ref. - CEN  - func_8018DF0C - found 5 matches total:
 0.99 - DRE  - func_80194774 - (decompiled)
 0.99 - NO3  - func_801BE544 - (decompiled)
@@ -1122,13 +1131,6 @@ ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - VSyncCallbacks - (decompiled)
 0.99 - MAIN - StopCallback - (decompiled)
 0.99 - MAIN - RestartCallback - (decompiled)
-
-ref. - NO3  - EntityUnkId2F - found 5 matches total:
-0.99 - RIC  - func_80162C84
-0.99 - RIC  - func_80169704
-0.99 - RIC  - func_801705EC
-0.99 - NZ0  - func_801B4518
-0.99 - ST0  - EntityStageTitleFadeout
 
 ref. - NZ0  - func_801B797C - found 5 matches total:
 0.99 - CEN  - func_8018E3BC - (decompiled)
