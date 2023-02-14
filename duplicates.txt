@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 503
-Number of undecompiled duplicates found: 814
+Number of decompiled duplicates found: 506
+Number of undecompiled duplicates found: 805
 Number of overall exact duplicates found: 189
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1361,15 +1361,6 @@ ref. - NO3  - EntityAlucardWaterEffect - found 1 matches total:
 ref. - NO3  - EntityBackgroundBushes - found 1 matches total:
 0.99 - NP3  - func_801B32A8
 
-ref. - NO3  - EntityBat - found 1 matches total:
-0.99 - NP3  - EntityBat
-
-ref. - NO3  - EntityCavernDoorLever - found 1 matches total:
-0.99 - NP3  - func_801B3E84
-
-ref. - NO3  - EntityClickSwitch - found 1 matches total:
-0.99 - NP3  - func_801B4558
-
 ref. - NO3  - EntityExplosion2 - found 1 matches total:
 0.99 - NP3  - func_801C7650
 
@@ -1421,14 +1412,8 @@ ref. - NO3  - EntitySmallUpwardsSplash - found 1 matches total:
 ref. - NO3  - EntitySmallWaterSplash - found 1 matches total:
 0.99 - NP3  - func_801C61B4
 
-ref. - NO3  - EntitySwitch - found 1 matches total:
-0.99 - NP3  - func_801B5F60
-
 ref. - NO3  - EntityTransparentWater - found 1 matches total:
 0.99 - NP3  - func_801B39CC
-
-ref. - NO3  - EntityTrapDoor - found 1 matches total:
-0.99 - NP3  - func_801B4BE8
 
 ref. - NO3  - EntityUnkId16 - found 1 matches total:
 0.99 - NP3  - func_801B2830
@@ -1441,9 +1426,6 @@ ref. - NO3  - EntityUnkId26 - found 1 matches total:
 
 ref. - NO3  - EntityUnkId3D - found 1 matches total:
 0.99 - NP3  - func_801C7E18
-
-ref. - NO3  - EntityUnkId49 - found 1 matches total:
-0.99 - NP3  - func_801B644C
 
 ref. - NO3  - EntityUnkId4D - found 1 matches total:
 0.99 - NP3  - func_801C9E28
@@ -1469,11 +1451,20 @@ ref. - NO3  - func_801D0A2C - found 1 matches total:
 ref. - NO3  - func_801D2D40 - found 1 matches total:
 0.99 - NP3  - func_801C6458
 
+ref. - NP3  - func_801B4BE8 - found 1 matches total:
+0.99 - NO3  - EntityTrapDoor - (decompiled)
+
 ref. - NP3  - func_801B5DE8 - found 1 matches total:
 0.99 - NO3  - EntityUnkId29 - (decompiled)
 
 ref. - NP3  - func_801B5E98 - found 1 matches total:
 0.99 - NO3  - EntityUnkId2A - (decompiled)
+
+ref. - NP3  - func_801B5F60 - found 1 matches total:
+0.99 - NO3  - EntitySwitch - (decompiled)
+
+ref. - NP3  - func_801B644C - found 1 matches total:
+0.99 - NO3  - EntityUnkId49 - (decompiled)
 
 ref. - NP3  - func_801B75EC - found 1 matches total:
 0.99 - NZ0  - func_801B54A8
