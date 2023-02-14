@@ -1428,7 +1428,7 @@ ref. - NO3  - EntityUnkId3D - found 1 matches total:
 0.99 - NP3  - func_801C7E18
 
 ref. - NO3  - EntityUnkId4D - found 1 matches total:
-0.99 - NP3  - func_801C9E28
+0.99 - NP3  - EntityUnkId4D
 
 ref. - NO3  - EntityZoeTallWeight - found 1 matches total:
 0.99 - NP3  - func_801B4940
@@ -1451,20 +1451,20 @@ ref. - NO3  - func_801D0A2C - found 1 matches total:
 ref. - NO3  - func_801D2D40 - found 1 matches total:
 0.99 - NP3  - func_801C6458
 
-ref. - NP3  - func_801B4BE8 - found 1 matches total:
+ref. - NP3  - EntitySwitch - found 1 matches total:
+0.99 - NO3  - EntitySwitch - (decompiled)
+
+ref. - NP3  - EntityTrapDoor - found 1 matches total:
 0.99 - NO3  - EntityTrapDoor - (decompiled)
+
+ref. - NP3  - EntityUnkId49 - found 1 matches total:
+0.99 - NO3  - EntityUnkId49 - (decompiled)
 
 ref. - NP3  - func_801B5DE8 - found 1 matches total:
 0.99 - NO3  - EntityUnkId29 - (decompiled)
 
 ref. - NP3  - func_801B5E98 - found 1 matches total:
 0.99 - NO3  - EntityUnkId2A - (decompiled)
-
-ref. - NP3  - func_801B5F60 - found 1 matches total:
-0.99 - NO3  - EntitySwitch - (decompiled)
-
-ref. - NP3  - func_801B644C - found 1 matches total:
-0.99 - NO3  - EntityUnkId49 - (decompiled)
 
 ref. - NP3  - func_801B75EC - found 1 matches total:
 0.99 - NZ0  - func_801B54A8
