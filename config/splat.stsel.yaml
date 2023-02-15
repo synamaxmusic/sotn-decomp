@@ -6,7 +6,7 @@ options:
   asm_path:     asm/st/sel
   asset_path:   assets/st/sel
   src_path:     src/st/sel
-  compiler:     GCC
+  compiler:     SN64
   symbol_addrs_path:    config/generated.symbols.stsel.txt
   undefined_funcs_auto_path: config/undefined_funcs_auto.stsel.txt
   undefined_syms_auto_path:  config/undefined_syms_auto.stsel.txt

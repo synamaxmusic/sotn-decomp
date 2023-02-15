@@ -6,7 +6,7 @@ options:
   asm_path:     asm/dra
   asset_path:   assets/dra
   src_path:     src/dra
-  compiler:     GCC
+  compiler:     SN64
   symbol_addrs_path:    config/generated.symbols.dra.txt
   undefined_funcs_auto_path: config/undefined_funcs_auto.dra.txt
   undefined_syms_auto_path:  config/undefined_syms_auto.dra.txt
@@ -17,7 +17,7 @@ options:
     - ".data"
     - ".rodata"
     - ".text"
-    - ".bss"
+    - ".sdata"
 segments:
   - name: dra
     type: code
@@ -79,7 +79,7 @@ segments:
       - [0x75DA0, c, 75DA0]
       - [0x75F54, c, 75F54]
       - [0x953A0, c, 953A0]
-      - [0x962AC, sbss]
+      - [0x962AC, sdata]
   - name: dra_data
     type: data
     start: 0x9B6A0

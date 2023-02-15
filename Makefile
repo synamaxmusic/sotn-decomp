@@ -5,19 +5,8 @@
 MAIN            := main
 DRA             := dra
 
-# Compilers
-CROSS           := mipsel-linux-gnu-
-AS              := $(CROSS)as
-CC              := ./bin/cc1-26
-LD              := $(CROSS)ld
-CPP				:= $(CROSS)cpp
-OBJCOPY         := $(CROSS)objcopy
-AS_FLAGS        += -Iinclude -march=r3000 -mtune=r3000 -no-pad-sections -O1 -G0
-CC_FLAGS        += -mcpu=3000 -quiet -G0 -w -O2 -funsigned-char -fpeephole -ffunction-cse -fpcc-struct-return -fcommon -fverbose-asm -fgnu-linker -mgas -msoft-float
-CPP_FLAGS       += -Iinclude -undef -Wall -lang-c -fno-builtin -gstabs
-CPP_FLAGS       += -Dmips -D__GNUC__=2 -D__OPTIMIZE__ -D__mips__ -D__mips -Dpsx -D__psx__ -D__psx -D_PSYQ -D__EXTENSIONS__ -D_MIPSEL -D_LANGUAGE_C -DLANGUAGE_C
-
 # Directories
+BIN_DIR         := ./bin
 ASM_DIR         := asm
 SRC_DIR         := src
 ASSETS_DIR      := assets
@@ -26,6 +15,20 @@ BUILD_DIR       := build
 DISK_DIR        := $(BUILD_DIR)/disk
 CONFIG_DIR      := config
 TOOLS_DIR       := tools
+
+# Compilers
+CROSS           := mipsel-linux-gnu-
+AS              := $(CROSS)as
+ASS             := $(BIN_DIR)/wibo $(BIN_DIR)/ASPSX.EXE
+CC              := $(BIN_DIR)/cc1-26
+LD              := $(CROSS)ld
+CPP				:= $(CROSS)cpp
+OBJCOPY         := $(CROSS)objcopy
+PSYQ2ELF 		:= $(BIN_DIR)/psyq-obj-parser
+ASS_FLAGS        += -Iinclude -G0
+CC_FLAGS        += -mcpu=3000 -quiet -G0 -w -O2 -funsigned-char -fpeephole -ffunction-cse -fpcc-struct-return -fcommon -fverbose-asm -fgnu-linker -mgas -msoft-float
+CPP_FLAGS       += -Iinclude -undef -Wall -lang-c -fno-builtin -gstabs
+CPP_FLAGS       += -Dmips -D__GNUC__=2 -D__OPTIMIZE__ -D__mips__ -D__mips -Dpsx -D__psx__ -D__psx -D_PSYQ -D__EXTENSIONS__ -D_MIPSEL -D_LANGUAGE_C -DLANGUAGE_C
 
 # Files
 MAIN_ASM_DIRS   := $(ASM_DIR)/$(MAIN) $(ASM_DIR)/$(MAIN)/psxsdk $(ASM_DIR)/$(MAIN)/data
@@ -301,11 +304,13 @@ $(SOTNDISK): $(GO)
 	$(GO) install github.com/xeeynamo/sotn-decomp/tools/sotn-disk@latest
 
 $(BUILD_DIR)/%.s.o: %.s
-	$(AS) $(AS_FLAGS) -o $@ $<
+	unix2dos -n $< $@.crlf
+	$(ASS) $(ASS_FLAGS) -o $@.psyq $@.crlf
+	$(PSYQ2ELF) $@.psyq -o $@
 $(BUILD_DIR)/%.bin.o: %.bin
 	$(LD) -r -b binary -Map %.map -o $@ $<
-$(BUILD_DIR)/%.c.o: %.c $(ASPATCH)
-	$(CPP) $(CPP_FLAGS) $< | $(CC) $(CC_FLAGS) | $(ASPATCH) | $(AS) $(AS_FLAGS) -o $@
+$(BUILD_DIR)/%.s: %.c $(ASPATCH)
+	$(CPP) $(CPP_FLAGS) $< | $(CC) $(CC_FLAGS) | $(ASPATCH) > $@
 
 SHELL = /bin/bash -e -o pipefail
 

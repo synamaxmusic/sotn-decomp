@@ -6,7 +6,7 @@ options:
   asm_path:     asm/main
   asset_path:   assets/main
   src_path:     src/main
-  compiler:     GCC
+  compiler:     SN64
   symbol_addrs_path:    config/symbols.txt
   undefined_funcs_auto_path: config/undefined_funcs_auto.main.txt
   undefined_syms_auto_path:  config/undefined_syms_auto.main.txt

@@ -6,7 +6,7 @@ options:
   asm_path:     asm/ric
   asset_path:   assets/ric
   src_path:     src/ric
-  compiler:     GCC
+  compiler:     SN64
   symbol_addrs_path:    config/generated.symbols.ric.txt
   undefined_funcs_auto_path: config/undefined_funcs_auto.ric.txt
   undefined_syms_auto_path:  config/undefined_syms_auto.ric.txt

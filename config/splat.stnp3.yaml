@@ -6,7 +6,7 @@ options:
   asm_path:     asm/st/np3
   asset_path:   assets/st/np3
   src_path:     src/st/np3
-  compiler:     GCC
+  compiler:     SN64
   symbol_addrs_path:    config/generated.symbols.stnp3.txt
   undefined_funcs_auto_path: config/undefined_funcs_auto.stnp3.txt
   undefined_syms_auto_path:  config/undefined_syms_auto.stnp3.txt

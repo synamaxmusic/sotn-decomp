@@ -6,7 +6,7 @@ options:
   asm_path:     asm/st/wrp
   asset_path:   assets/st/wrp
   src_path:     src/st/wrp
-  compiler:     GCC
+  compiler:     SN64
   symbol_addrs_path:    config/generated.symbols.stwrp.txt
   undefined_funcs_auto_path: config/undefined_funcs_auto.stwrp.txt
   undefined_syms_auto_path:  config/undefined_syms_auto.stwrp.txt
