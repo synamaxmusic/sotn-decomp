@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 506
-Number of undecompiled duplicates found: 803
+Number of decompiled duplicates found: 510
+Number of undecompiled duplicates found: 799
 Number of overall exact duplicates found: 189
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -267,7 +267,7 @@ ref. - CEN  - EntityExplosion - found 8 matches total:
 0.99 - NO3  - EntityExplosion - (decompiled)
 0.99 - NP3  - EntityExplosion
 0.99 - NZ0  - EntityExplosion - (decompiled)
-0.99 - ST0  - EntityExplosion
+0.99 - ST0  - EntityExplosion - (decompiled)
 0.99 - WRP  - EntityExplosion - (decompiled)
 0.99 - RWRP - func_8018F814
 
@@ -1244,10 +1244,6 @@ ref. - NO3  - EntityBoneScimitar - found 2 matches total:
 0.99 - NP3  - EntityBoneScimitar
 0.99 - NZ0  - EntityBoneScimitar
 
-ref. - NO3  - EntityFallingDebris - found 2 matches total:
-0.99 - NP3  - func_801C9874
-0.99 - NZ0  - EntityFallingDebris
-
 ref. - NO3  - func_801BEA20 - found 2 matches total:
 0.99 - NZ0  - func_801B79A8
 0.99 - ST0  - func_801A8E60
@@ -1259,6 +1255,10 @@ ref. - NP3  - func_801B653C - found 2 matches total:
 ref. - NP3  - func_801C90E8 - found 2 matches total:
 0.99 - NO3  - func_801D59D0 - (decompiled)
 0.99 - NZ0  - func_801C3708 - (decompiled)
+
+ref. - NP3  - func_801C9874 - found 2 matches total:
+0.99 - NO3  - EntityFallingDebris - (decompiled)
+0.99 - NZ0  - EntityFallingDebris - (decompiled)
 
 ref. - SEL  - func_801B1DA8 - found 2 matches total:
 1.00 - DRA  - func_800EAD7C - (decompiled)
@@ -1320,7 +1320,7 @@ ref. - DRA  - func_801315F8 - found 1 matches total:
 0.99 - RIC  - func_8017328C
 
 ref. - DRE  - func_80194F14 - found 1 matches total:
-0.99 - NO3  - func_801BECCC
+0.99 - NO3  - func_801BECCC - (decompiled)
 
 ref. - MAD  - EntityRelicOrb - found 1 matches total:
 0.99 - ST0  - func_801B7308
