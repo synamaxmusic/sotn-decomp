@@ -1,6 +1,6 @@
-Number of decompiled duplicates found: 506
-Number of undecompiled duplicates found: 805
-Number of overall exact duplicates found: 189
+Number of decompiled duplicates found: 527
+Number of undecompiled duplicates found: 830
+Number of overall exact duplicates found: 193
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -1096,6 +1096,14 @@ ref. - CEN  - func_8019A5F0 - found 6 matches total:
 0.99 - WRP  - EntityStageNamePopup
 0.99 - RWRP - func_8019390C
 
+ref. - DRA  - func_800E92F4 - found 6 matches total:
+0.99 - DRA  - func_800FAC30
+0.99 - DRA  - func_80102DEC - (decompiled)
+0.99 - SEL  - func_801B367C - (decompiled)
+0.99 - SEL  - func_801B3E14 - (decompiled)
+0.99 - SEL  - func_801B3F7C - (decompiled)
+0.99 - SEL  - func_801B8500 - (decompiled)
+
 ref. - NO3  - EntityUnkId2F - found 6 matches total:
 0.99 - RIC  - func_80162C84
 0.99 - RIC  - func_80169704
@@ -1124,6 +1132,13 @@ ref. - CEN  - func_8018E238 - found 5 matches total:
 0.99 - NZ0  - func_801B77F8
 0.99 - SEL  - func_801B675C
 0.99 - ST0  - func_801A8CB0
+
+ref. - DRA  - func_800FAC98 - found 5 matches total:
+0.99 - MAIN - func_80021EEC - (decompiled)
+0.99 - DRA  - func_801072DC - (decompiled)
+0.99 - RIC  - func_8015CC50 - (decompiled)
+0.99 - RIC  - func_8015D9B4 - (decompiled)
+0.99 - SEL  - func_801B1D88 - (decompiled)
 
 ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - ResetCallback - (decompiled)
@@ -1187,6 +1202,11 @@ ref. - CEN  - func_8018D600 - found 3 matches total:
 0.99 - WRP  - func_80186FD0 - (decompiled)
 0.99 - RWRP - func_80188DF0
 
+ref. - DRA  - func_800E91B0 - found 3 matches total:
+1.00 - SEL  - _clear_event - (decompiled)
+0.99 - DRA  - func_800E928C
+0.99 - SEL  - _clear_event_x - (decompiled)
+
 ref. - MAIN - SetVideoMode - found 3 matches total:
 0.99 - MAIN - CdSyncCallback - (decompiled)
 0.99 - MAIN - CdReadyCallback - (decompiled)
@@ -1211,6 +1231,14 @@ ref. - ST0  - func_801B0324 - found 3 matches total:
 0.99 - DRA  - func_800E376C - (decompiled)
 0.99 - SEL  - func_801B1A98 - (decompiled)
 0.99 - SEL  - func_801B1B88 - (decompiled)
+
+ref. - DRA  - func_800E92E4 - found 2 matches total:
+0.99 - DRA  - func_80131ED8 - (decompiled)
+0.99 - SEL  - func_801B84F0 - (decompiled)
+
+ref. - DRA  - func_800EAD7C - found 2 matches total:
+1.00 - SEL  - func_801B1DA8
+1.00 - ST0  - func_801B0058
 
 ref. - DRA  - func_80132F60 - found 2 matches total:
 0.99 - DRA  - func_80133290
@@ -1260,31 +1288,60 @@ ref. - NP3  - func_801C90E8 - found 2 matches total:
 0.99 - NO3  - func_801D59D0 - (decompiled)
 0.99 - NZ0  - func_801C3708 - (decompiled)
 
-ref. - SEL  - func_801B1DA8 - found 2 matches total:
-1.00 - DRA  - func_800EAD7C - (decompiled)
-1.00 - ST0  - func_801B0058
-
 ref. - ST0  - func_801B0280 - found 2 matches total:
 0.99 - DRA  - func_800E3574 - (decompiled)
 0.99 - SEL  - func_801B19F4 - (decompiled)
 
+ref. - DRA  - GetSaveIcon - found 1 matches total:
+0.99 - SEL  - func_801B8DE8 - (decompiled)
+
+ref. - DRA  - GetSavePalette - found 1 matches total:
+0.99 - SEL  - func_801B8DB0 - (decompiled)
+
 ref. - DRA  - func_800E2398 - found 1 matches total:
 0.99 - RIC  - func_8015E380
-
-ref. - DRA  - func_800E7AEC - found 1 matches total:
-0.99 - DRA  - func_800F2860
 
 ref. - DRA  - func_800E8EE4 - found 1 matches total:
 1.00 - SEL  - func_801B80F0 - (decompiled)
 
+ref. - DRA  - func_800E908C - found 1 matches total:
+0.99 - SEL  - _peek_event_with_retry - (decompiled)
+
+ref. - DRA  - func_800E912C - found 1 matches total:
+1.00 - SEL  - _peek_event - (decompiled)
+
+ref. - DRA  - func_800E9208 - found 1 matches total:
+1.00 - SEL  - _card_event_x - (decompiled)
+
 ref. - DRA  - func_800E930C - found 1 matches total:
 0.99 - SEL  - func_801B8518
+
+ref. - DRA  - func_800E9508 - found 1 matches total:
+0.99 - SEL  - func_801B8714 - (decompiled)
 
 ref. - DRA  - func_800E9530 - found 1 matches total:
 0.99 - SEL  - func_801B873C
 
+ref. - DRA  - func_800E9610 - found 1 matches total:
+0.99 - SEL  - func_801B881C
+
+ref. - DRA  - func_800E9640 - found 1 matches total:
+0.99 - SEL  - func_801B884C - (decompiled)
+
+ref. - DRA  - func_800E96E8 - found 1 matches total:
+0.99 - SEL  - func_801B88F4
+
+ref. - DRA  - func_800E97BC - found 1 matches total:
+0.99 - SEL  - func_801B89C8 - (decompiled)
+
+ref. - DRA  - func_800E9804 - found 1 matches total:
+0.99 - SEL  - func_801B8A10 - (decompiled)
+
 ref. - DRA  - func_800E9880 - found 1 matches total:
 0.99 - SEL  - func_801B8A8C
+
+ref. - DRA  - func_800E9B18 - found 1 matches total:
+0.99 - SEL  - func_801B8D24
 
 ref. - DRA  - func_800E9C14 - found 1 matches total:
 0.99 - SEL  - StoreSaveData
@@ -1294,6 +1351,21 @@ ref. - DRA  - func_800EA2B0 - found 1 matches total:
 
 ref. - DRA  - func_800EA48C - found 1 matches total:
 0.99 - SEL  - func_801B9698
+
+ref. - DRA  - func_800EDA70 - found 1 matches total:
+1.00 - SEL  - func_801B2CF8 - (decompiled)
+
+ref. - DRA  - func_800EDA94 - found 1 matches total:
+0.99 - SEL  - func_801B2D1C - (decompiled)
+
+ref. - DRA  - func_800F9D40 - found 1 matches total:
+0.99 - DRA  - func_800F9D88
+
+ref. - DRA  - func_800FAB8C - found 1 matches total:
+0.99 - DRA  - func_800FABBC
+
+ref. - DRA  - func_800FD744 - found 1 matches total:
+0.99 - DRA  - func_800FD760
 
 ref. - DRA  - func_8010A4A4 - found 1 matches total:
 0.99 - RIC  - func_80156CCC
@@ -1519,15 +1591,6 @@ ref. - SEL  - func_801B3F94 - found 1 matches total:
 
 ref. - SEL  - func_801B69F8 - found 1 matches total:
 0.99 - ST0  - func_801AF774
-
-ref. - SEL  - func_801B881C - found 1 matches total:
-0.99 - DRA  - func_800E9610 - (decompiled)
-
-ref. - SEL  - func_801B88F4 - found 1 matches total:
-0.99 - DRA  - func_800E96E8 - (decompiled)
-
-ref. - SEL  - func_801B8D24 - found 1 matches total:
-0.99 - DRA  - func_800E9B18 - (decompiled)
 
 ref. - ST0  - func_801B1198 - found 1 matches total:
 1.00 - SEL  - func_801B786C - (decompiled)
