@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 500
-Number of undecompiled duplicates found: 784
+Number of decompiled duplicates found: 505
+Number of undecompiled duplicates found: 779
 Number of overall exact duplicates found: 182
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -176,8 +176,8 @@ ref. - CEN  - func_8019362C - found 12 matches total:
 0.99 - NO3  - EntityRedDoor
 0.99 - NP3  - EntityRedDoor
 0.99 - NZ0  - EntityRedDoor
-0.99 - NZ0  - func_801C7D68
-0.99 - NZ0  - func_801CA160
+0.99 - NZ0  - EntityMagicallySealedDoor
+0.99 - NZ0  - EntityLifeUpSpawn
 0.99 - ST0  - EntityRedDoor
 0.99 - WRP  - EntityRedDoor
 0.99 - RWRP - func_8018C948
@@ -331,16 +331,6 @@ ref. - CEN  - func_80193410 - found 8 matches total:
 0.99 - WRP  - func_8018A7AC - (decompiled)
 0.99 - RWRP - func_8018C72C
 
-ref. - CEN  - func_801934C4 - found 8 matches total:
-0.99 - DRE  - CreateEntityFromCurrentEntity - (decompiled)
-0.99 - MAD  - CreateEntityFromCurrentEntity - (decompiled)
-0.99 - NO3  - CreateEntityFromCurrentEntity - (decompiled)
-0.99 - NP3  - CreateEntityFromCurrentEntity - (decompiled)
-0.99 - NZ0  - CreateEntityFromCurrentEntity - (decompiled)
-0.99 - ST0  - CreateEntityFromCurrentEntity
-0.99 - WRP  - CreateEntityFromCurrentEntity - (decompiled)
-0.99 - RWRP - func_8018C7E0
-
 ref. - CEN  - func_80193538 - found 8 matches total:
 0.99 - DRE  - CreateEntityFromEntity - (decompiled)
 0.99 - MAD  - CreateEntityFromEntity - (decompiled)
@@ -380,26 +370,6 @@ ref. - CEN  - func_801948EC - found 8 matches total:
 0.99 - ST0  - func_801B51E4
 0.99 - WRP  - func_8018BC88
 0.99 - RWRP - func_8018DC08
-
-ref. - CEN  - func_80194B7C - found 8 matches total:
-0.99 - DRE  - func_8019ACC0 - (decompiled)
-0.99 - MAD  - func_801928A8 - (decompiled)
-0.99 - NO3  - func_801C557C - (decompiled)
-0.99 - NP3  - func_801BCDEC - (decompiled)
-0.99 - NZ0  - func_801BD204 - (decompiled)
-0.99 - ST0  - func_801B5474
-0.99 - WRP  - func_8018BF18 - (decompiled)
-0.99 - RWRP - func_8018DE98
-
-ref. - CEN  - func_80194CB0 - found 8 matches total:
-0.99 - DRE  - func_8019ADF4 - (decompiled)
-0.99 - MAD  - func_801929DC - (decompiled)
-0.99 - NO3  - func_801C56B0 - (decompiled)
-0.99 - NP3  - func_801BCF20
-0.99 - NZ0  - func_801BD338 - (decompiled)
-0.99 - ST0  - func_801B55A8
-0.99 - WRP  - func_8018C04C - (decompiled)
-0.99 - RWRP - func_8018DFCC
 
 ref. - CEN  - func_80195098 - found 8 matches total:
 0.99 - DRE  - func_8019B1DC
@@ -701,6 +671,16 @@ ref. - NP3  - func_801B90BC - found 8 matches total:
 1.00 - RWRP - func_8018A168
 0.99 - MAD  - Random - (decompiled)
 
+ref. - NP3  - func_801BCF20 - found 8 matches total:
+0.99 - CEN  - func_80194CB0 - (decompiled)
+0.99 - DRE  - func_8019ADF4 - (decompiled)
+0.99 - MAD  - func_801929DC - (decompiled)
+0.99 - NO3  - func_801C56B0 - (decompiled)
+0.99 - NZ0  - func_801BD338 - (decompiled)
+0.99 - ST0  - func_801B55A8
+0.99 - WRP  - func_8018C04C - (decompiled)
+0.99 - RWRP - func_8018DFCC
+
 ref. - NP3  - func_801BDE7C - found 8 matches total:
 0.99 - CEN  - func_80195C0C - (decompiled)
 0.99 - DRE  - CollectLifeVessel - (decompiled)
@@ -720,6 +700,16 @@ ref. - NP3  - func_801D2470 - found 8 matches total:
 1.00 - ST0  - func_801BD5F8
 1.00 - WRP  - func_801937A8 - (decompiled)
 1.00 - RWRP - func_80195728
+
+ref. - RWRP - func_8018C7E0 - found 8 matches total:
+0.99 - CEN  - CreateEntityFromCurrentEntity - (decompiled)
+0.99 - DRE  - CreateEntityFromCurrentEntity - (decompiled)
+0.99 - MAD  - CreateEntityFromCurrentEntity - (decompiled)
+0.99 - NO3  - CreateEntityFromCurrentEntity - (decompiled)
+0.99 - NP3  - CreateEntityFromCurrentEntity - (decompiled)
+0.99 - NZ0  - CreateEntityFromCurrentEntity - (decompiled)
+0.99 - ST0  - CreateEntityFromCurrentEntity
+0.99 - WRP  - CreateEntityFromCurrentEntity - (decompiled)
 
 ref. - RWRP - func_8018D668 - found 8 matches total:
 1.00 - CEN  - func_8019434C - (decompiled)
@@ -780,6 +770,16 @@ ref. - RWRP - func_8018DE7C - found 8 matches total:
 0.99 - NP3  - func_801BCDD0 - (decompiled)
 0.99 - NZ0  - func_801BD1E8 - (decompiled)
 0.99 - ST0  - func_801B5458
+
+ref. - RWRP - func_8018DE98 - found 8 matches total:
+0.99 - CEN  - func_80194B7C - (decompiled)
+0.99 - DRE  - func_8019ACC0 - (decompiled)
+0.99 - MAD  - func_801928A8 - (decompiled)
+0.99 - NO3  - func_801C557C - (decompiled)
+0.99 - NP3  - func_801BCDEC - (decompiled)
+0.99 - NZ0  - func_801BD204 - (decompiled)
+0.99 - ST0  - func_801B5474
+0.99 - WRP  - func_8018BF18 - (decompiled)
 
 ref. - RWRP - func_8018DF04 - found 8 matches total:
 1.00 - CEN  - func_80194BE8 - (decompiled)
@@ -910,15 +910,6 @@ ref. - CEN  - func_80191178 - found 7 matches total:
 0.99 - WRP  - func_80188514
 0.99 - RWRP - func_8018A494
 
-ref. - CEN  - func_80194E44 - found 7 matches total:
-0.99 - DRE  - func_8019AF88 - (decompiled)
-0.99 - MAD  - func_80192B70 - (decompiled)
-0.99 - NO3  - func_801C5844 - (decompiled)
-0.99 - NP3  - func_801BD0B4
-0.99 - NZ0  - func_801BD4CC - (decompiled)
-0.99 - WRP  - func_8018C1E0 - (decompiled)
-0.99 - RWRP - func_8018E160
-
 ref. - CEN  - func_80195318 - found 7 matches total:
 0.99 - DRE  - func_8019B45C
 0.99 - MAD  - func_80193050
@@ -964,23 +955,32 @@ ref. - CEN  - func_8019BBA4 - found 7 matches total:
 0.99 - WRP  - func_80192F40
 0.99 - RWRP - func_80194EC0
 
-ref. - CEN  - func_8019C6A0 - found 7 matches total:
-0.99 - DRE  - func_801A27E4 - (decompiled)
-0.99 - NO3  - func_801D704C - (decompiled)
-0.99 - NP3  - func_801D2704 - (decompiled)
-0.99 - NZ0  - func_801CA0FC - (decompiled)
-0.99 - ST0  - func_801BD88C - (decompiled)
-0.99 - WRP  - func_80193A3C - (decompiled)
-0.99 - RWRP - func_801959BC
-
 ref. - DRE  - func_8019697C - found 7 matches total:
 0.99 - DRE  - func_80196CC8
 0.99 - NO3  - EntityWargExplosionPuffOpaque
 0.99 - NO3  - EntityStrongWargGroundWaveAttack
 0.99 - NP3  - func_801B65FC
 0.99 - NZ0  - func_801B3C38
-0.99 - NZ0  - func_801C6C6C
+0.99 - NZ0  - EntitySpittleBoneSpit
 0.99 - ST0  - EntitySecretButton
+
+ref. - NP3  - func_801BD0B4 - found 7 matches total:
+0.99 - CEN  - func_80194E44 - (decompiled)
+0.99 - DRE  - func_8019AF88 - (decompiled)
+0.99 - MAD  - func_80192B70 - (decompiled)
+0.99 - NO3  - func_801C5844 - (decompiled)
+0.99 - NZ0  - func_801BD4CC - (decompiled)
+0.99 - WRP  - func_8018C1E0 - (decompiled)
+0.99 - RWRP - func_8018E160
+
+ref. - RWRP - func_801959BC - found 7 matches total:
+0.99 - CEN  - func_8019C6A0 - (decompiled)
+0.99 - DRE  - func_801A27E4 - (decompiled)
+0.99 - NO3  - func_801D704C - (decompiled)
+0.99 - NP3  - func_801D2704 - (decompiled)
+0.99 - NZ0  - func_801CA0FC - (decompiled)
+0.99 - ST0  - func_801BD88C - (decompiled)
+0.99 - WRP  - func_80193A3C - (decompiled)
 
 ref. - CEN  - func_8018D6E0 - found 6 matches total:
 0.99 - DRE  - func_80191B44
@@ -1090,7 +1090,7 @@ ref. - NO3  - EntityUnkId2F - found 6 matches total:
 0.99 - RIC  - func_80162C84
 0.99 - RIC  - func_80169704
 0.99 - RIC  - func_801705EC
-0.99 - NZ0  - func_801B4518
+0.99 - NZ0  - EntityBossRoomBlock
 0.99 - ST0  - EntityStageTitleFadeout
 0.99 - TT_000 - func_80174038
 
@@ -1440,28 +1440,28 @@ ref. - NP3  - func_801B75EC - found 1 matches total:
 0.99 - NZ0  - func_801B54A8
 
 ref. - NP3  - func_801B7798 - found 1 matches total:
-0.99 - NZ0  - func_801B5654
+0.99 - NZ0  - EntitySlograSpearProjectile
 
 ref. - NP3  - func_801B8CC0 - found 1 matches total:
 0.99 - NZ0  - func_801B69E8
 
 ref. - NP3  - func_801B8D84 - found 1 matches total:
-0.99 - NZ0  - func_801B6AAC
+0.99 - NZ0  - EntitySmallGaibonProjectile
 
 ref. - NP3  - func_801B8E94 - found 1 matches total:
-0.99 - NZ0  - func_801B6BBC
+0.99 - NZ0  - EntityLargeGaibonProjectile
 
 ref. - NP3  - func_801C7880 - found 1 matches total:
 0.99 - NO3  - EntityMediumWaterSplash - (decompiled)
 
 ref. - NP3  - func_801C9F98 - found 1 matches total:
-0.99 - NZ0  - func_801C4EAC
+0.99 - NZ0  - EntityBloodSplatter
 
 ref. - NP3  - func_801CA498 - found 1 matches total:
 0.99 - NZ0  - func_801C53AC
 
 ref. - NP3  - func_801CA654 - found 1 matches total:
-0.99 - NZ0  - func_801C5568
+0.99 - NZ0  - EntityBloodDrips
 
 ref. - NP3  - func_801CAE0C - found 1 matches total:
 0.99 - NZ0  - func_801C5D20
