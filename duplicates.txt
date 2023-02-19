@@ -1250,6 +1250,12 @@ ref. - ST0  - func_801B0280 - found 2 matches total:
 0.99 - DRA  - func_800E3574 - (decompiled)
 0.99 - SEL  - func_801B19F4 - (decompiled)
 
+ref. - DRA  - EntityHolyWaterBreakGlass - found 1 matches total:
+0.99 - RIC  - func_80167A70
+
+ref. - DRA  - EntityStopWatch - found 1 matches total:
+0.99 - RIC  - func_801719A4
+
 ref. - DRA  - func_800E2398 - found 1 matches total:
 0.99 - RIC  - func_8015E380
 
@@ -1289,14 +1295,8 @@ ref. - DRA  - func_8011AC3C - found 1 matches total:
 ref. - DRA  - func_8011EDA8 - found 1 matches total:
 0.99 - RIC  - func_80161C2C
 
-ref. - DRA  - func_80125E68 - found 1 matches total:
-0.99 - RIC  - func_80167A70
-
 ref. - DRA  - func_801291C4 - found 1 matches total:
 0.99 - RIC  - func_8016CC74
-
-ref. - DRA  - func_8012A89C - found 1 matches total:
-0.99 - RIC  - func_801719A4
 
 ref. - DRA  - func_801315F8 - found 1 matches total:
 0.99 - RIC  - func_8017328C
