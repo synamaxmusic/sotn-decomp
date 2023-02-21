@@ -958,7 +958,7 @@ ref. - CEN  - func_8019BBA4 - found 7 matches total:
 ref. - DRE  - func_8019697C - found 7 matches total:
 0.99 - DRE  - func_80196CC8
 0.99 - NO3  - EntityWargExplosionPuffOpaque
-0.99 - NO3  - EntityStrongWargGroundWaveAttack
+0.99 - NO3  - EntityStrongWargWaveAttack
 0.99 - NP3  - func_801B65FC
 0.99 - NZ0  - func_801B3C38
 0.99 - NZ0  - EntitySpittleBoneSpit
