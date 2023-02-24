@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 505
-Number of undecompiled duplicates found: 779
+Number of undecompiled duplicates found: 777
 Number of overall exact duplicates found: 182
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1255,9 +1255,6 @@ ref. - DRA  - EntityHolyWaterBreakGlass - found 1 matches total:
 
 ref. - DRA  - EntityStopWatch - found 1 matches total:
 0.99 - RIC  - func_801719A4
-
-ref. - DRA  - func_800E2398 - found 1 matches total:
-0.99 - RIC  - func_8015E380
 
 ref. - DRA  - func_800E8EE4 - found 1 matches total:
 1.00 - SEL  - func_801B80F0 - (decompiled)
