@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 505
-Number of undecompiled duplicates found: 777
+Number of decompiled duplicates found: 503
+Number of undecompiled duplicates found: 771
 Number of overall exact duplicates found: 182
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -987,7 +987,7 @@ ref. - CEN  - func_8018D6E0 - found 6 matches total:
 0.99 - MAD  - func_8018E674
 0.99 - NO3  - EntityUnkId12
 0.99 - NP3  - func_801B2540
-0.99 - WRP  - func_801870B0
+0.99 - WRP  - func_801870B0 - (decompiled)
 0.99 - RWRP - func_80188ED0
 
 ref. - CEN  - func_80191280 - found 6 matches total:
@@ -1187,11 +1187,6 @@ ref. - NO3  - EntityUnkId5C - found 3 matches total:
 0.99 - RIC  - func_8016F6F0
 0.99 - NP3  - func_801B5790
 
-ref. - NZ0  - func_801B0958 - found 3 matches total:
-0.99 - MAD  - func_8018E5AC - (decompiled)
-0.99 - MAD  - EntityRoomForeground - (decompiled)
-0.99 - ST0  - func_801A7D64 - (decompiled)
-
 ref. - ST0  - func_801B01C0 - found 3 matches total:
 1.00 - DRA  - func_800E346C - (decompiled)
 1.00 - SEL  - func_801B1924 - (decompiled)
@@ -1282,9 +1277,6 @@ ref. - DRA  - func_8010A4A4 - found 1 matches total:
 
 ref. - DRA  - func_80118810 - found 1 matches total:
 0.99 - RIC  - func_8015F96C
-
-ref. - DRA  - func_80118C28 - found 1 matches total:
-0.99 - RIC  - func_8015FA5C
 
 ref. - DRA  - func_8011AC3C - found 1 matches total:
 0.99 - RIC  - func_80160788
@@ -1384,9 +1376,6 @@ ref. - NO3  - EntitySmallWaterSplash - found 1 matches total:
 
 ref. - NO3  - EntityTransparentWater - found 1 matches total:
 0.99 - NP3  - func_801B39CC
-
-ref. - NO3  - EntityUnkId16 - found 1 matches total:
-0.99 - NP3  - func_801B2830
 
 ref. - NO3  - EntityUnkId1C - found 1 matches total:
 0.99 - NP3  - func_801B3704
