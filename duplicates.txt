@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 503
-Number of undecompiled duplicates found: 769
+Number of undecompiled duplicates found: 765
 Number of overall exact duplicates found: 182
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1425,14 +1425,8 @@ ref. - NP3  - func_801B5E98 - found 1 matches total:
 ref. - NP3  - func_801B75EC - found 1 matches total:
 0.99 - NZ0  - func_801B54A8
 
-ref. - NP3  - func_801B7798 - found 1 matches total:
-0.99 - NZ0  - EntitySlograSpearProjectile
-
 ref. - NP3  - func_801B8CC0 - found 1 matches total:
 0.99 - NZ0  - func_801B69E8
-
-ref. - NP3  - func_801B8D84 - found 1 matches total:
-0.99 - NZ0  - EntitySmallGaibonProjectile
 
 ref. - NP3  - func_801C7880 - found 1 matches total:
 0.99 - NO3  - EntityMediumWaterSplash - (decompiled)
