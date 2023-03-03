@@ -1,6 +1,6 @@
-Number of decompiled duplicates found: 497
-Number of undecompiled duplicates found: 760
-Number of overall exact duplicates found: 181
+Number of decompiled duplicates found: 498
+Number of undecompiled duplicates found: 752
+Number of overall exact duplicates found: 176
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -265,7 +265,7 @@ ref. - CEN  - EntityExplosion - found 8 matches total:
 0.99 - DRE  - EntityExplosion - (decompiled)
 0.99 - MAD  - EntityExplosion - (decompiled)
 0.99 - NO3  - EntityExplosion - (decompiled)
-0.99 - NP3  - EntityExplosion
+0.99 - NP3  - EntityExplosion - (decompiled)
 0.99 - NZ0  - EntityExplosion - (decompiled)
 0.99 - ST0  - EntityExplosion - (decompiled)
 0.99 - WRP  - EntityExplosion - (decompiled)
@@ -326,7 +326,7 @@ ref. - CEN  - func_80193410 - found 8 matches total:
 0.99 - MAD  - func_80190F04 - (decompiled)
 0.99 - NO3  - func_801C3E10 - (decompiled)
 0.99 - NP3  - func_801BB680
-0.99 - NZ0  - func_801BBA98
+0.99 - NZ0  - func_801BBA98 - (decompiled)
 0.99 - ST0  - func_801B3AB4
 0.99 - WRP  - func_8018A7AC - (decompiled)
 0.99 - RWRP - func_8018C72C
@@ -751,16 +751,6 @@ ref. - RWRP - func_8018DE50 - found 8 matches total:
 0.99 - NZ0  - func_801BD1BC - (decompiled)
 0.99 - ST0  - func_801B542C
 
-ref. - RWRP - func_8018DE7C - found 8 matches total:
-1.00 - WRP  - func_8018BEFC - (decompiled)
-0.99 - CEN  - func_80194B60 - (decompiled)
-0.99 - DRE  - func_8019ACA4 - (decompiled)
-0.99 - MAD  - func_8019288C - (decompiled)
-0.99 - NO3  - func_801C5560 - (decompiled)
-0.99 - NP3  - func_801BCDD0 - (decompiled)
-0.99 - NZ0  - func_801BD1E8 - (decompiled)
-0.99 - ST0  - func_801B5458
-
 ref. - RWRP - func_8018DE98 - found 8 matches total:
 0.99 - CEN  - func_80194B7C - (decompiled)
 0.99 - DRE  - func_8019ACC0 - (decompiled)
@@ -890,6 +880,16 @@ ref. - RWRP - func_80195990 - found 8 matches total:
 1.00 - NZ0  - func_801CA0D0 - (decompiled)
 1.00 - ST0  - func_801BD860 - (decompiled)
 1.00 - WRP  - func_80193A10 - (decompiled)
+
+ref. - ST0  - func_801B5458 - found 8 matches total:
+0.99 - CEN  - func_80194B60 - (decompiled)
+0.99 - DRE  - func_8019ACA4 - (decompiled)
+0.99 - MAD  - func_8019288C - (decompiled)
+0.99 - NO3  - func_801C5560 - (decompiled)
+0.99 - NP3  - func_801BCDD0 - (decompiled)
+0.99 - NZ0  - func_801BD1E8 - (decompiled)
+0.99 - WRP  - func_8018BEFC - (decompiled)
+0.99 - RWRP - func_8018DE7C - (decompiled)
 
 ref. - CEN  - func_80191178 - found 7 matches total:
 0.99 - DRE  - func_801972BC
@@ -1087,7 +1087,7 @@ ref. - NO3  - EntityUnkId2F - found 6 matches total:
 ref. - CEN  - func_8018DF0C - found 5 matches total:
 0.99 - DRE  - func_80194774 - (decompiled)
 0.99 - NO3  - func_801BE544 - (decompiled)
-0.99 - NZ0  - func_801B74CC
+0.99 - NZ0  - func_801B74CC - (decompiled)
 0.99 - SEL  - func_801B642C - (decompiled)
 0.99 - ST0  - func_801A8984
 
@@ -1112,19 +1112,19 @@ ref. - MAIN - InterruptCallback - found 5 matches total:
 0.99 - MAIN - StopCallback - (decompiled)
 0.99 - MAIN - RestartCallback - (decompiled)
 
-ref. - NZ0  - func_801B797C - found 5 matches total:
-0.99 - CEN  - func_8018E3BC - (decompiled)
-0.99 - DRE  - func_80194C24 - (decompiled)
-0.99 - NO3  - func_801BE9F4 - (decompiled)
-0.99 - SEL  - func_801B68E0 - (decompiled)
-0.99 - ST0  - func_801A8E34
-
 ref. - RWRP - func_8018908C - found 5 matches total:
 0.99 - DRE  - EntityBreakable - (decompiled)
 0.99 - MAD  - EntityBreakable - (decompiled)
 0.99 - NO3  - EntityBreakable - (decompiled)
 0.99 - NP3  - EntityBreakable - (decompiled)
 0.99 - WRP  - EntityBreakable - (decompiled)
+
+ref. - ST0  - func_801A8E34 - found 5 matches total:
+0.99 - CEN  - func_8018E3BC - (decompiled)
+0.99 - DRE  - func_80194C24 - (decompiled)
+0.99 - NO3  - func_801BE9F4 - (decompiled)
+0.99 - NZ0  - func_801B797C - (decompiled)
+0.99 - SEL  - func_801B68E0 - (decompiled)
 
 ref. - CEN  - func_8018DF60 - found 4 matches total:
 0.99 - DRE  - func_801947C8
@@ -1155,12 +1155,6 @@ ref. - MAIN - SetIR123 - found 4 matches total:
 0.99 - MAIN - SetSXSYfifo
 0.99 - MAIN - SetRii
 0.99 - MAIN - SetMAC123
-
-ref. - NZ0  - func_801B76E4 - found 4 matches total:
-1.00 - CEN  - func_8018E124 - (decompiled)
-1.00 - DRE  - func_8019498C - (decompiled)
-1.00 - SEL  - func_801B6648 - (decompiled)
-1.00 - ST0  - func_801A8B9C - (decompiled)
 
 ref. - CEN  - func_8018D600 - found 3 matches total:
 0.99 - DRE  - func_80191A64 - (decompiled)
@@ -1411,9 +1405,6 @@ ref. - NP3  - func_801B5DE8 - found 1 matches total:
 
 ref. - NP3  - func_801B5E98 - found 1 matches total:
 0.99 - NO3  - EntityUnkId2A - (decompiled)
-
-ref. - NP3  - func_801B75EC - found 1 matches total:
-0.99 - NZ0  - func_801B54A8
 
 ref. - NP3  - func_801B8CC0 - found 1 matches total:
 0.99 - NZ0  - func_801B69E8
