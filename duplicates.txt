@@ -241,7 +241,7 @@ ref. - CEN  - func_80194394 - found 9 matches total:
 0.99 - RWRP - func_8018D6B0
 
 ref. - CEN  - func_80197B28 - found 9 matches total:
-0.99 - DRE  - func_8019DC6C
+0.99 - DRE  - EntityUnkId0E
 0.99 - NO3  - EntityUnkId0E
 0.99 - NP3  - EntityUnkId0E
 0.99 - NZ0  - EntityUnkId0E
@@ -442,7 +442,7 @@ ref. - CEN  - func_801983B4 - found 8 matches total:
 0.99 - RWRP - func_801916D0
 
 ref. - CEN  - func_8019849C - found 8 matches total:
-0.99 - DRE  - func_8019E5E0 - (decompiled)
+0.99 - DRE  - EntityExplosion14 - (decompiled)
 0.99 - MAD  - func_80195A54 - (decompiled)
 0.99 - NO3  - EntityUnkId14 - (decompiled)
 0.99 - NP3  - func_801C070C
@@ -452,7 +452,7 @@ ref. - CEN  - func_8019849C - found 8 matches total:
 0.99 - RWRP - func_801917B8
 
 ref. - CEN  - func_8019858C - found 8 matches total:
-0.99 - DRE  - func_8019E6D0 - (decompiled)
+0.99 - DRE  - EntityUnkId15 - (decompiled)
 0.99 - MAD  - func_80195B44 - (decompiled)
 0.99 - NO3  - EntityUnkId15 - (decompiled)
 0.99 - NP3  - func_801C07FC
@@ -592,7 +592,7 @@ ref. - CEN  - func_8019B274 - found 8 matches total:
 0.99 - RWRP - func_80194590
 
 ref. - CEN  - func_8019B608 - found 8 matches total:
-0.99 - DRE  - func_801A174C
+0.99 - DRE  - EntityEnemyBlood
 0.99 - MAD  - EntityEnemyBlood
 0.99 - NO3  - EntityEnemyBlood
 0.99 - NP3  - EntityEnemyBlood
@@ -843,7 +843,7 @@ ref. - RWRP - func_8018E38C - found 8 matches total:
 
 ref. - RWRP - func_80191490 - found 8 matches total:
 0.99 - CEN  - func_80198174 - (decompiled)
-0.99 - DRE  - func_8019E2B8 - (decompiled)
+0.99 - DRE  - EntityUnkId13 - (decompiled)
 0.99 - MAD  - func_8019572C - (decompiled)
 0.99 - NO3  - EntityUnkId13 - (decompiled)
 0.99 - NP3  - func_801C03E4 - (decompiled)
@@ -945,8 +945,8 @@ ref. - CEN  - func_8019BBA4 - found 7 matches total:
 0.99 - WRP  - func_80192F40
 0.99 - RWRP - func_80194EC0
 
-ref. - DRE  - func_8019697C - found 7 matches total:
-0.99 - DRE  - func_80196CC8
+ref. - DRE  - EntityFadeToWhite1 - found 7 matches total:
+0.99 - DRE  - EntityFadeToWhite2
 0.99 - NO3  - EntityWargExplosionPuffOpaque
 0.99 - NO3  - EntityStrongWargWaveAttack
 0.99 - NP3  - func_801B65FC
@@ -1157,7 +1157,7 @@ ref. - MAIN - SetIR123 - found 4 matches total:
 0.99 - MAIN - SetMAC123
 
 ref. - CEN  - func_8018D600 - found 3 matches total:
-0.99 - DRE  - func_80191A64 - (decompiled)
+0.99 - DRE  - EntityUnkId11 - (decompiled)
 0.99 - WRP  - func_80186FD0 - (decompiled)
 0.99 - RWRP - func_80188DF0
 
