@@ -1,6 +1,6 @@
-Number of decompiled duplicates found: 498
-Number of undecompiled duplicates found: 752
-Number of overall exact duplicates found: 176
+Number of decompiled duplicates found: 490
+Number of undecompiled duplicates found: 751
+Number of overall exact duplicates found: 169
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -820,16 +820,6 @@ ref. - RWRP - func_8018E1C0 - found 8 matches total:
 1.00 - ST0  - func_801B5794 - (decompiled)
 1.00 - WRP  - func_8018C240 - (decompiled)
 0.99 - MAD  - func_80192BD0 - (decompiled)
-
-ref. - RWRP - func_8018E1E0 - found 8 matches total:
-1.00 - CEN  - func_80194EC4 - (decompiled)
-1.00 - DRE  - func_8019B008 - (decompiled)
-1.00 - NO3  - func_801C58C4 - (decompiled)
-1.00 - NP3  - func_801BD134 - (decompiled)
-1.00 - NZ0  - func_801BD54C - (decompiled)
-1.00 - ST0  - func_801B57B4 - (decompiled)
-1.00 - WRP  - func_8018C260 - (decompiled)
-0.99 - MAD  - func_80192BF0 - (decompiled)
 
 ref. - RWRP - func_8018E38C - found 8 matches total:
 1.00 - CEN  - func_80195070 - (decompiled)
