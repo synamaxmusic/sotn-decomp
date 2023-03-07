@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 482
-Number of undecompiled duplicates found: 750
+Number of decompiled duplicates found: 483
+Number of undecompiled duplicates found: 747
 Number of overall exact duplicates found: 162
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -953,7 +953,7 @@ ref. - RWRP - func_801959BC - found 7 matches total:
 0.99 - WRP  - func_80193A3C - (decompiled)
 
 ref. - CEN  - func_8018D6E0 - found 6 matches total:
-0.99 - DRE  - func_80191B44
+0.99 - DRE  - func_80191B44 - (decompiled)
 0.99 - MAD  - func_8018E674
 0.99 - NO3  - EntityUnkId12
 0.99 - NP3  - func_801B2540
@@ -1201,9 +1201,9 @@ ref. - NP3  - func_801B653C - found 2 matches total:
 0.99 - NO3  - func_801C13F8 - (decompiled)
 0.99 - NZ0  - func_801B3B78 - (decompiled)
 
-ref. - SEL  - func_801B1DA8 - found 2 matches total:
+ref. - ST0  - func_801B0058 - found 2 matches total:
 1.00 - DRA  - func_800EAD7C - (decompiled)
-1.00 - ST0  - func_801B0058
+1.00 - SEL  - func_801B1DA8 - (decompiled)
 
 ref. - ST0  - func_801B0280 - found 2 matches total:
 0.99 - DRA  - func_800E3574 - (decompiled)
@@ -1421,9 +1421,6 @@ ref. - SEL  - func_801B69F8 - found 1 matches total:
 
 ref. - SEL  - func_801B881C - found 1 matches total:
 0.99 - DRA  - func_800E9610 - (decompiled)
-
-ref. - SEL  - func_801B88F4 - found 1 matches total:
-0.99 - DRA  - func_800E96E8 - (decompiled)
 
 ref. - SEL  - func_801B8D24 - found 1 matches total:
 0.99 - DRA  - func_800E9B18 - (decompiled)
