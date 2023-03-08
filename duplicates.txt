@@ -168,7 +168,7 @@ ref. - CEN  - func_80192ED0 - found 16 matches total:
 0.99 - RWRP - func_8018C1EC
 0.99 - RWRP - func_8018C4A0
 
-ref. - CEN  - func_8019362C - found 12 matches total:
+ref. - CEN  - EntityRedDoor - found 12 matches total:
 0.99 - RIC  - func_8017091C
 0.99 - RIC  - func_80170F64
 0.99 - DRE  - EntityRedDoor
@@ -207,6 +207,17 @@ ref. - RWRP - func_8018EF78 - found 10 matches total:
 0.99 - ST0  - func_801B6314
 0.99 - WRP  - func_8018CFF8 - (decompiled)
 
+ref. - CEN  - EntityUnkId0E - found 9 matches total:
+0.99 - DRE  - EntityUnkId0E
+0.99 - NO3  - EntityUnkId0E
+0.99 - NP3  - EntityUnkId0E
+0.99 - NZ0  - EntityUnkId0E
+0.99 - ST0  - EntitySecretStairsChunk
+0.99 - WRP  - EntityWarpSmallRocks
+0.99 - WRP  - EntityUnkId0E
+0.99 - RWRP - func_80189E9C
+0.99 - RWRP - func_80190E44
+
 ref. - CEN  - func_801935B4 - found 9 matches total:
 1.00 - DRE  - func_801996F8 - (decompiled)
 1.00 - NO3  - func_801C3FB4 - (decompiled)
@@ -240,17 +251,6 @@ ref. - CEN  - func_80194394 - found 9 matches total:
 0.99 - WRP  - AnimateEntity - (decompiled)
 0.99 - RWRP - func_8018D6B0
 
-ref. - CEN  - func_80197B28 - found 9 matches total:
-0.99 - DRE  - EntityUnkId0E
-0.99 - NO3  - EntityUnkId0E
-0.99 - NP3  - EntityUnkId0E
-0.99 - NZ0  - EntityUnkId0E
-0.99 - ST0  - EntitySecretStairsChunk
-0.99 - WRP  - EntityWarpSmallRocks
-0.99 - WRP  - EntityUnkId0E
-0.99 - RWRP - func_80189E9C
-0.99 - RWRP - func_80190E44
-
 ref. - CEN  - AllocEntity - found 8 matches total:
 0.99 - DRE  - AllocEntity - (decompiled)
 0.99 - MAD  - AllocEntity - (decompiled)
@@ -261,6 +261,26 @@ ref. - CEN  - AllocEntity - found 8 matches total:
 0.99 - WRP  - AllocEntity - (decompiled)
 0.99 - RWRP - func_8018DDF0
 
+ref. - CEN  - EntityAbsorbOrb - found 8 matches total:
+0.99 - DRE  - EntityAbsorbOrb
+0.99 - MAD  - EntityAbsorbOrb
+0.99 - NO3  - EntityAbsorbOrb
+0.99 - NP3  - EntityAbsorbOrb
+0.99 - NZ0  - EntityAbsorbOrb
+0.99 - ST0  - EntityAbsorbOrb
+0.99 - WRP  - EntityAbsorbOrb
+0.99 - RWRP - func_80194590
+
+ref. - CEN  - EntityEnemyBlood - found 8 matches total:
+0.99 - DRE  - EntityEnemyBlood
+0.99 - MAD  - EntityEnemyBlood
+0.99 - NO3  - EntityEnemyBlood
+0.99 - NP3  - EntityEnemyBlood
+0.99 - NZ0  - EntityEnemyBlood
+0.99 - ST0  - func_801BA23C
+0.99 - WRP  - EntityEnemyBlood
+0.99 - RWRP - func_80194924
+
 ref. - CEN  - EntityExplosion - found 8 matches total:
 0.99 - DRE  - EntityExplosion - (decompiled)
 0.99 - MAD  - EntityExplosion - (decompiled)
@@ -270,6 +290,56 @@ ref. - CEN  - EntityExplosion - found 8 matches total:
 0.99 - ST0  - EntityExplosion - (decompiled)
 0.99 - WRP  - EntityExplosion - (decompiled)
 0.99 - RWRP - func_8018F814
+
+ref. - CEN  - EntityExplosion14 - found 8 matches total:
+0.99 - DRE  - EntityExplosion14 - (decompiled)
+0.99 - MAD  - func_80195A54 - (decompiled)
+0.99 - NO3  - EntityUnkId14 - (decompiled)
+0.99 - NP3  - func_801C070C - (decompiled)
+0.99 - NZ0  - func_801C0B24 - (decompiled)
+0.99 - ST0  - func_801B7F24
+0.99 - WRP  - func_8018F838 - (decompiled)
+0.99 - RWRP - func_801917B8
+
+ref. - CEN  - EntityIntenseExplosion - found 8 matches total:
+0.99 - DRE  - EntityIntenseExplosion - (decompiled)
+0.99 - MAD  - EntityIntenseExplosion - (decompiled)
+0.99 - NO3  - EntityIntenseExplosion - (decompiled)
+0.99 - NP3  - EntityIntenseExplosion
+0.99 - NZ0  - EntityIntenseExplosion - (decompiled)
+0.99 - ST0  - EntityIntenseExplosion
+0.99 - WRP  - EntityIntenseExplosion - (decompiled)
+0.99 - RWRP - func_80192248
+
+ref. - CEN  - EntityNumericDamage - found 8 matches total:
+0.99 - DRE  - EntityNumericDamage
+0.99 - MAD  - EntityNumericDamage
+0.99 - NO3  - EntityNumericDamage
+0.99 - NP3  - EntityNumericDamage
+0.99 - NZ0  - EntityNumericDamage
+0.99 - ST0  - EntityNumericDamage
+0.99 - WRP  - EntityNumericDamage
+0.99 - RWRP - func_8018B6B4
+
+ref. - CEN  - EntityRelicOrb - found 8 matches total:
+0.99 - DRE  - EntityRelicOrb
+0.99 - MAD  - EntityInventoryDrop
+0.99 - NO3  - EntityRelicOrb
+0.99 - NP3  - EntityRelicOrb
+0.99 - NZ0  - EntityRelicOrb
+0.99 - ST0  - func_801B6D34
+0.99 - WRP  - EntityRelicOrb
+0.99 - RWRP - func_8019024C
+
+ref. - CEN  - EntityUnkId15 - found 8 matches total:
+0.99 - DRE  - EntityUnkId15 - (decompiled)
+0.99 - MAD  - func_80195B44 - (decompiled)
+0.99 - NO3  - EntityUnkId15 - (decompiled)
+0.99 - NP3  - func_801C07FC
+0.99 - NZ0  - func_801C0C14 - (decompiled)
+0.99 - ST0  - func_801B8014
+0.99 - WRP  - func_8018F928 - (decompiled)
+0.99 - RWRP - func_801918A8
 
 ref. - CEN  - InitializeEntity - found 8 matches total:
 1.00 - DRE  - InitializeEntity - (decompiled)
@@ -290,16 +360,6 @@ ref. - CEN  - func_80190E7C - found 8 matches total:
 0.99 - ST0  - Update
 0.99 - WRP  - Update
 0.99 - RWRP - Update
-
-ref. - CEN  - func_80192398 - found 8 matches total:
-0.99 - DRE  - EntityNumericDamage
-0.99 - MAD  - EntityNumericDamage
-0.99 - NO3  - EntityNumericDamage
-0.99 - NP3  - EntityNumericDamage
-0.99 - NZ0  - EntityNumericDamage
-0.99 - ST0  - EntityNumericDamage
-0.99 - WRP  - EntityNumericDamage
-0.99 - RWRP - func_8018B6B4
 
 ref. - CEN  - func_80192A3C - found 8 matches total:
 0.99 - DRE  - CreateEntityFromLayout - (decompiled)
@@ -401,16 +461,6 @@ ref. - CEN  - func_80195798 - found 8 matches total:
 0.99 - WRP  - func_8018CB34 - (decompiled)
 0.99 - RWRP - func_8018EAB4
 
-ref. - CEN  - func_80196F30 - found 8 matches total:
-0.99 - DRE  - EntityRelicOrb
-0.99 - MAD  - EntityInventoryDrop
-0.99 - NO3  - EntityRelicOrb
-0.99 - NP3  - EntityRelicOrb
-0.99 - NZ0  - EntityRelicOrb
-0.99 - ST0  - func_801B6D34
-0.99 - WRP  - EntityRelicOrb
-0.99 - RWRP - func_8019024C
-
 ref. - CEN  - func_80198084 - found 8 matches total:
 0.99 - DRE  - func_8019E1C8
 0.99 - MAD  - func_8019563C
@@ -441,26 +491,6 @@ ref. - CEN  - func_801983B4 - found 8 matches total:
 0.99 - WRP  - func_8018F750
 0.99 - RWRP - func_801916D0
 
-ref. - CEN  - func_8019849C - found 8 matches total:
-0.99 - DRE  - EntityExplosion14 - (decompiled)
-0.99 - MAD  - func_80195A54 - (decompiled)
-0.99 - NO3  - EntityUnkId14 - (decompiled)
-0.99 - NP3  - func_801C070C - (decompiled)
-0.99 - NZ0  - func_801C0B24 - (decompiled)
-0.99 - ST0  - func_801B7F24
-0.99 - WRP  - func_8018F838 - (decompiled)
-0.99 - RWRP - func_801917B8
-
-ref. - CEN  - func_8019858C - found 8 matches total:
-0.99 - DRE  - EntityUnkId15 - (decompiled)
-0.99 - MAD  - func_80195B44 - (decompiled)
-0.99 - NO3  - EntityUnkId15 - (decompiled)
-0.99 - NP3  - func_801C07FC
-0.99 - NZ0  - func_801C0C14 - (decompiled)
-0.99 - ST0  - func_801B8014
-0.99 - WRP  - func_8018F928 - (decompiled)
-0.99 - RWRP - func_801918A8
-
 ref. - CEN  - func_80198680 - found 8 matches total:
 0.99 - DRE  - func_8019E7C4
 0.99 - MAD  - func_80195C38
@@ -490,16 +520,6 @@ ref. - CEN  - func_801989AC - found 8 matches total:
 0.99 - ST0  - func_801B8434
 0.99 - WRP  - func_8018FD48
 0.99 - RWRP - func_80191CC8
-
-ref. - CEN  - func_80198F2C - found 8 matches total:
-0.99 - DRE  - EntityIntenseExplosion - (decompiled)
-0.99 - MAD  - EntityIntenseExplosion - (decompiled)
-0.99 - NO3  - EntityIntenseExplosion - (decompiled)
-0.99 - NP3  - EntityIntenseExplosion
-0.99 - NZ0  - EntityIntenseExplosion - (decompiled)
-0.99 - ST0  - EntityIntenseExplosion
-0.99 - WRP  - EntityIntenseExplosion - (decompiled)
-0.99 - RWRP - func_80192248
 
 ref. - CEN  - func_8019902C - found 8 matches total:
 0.99 - DRE  - func_8019F170 - (decompiled)
@@ -580,26 +600,6 @@ ref. - CEN  - func_8019A328 - found 8 matches total:
 0.99 - ST0  - func_801B9DB0
 0.99 - WRP  - func_801916C4
 0.99 - RWRP - func_80193644
-
-ref. - CEN  - func_8019B274 - found 8 matches total:
-0.99 - DRE  - EntityAbsorbOrb
-0.99 - MAD  - EntityAbsorbOrb
-0.99 - NO3  - EntityAbsorbOrb
-0.99 - NP3  - EntityAbsorbOrb
-0.99 - NZ0  - EntityAbsorbOrb
-0.99 - ST0  - EntityAbsorbOrb
-0.99 - WRP  - EntityAbsorbOrb
-0.99 - RWRP - func_80194590
-
-ref. - CEN  - func_8019B608 - found 8 matches total:
-0.99 - DRE  - EntityEnemyBlood
-0.99 - MAD  - EntityEnemyBlood
-0.99 - NO3  - EntityEnemyBlood
-0.99 - NP3  - EntityEnemyBlood
-0.99 - NZ0  - EntityEnemyBlood
-0.99 - ST0  - func_801BA23C
-0.99 - WRP  - EntityEnemyBlood
-0.99 - RWRP - func_80194924
 
 ref. - CEN  - func_8019BED4 - found 8 matches total:
 0.99 - DRE  - func_801A2018
@@ -822,7 +822,7 @@ ref. - RWRP - func_8018E38C - found 8 matches total:
 1.00 - WRP  - EntityDummy - (decompiled)
 
 ref. - RWRP - func_80191490 - found 8 matches total:
-0.99 - CEN  - func_80198174 - (decompiled)
+0.99 - CEN  - EntityUnkId13 - (decompiled)
 0.99 - DRE  - EntityUnkId13 - (decompiled)
 0.99 - MAD  - func_8019572C - (decompiled)
 0.99 - NO3  - EntityUnkId13 - (decompiled)
@@ -871,6 +871,15 @@ ref. - ST0  - func_801B5458 - found 8 matches total:
 0.99 - WRP  - func_8018BEFC - (decompiled)
 0.99 - RWRP - func_8018DE7C - (decompiled)
 
+ref. - CEN  - EntityUnkId08 - found 7 matches total:
+0.99 - DRE  - EntityRoomForeground - (decompiled)
+0.99 - NO3  - EntityRoomForeground - (decompiled)
+0.99 - NP3  - EntityRoomForeground - (decompiled)
+0.99 - NZ0  - EntityRoomForeground - (decompiled)
+0.99 - ST0  - EntityRoomForeground - (decompiled)
+0.99 - WRP  - EntityRoomForeground - (decompiled)
+0.99 - RWRP - func_80194DD4
+
 ref. - CEN  - func_80191178 - found 7 matches total:
 0.99 - DRE  - func_801972BC
 0.99 - NO3  - func_801C1B78
@@ -906,15 +915,6 @@ ref. - CEN  - func_80195974 - found 7 matches total:
 0.99 - NZ0  - CollectGold - (decompiled)
 0.99 - WRP  - CollectGold - (decompiled)
 0.99 - RWRP - func_8018EC90
-
-ref. - CEN  - func_8019BAB8 - found 7 matches total:
-0.99 - DRE  - EntityRoomForeground - (decompiled)
-0.99 - NO3  - EntityRoomForeground - (decompiled)
-0.99 - NP3  - EntityRoomForeground - (decompiled)
-0.99 - NZ0  - EntityRoomForeground - (decompiled)
-0.99 - ST0  - EntityRoomForeground - (decompiled)
-0.99 - WRP  - EntityRoomForeground - (decompiled)
-0.99 - RWRP - func_80194DD4
 
 ref. - CEN  - func_8019BBA4 - found 7 matches total:
 0.99 - DRE  - func_801A1CE8
@@ -952,7 +952,39 @@ ref. - RWRP - func_801959BC - found 7 matches total:
 0.99 - ST0  - func_801BD88C - (decompiled)
 0.99 - WRP  - func_80193A3C - (decompiled)
 
-ref. - CEN  - func_8018D6E0 - found 6 matches total:
+ref. - CEN  - EntityInventoryDrop - found 6 matches total:
+0.99 - DRE  - EntityInventoryDrop
+0.99 - NO3  - EntityInventoryDrop
+0.99 - NP3  - EntityInventoryDrop
+0.99 - NZ0  - EntityInventoryDrop
+0.99 - WRP  - EntityInventoryDrop
+0.99 - RWRP - func_8018F9B4
+
+ref. - CEN  - EntityStageNamePopup - found 6 matches total:
+0.99 - DRE  - EntityStageNamePopup
+0.99 - NO3  - EntityStageNamePopup
+0.99 - NP3  - EntityStageNamePopup
+0.99 - NZ0  - EntityStageNamePopup
+0.99 - WRP  - EntityStageNamePopup
+0.99 - RWRP - func_8019390C
+
+ref. - CEN  - EntityUnkId03 - found 6 matches total:
+0.99 - DRE  - EntityPriceDrop
+0.99 - NO3  - EntityPriceDrop
+0.99 - NP3  - EntityPriceDrop
+0.99 - NZ0  - EntityPriceDrop
+0.99 - WRP  - EntityPriceDrop
+0.99 - RWRP - func_8018EFA0
+
+ref. - CEN  - EntityUnkId0C - found 6 matches total:
+0.99 - DRE  - EntityHeartDrop
+0.99 - NO3  - EntityHeartDrop
+0.99 - NP3  - EntityHeartDrop
+0.99 - NZ0  - EntityHeartDrop
+0.99 - WRP  - EntityHeartDrop
+0.99 - RWRP - func_80190D1C
+
+ref. - CEN  - EntityUnkId12 - found 6 matches total:
 0.99 - DRE  - func_80191B44 - (decompiled)
 0.99 - MAD  - func_8018E674
 0.99 - NO3  - EntityUnkId12
@@ -1000,14 +1032,6 @@ ref. - CEN  - func_80195B68 - found 6 matches total:
 0.99 - WRP  - CollectHeartVessel - (decompiled)
 0.99 - RWRP - func_8018EE84
 
-ref. - CEN  - func_80195C84 - found 6 matches total:
-0.99 - DRE  - EntityPriceDrop
-0.99 - NO3  - EntityPriceDrop
-0.99 - NP3  - EntityPriceDrop
-0.99 - NZ0  - EntityPriceDrop
-0.99 - WRP  - EntityPriceDrop
-0.99 - RWRP - func_8018EFA0
-
 ref. - CEN  - func_801965F4 - found 6 matches total:
 0.99 - DRE  - func_8019C738 - (decompiled)
 0.99 - NO3  - func_801C6FF4 - (decompiled)
@@ -1015,14 +1039,6 @@ ref. - CEN  - func_801965F4 - found 6 matches total:
 0.99 - NZ0  - func_801BEC7C - (decompiled)
 0.99 - WRP  - func_8018D990 - (decompiled)
 0.99 - RWRP - func_8018F910
-
-ref. - CEN  - func_80196698 - found 6 matches total:
-0.99 - DRE  - EntityInventoryDrop
-0.99 - NO3  - EntityInventoryDrop
-0.99 - NP3  - EntityInventoryDrop
-0.99 - NZ0  - EntityInventoryDrop
-0.99 - WRP  - EntityInventoryDrop
-0.99 - RWRP - func_8018F9B4
 
 ref. - CEN  - func_80196C80 - found 6 matches total:
 0.99 - DRE  - func_8019CDC4
@@ -1032,14 +1048,6 @@ ref. - CEN  - func_80196C80 - found 6 matches total:
 0.99 - WRP  - func_8018E01C
 0.99 - RWRP - func_8018FF9C
 
-ref. - CEN  - func_80197A00 - found 6 matches total:
-0.99 - DRE  - EntityHeartDrop
-0.99 - NO3  - EntityHeartDrop
-0.99 - NP3  - EntityHeartDrop
-0.99 - NZ0  - EntityHeartDrop
-0.99 - WRP  - EntityHeartDrop
-0.99 - RWRP - func_80190D1C
-
 ref. - CEN  - func_8019A420 - found 6 matches total:
 0.99 - DRE  - func_801A0564
 0.99 - NO3  - func_801CAE20
@@ -1047,14 +1055,6 @@ ref. - CEN  - func_8019A420 - found 6 matches total:
 0.99 - NZ0  - func_801C8ADC
 0.99 - WRP  - func_801917BC
 0.99 - RWRP - func_8019373C
-
-ref. - CEN  - func_8019A5F0 - found 6 matches total:
-0.99 - DRE  - EntityStageNamePopup
-0.99 - NO3  - EntityStageNamePopup
-0.99 - NP3  - EntityStageNamePopup
-0.99 - NZ0  - EntityStageNamePopup
-0.99 - WRP  - EntityStageNamePopup
-0.99 - RWRP - func_8019390C
 
 ref. - NO3  - EntityUnkId2F - found 6 matches total:
 0.99 - RIC  - func_80162C84
@@ -1136,7 +1136,7 @@ ref. - MAIN - SetIR123 - found 4 matches total:
 0.99 - MAIN - SetRii
 0.99 - MAIN - SetMAC123
 
-ref. - CEN  - func_8018D600 - found 3 matches total:
+ref. - CEN  - EntityBackgroundBlock - found 3 matches total:
 0.99 - DRE  - EntityUnkId11 - (decompiled)
 0.99 - WRP  - func_80186FD0 - (decompiled)
 0.99 - RWRP - func_80188DF0
