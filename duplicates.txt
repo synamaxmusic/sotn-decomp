@@ -1,6 +1,6 @@
-Number of decompiled duplicates found: 485
-Number of undecompiled duplicates found: 745
-Number of overall exact duplicates found: 162
+Number of decompiled duplicates found: 486
+Number of undecompiled duplicates found: 742
+Number of overall exact duplicates found: 161
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -442,12 +442,12 @@ ref. - CEN  - func_801951C0 - found 8 matches total:
 0.99 - RWRP - func_8018E4DC
 
 ref. - CEN  - func_80195714 - found 8 matches total:
-1.00 - DRE  - func_8019B858
+1.00 - DRE  - func_8019B858 - (decompiled)
 1.00 - NO3  - func_801C6114
 1.00 - NP3  - func_801BD984
 1.00 - NZ0  - func_801BDD9C
 1.00 - ST0  - func_801B5EC8
-1.00 - WRP  - func_8018CAB0
+1.00 - WRP  - func_8018CAB0 - (decompiled)
 1.00 - RWRP - func_8018EA30
 0.99 - MAD  - func_8019344C
 
@@ -1214,9 +1214,6 @@ ref. - DRA  - EntityHolyWaterBreakGlass - found 1 matches total:
 
 ref. - DRA  - EntityStopWatch - found 1 matches total:
 0.99 - RIC  - func_801719A4
-
-ref. - DRA  - func_800E8EE4 - found 1 matches total:
-1.00 - SEL  - func_801B80F0 - (decompiled)
 
 ref. - DRA  - func_800E930C - found 1 matches total:
 0.99 - SEL  - func_801B8518
