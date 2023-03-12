@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 486
-Number of undecompiled duplicates found: 742
+Number of undecompiled duplicates found: 731
 Number of overall exact duplicates found: 161
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -305,7 +305,7 @@ ref. - CEN  - EntityIntenseExplosion - found 8 matches total:
 0.99 - DRE  - EntityIntenseExplosion - (decompiled)
 0.99 - MAD  - EntityIntenseExplosion - (decompiled)
 0.99 - NO3  - EntityIntenseExplosion - (decompiled)
-0.99 - NP3  - EntityIntenseExplosion
+0.99 - NP3  - EntityIntenseExplosion - (decompiled)
 0.99 - NZ0  - EntityIntenseExplosion - (decompiled)
 0.99 - ST0  - EntityIntenseExplosion
 0.99 - WRP  - EntityIntenseExplosion - (decompiled)
@@ -641,26 +641,6 @@ ref. - DRE  - func_801A2580 - found 8 matches total:
 1.00 - WRP  - func_801937D8 - (decompiled)
 1.00 - RWRP - func_80195758
 
-ref. - NP3  - FallEntity - found 8 matches total:
-1.00 - CEN  - func_80194648 - (decompiled)
-1.00 - DRE  - FallEntity - (decompiled)
-1.00 - NO3  - FallEntity - (decompiled)
-1.00 - NZ0  - FallEntity - (decompiled)
-1.00 - ST0  - FallEntity - (decompiled)
-1.00 - WRP  - FallEntity - (decompiled)
-1.00 - RWRP - func_8018D964
-0.99 - MAD  - FallEntity - (decompiled)
-
-ref. - NP3  - func_801B90BC - found 8 matches total:
-1.00 - CEN  - Random - (decompiled)
-1.00 - DRE  - Random - (decompiled)
-1.00 - NO3  - Random - (decompiled)
-1.00 - NZ0  - Random - (decompiled)
-1.00 - ST0  - Random - (decompiled)
-1.00 - WRP  - Random - (decompiled)
-1.00 - RWRP - func_8018A168
-0.99 - MAD  - Random - (decompiled)
-
 ref. - NP3  - func_801BCF20 - found 8 matches total:
 0.99 - CEN  - func_80194CB0 - (decompiled)
 0.99 - DRE  - func_8019ADF4 - (decompiled)
@@ -690,6 +670,16 @@ ref. - NP3  - func_801D2470 - found 8 matches total:
 1.00 - ST0  - func_801BD5F8
 1.00 - WRP  - func_801937A8 - (decompiled)
 1.00 - RWRP - func_80195728
+
+ref. - RWRP - func_8018A168 - found 8 matches total:
+1.00 - CEN  - Random - (decompiled)
+1.00 - DRE  - Random - (decompiled)
+1.00 - NO3  - Random - (decompiled)
+1.00 - NP3  - Random - (decompiled)
+1.00 - NZ0  - Random - (decompiled)
+1.00 - ST0  - Random - (decompiled)
+1.00 - WRP  - Random - (decompiled)
+0.99 - MAD  - Random - (decompiled)
 
 ref. - RWRP - func_8018C7E0 - found 8 matches total:
 0.99 - CEN  - CreateEntityFromCurrentEntity - (decompiled)
@@ -740,6 +730,16 @@ ref. - RWRP - func_8018D934 - found 8 matches total:
 1.00 - ST0  - MoveEntity - (decompiled)
 1.00 - WRP  - MoveEntity - (decompiled)
 0.99 - MAD  - MoveEntity - (decompiled)
+
+ref. - RWRP - func_8018D964 - found 8 matches total:
+1.00 - CEN  - func_80194648 - (decompiled)
+1.00 - DRE  - FallEntity - (decompiled)
+1.00 - NO3  - FallEntity - (decompiled)
+1.00 - NP3  - FallEntity - (decompiled)
+1.00 - NZ0  - FallEntity - (decompiled)
+1.00 - ST0  - FallEntity - (decompiled)
+1.00 - WRP  - FallEntity - (decompiled)
+0.99 - MAD  - FallEntity - (decompiled)
 
 ref. - RWRP - func_8018DE50 - found 8 matches total:
 1.00 - WRP  - func_8018BED0 - (decompiled)
@@ -1197,10 +1197,6 @@ ref. - NO3  - func_801BEA20 - found 2 matches total:
 0.99 - NZ0  - func_801B79A8
 0.99 - ST0  - func_801A8E60
 
-ref. - NP3  - func_801B653C - found 2 matches total:
-0.99 - NO3  - func_801C13F8 - (decompiled)
-0.99 - NZ0  - func_801B3B78 - (decompiled)
-
 ref. - ST0  - func_801B0058 - found 2 matches total:
 1.00 - DRA  - func_800EAD7C - (decompiled)
 1.00 - SEL  - func_801B1DA8 - (decompiled)
@@ -1293,12 +1289,6 @@ ref. - NO3  - EntityBackgroundBushes - found 1 matches total:
 ref. - NO3  - EntityExplosion2 - found 1 matches total:
 0.99 - NP3  - func_801C7650
 
-ref. - NO3  - EntityFallingRock - found 1 matches total:
-0.99 - NP3  - func_801B5C5C
-
-ref. - NO3  - EntityFallingRock2 - found 1 matches total:
-0.99 - NP3  - func_801B560C
-
 ref. - NO3  - EntityLargeUpwardsSplash - found 1 matches total:
 0.99 - NP3  - func_801C4DCC
 
@@ -1309,7 +1299,7 @@ ref. - NO3  - EntityMerman - found 1 matches total:
 0.99 - NP3  - EntityMerman
 
 ref. - NO3  - EntityMerman2 - found 1 matches total:
-0.99 - NP3  - EntityMerman2
+0.99 - NP3  - EntityMerman2 - (decompiled)
 
 ref. - NO3  - EntityMerman3 - found 1 matches total:
 0.99 - NP3  - func_801C6564
@@ -1324,7 +1314,7 @@ ref. - NO3  - EntityMermanRockRightSide - found 1 matches total:
 0.99 - NP3  - func_801B5108
 
 ref. - NO3  - EntityShuttingWindow - found 1 matches total:
-0.99 - NP3  - func_801B2C20
+0.99 - NP3  - EntityShuttingWindow
 
 ref. - NO3  - EntitySidewaysWaterDroplets - found 1 matches total:
 0.99 - NP3  - func_801C5BC4
@@ -1373,12 +1363,6 @@ ref. - NP3  - EntitySwitch - found 1 matches total:
 
 ref. - NP3  - EntityTrapDoor - found 1 matches total:
 0.99 - NO3  - EntityTrapDoor - (decompiled)
-
-ref. - NP3  - EntityUnkId49 - found 1 matches total:
-0.99 - NO3  - EntityUnkId49 - (decompiled)
-
-ref. - NP3  - func_801B5DE8 - found 1 matches total:
-0.99 - NO3  - EntityUnkId29 - (decompiled)
 
 ref. - NP3  - func_801B5E98 - found 1 matches total:
 0.99 - NO3  - EntityUnkId2A - (decompiled)
