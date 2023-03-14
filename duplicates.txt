@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 496
-Number of undecompiled duplicates found: 696
+Number of decompiled duplicates found: 499
+Number of undecompiled duplicates found: 689
 Number of overall exact duplicates found: 156
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -197,15 +197,15 @@ ref. - RWRP - func_8018D580 - found 11 matches total:
 
 ref. - RWRP - func_8018EF78 - found 10 matches total:
 0.99 - CEN  - func_80195C5C - (decompiled)
-0.99 - DRE  - func_8019BDA0 - (decompiled)
+0.99 - DRE  - DestroyCurrentEntity - (decompiled)
 0.99 - MAD  - func_801937C4 - (decompiled)
-0.99 - MAD  - func_8019399C - (decompiled)
-0.99 - NO3  - func_801C665C - (decompiled)
-0.99 - NP3  - func_801BDECC - (decompiled)
-0.99 - NZ0  - func_801BE2E4 - (decompiled)
+0.99 - MAD  - DestroyCurrentEntity - (decompiled)
+0.99 - NO3  - DestroyCurrentEntity - (decompiled)
+0.99 - NP3  - DestroyCurrentEntity - (decompiled)
+0.99 - NZ0  - DestroyCurrentEntity - (decompiled)
 0.99 - ST0  - func_801B61DC
 0.99 - ST0  - func_801B6314
-0.99 - WRP  - func_8018CFF8 - (decompiled)
+0.99 - WRP  - DestroyCurrentEntity - (decompiled)
 
 ref. - CEN  - EntityUnkId0E - found 9 matches total:
 0.99 - DRE  - EntityUnkId0E
@@ -297,7 +297,7 @@ ref. - CEN  - EntityExplosion14 - found 8 matches total:
 0.99 - NO3  - EntityUnkId14 - (decompiled)
 0.99 - NP3  - func_801C070C - (decompiled)
 0.99 - NZ0  - func_801C0B24 - (decompiled)
-0.99 - ST0  - func_801B7F24
+0.99 - ST0  - func_801B7F24 - (decompiled)
 0.99 - WRP  - func_8018F838 - (decompiled)
 0.99 - RWRP - func_801917B8
 
@@ -337,7 +337,7 @@ ref. - CEN  - EntityUnkId15 - found 8 matches total:
 0.99 - NO3  - EntityUnkId15 - (decompiled)
 0.99 - NP3  - func_801C07FC
 0.99 - NZ0  - func_801C0C14 - (decompiled)
-0.99 - ST0  - func_801B8014
+0.99 - ST0  - func_801B8014 - (decompiled)
 0.99 - WRP  - func_8018F928 - (decompiled)
 0.99 - RWRP - func_801918A8
 
@@ -387,7 +387,7 @@ ref. - CEN  - func_80193410 - found 8 matches total:
 0.99 - NO3  - func_801C3E10 - (decompiled)
 0.99 - NP3  - func_801BB680
 0.99 - NZ0  - func_801BBA98 - (decompiled)
-0.99 - ST0  - func_801B3AB4
+0.99 - ST0  - func_801B3AB4 - (decompiled)
 0.99 - WRP  - func_8018A7AC - (decompiled)
 0.99 - RWRP - func_8018C72C
 
@@ -446,7 +446,7 @@ ref. - CEN  - func_80195714 - found 8 matches total:
 1.00 - NO3  - func_801C6114
 1.00 - NP3  - func_801BD984
 1.00 - NZ0  - func_801BDD9C
-1.00 - ST0  - func_801B5EC8
+1.00 - ST0  - func_801B5EC8 - (decompiled)
 1.00 - WRP  - func_8018CAB0 - (decompiled)
 1.00 - RWRP - func_8018EA30
 0.99 - MAD  - func_8019344C
@@ -651,16 +651,6 @@ ref. - NP3  - func_801BCF20 - found 8 matches total:
 0.99 - WRP  - func_8018C04C - (decompiled)
 0.99 - RWRP - func_8018DFCC
 
-ref. - NP3  - func_801BDE7C - found 8 matches total:
-0.99 - CEN  - func_80195C0C - (decompiled)
-0.99 - DRE  - CollectLifeVessel - (decompiled)
-0.99 - MAD  - CollectHeartVessel - (decompiled)
-0.99 - MAD  - CollectLifeVessel - (decompiled)
-0.99 - NO3  - func_801C660C - (decompiled)
-0.99 - NZ0  - CollectLifeVessel - (decompiled)
-0.99 - WRP  - CollectLifeVessel - (decompiled)
-0.99 - RWRP - func_8018EF28
-
 ref. - NP3  - func_801D2470 - found 8 matches total:
 1.00 - CEN  - func_8019C40C - (decompiled)
 1.00 - DRE  - func_801A2550 - (decompiled)
@@ -820,6 +810,16 @@ ref. - RWRP - func_8018E38C - found 8 matches total:
 1.00 - NZ0  - EntityDummy - (decompiled)
 1.00 - ST0  - EntityDummy - (decompiled)
 1.00 - WRP  - EntityDummy - (decompiled)
+
+ref. - RWRP - func_8018EF28 - found 8 matches total:
+0.99 - CEN  - func_80195C0C - (decompiled)
+0.99 - DRE  - CollectLifeVessel - (decompiled)
+0.99 - MAD  - CollectHeartVessel - (decompiled)
+0.99 - MAD  - CollectLifeVessel - (decompiled)
+0.99 - NO3  - CollectLifeVessel - (decompiled)
+0.99 - NP3  - CollectLifeVessel - (decompiled)
+0.99 - NZ0  - CollectLifeVessel - (decompiled)
+0.99 - WRP  - CollectLifeVessel - (decompiled)
 
 ref. - RWRP - func_80191490 - found 8 matches total:
 0.99 - CEN  - EntityUnkId13 - (decompiled)
@@ -1017,7 +1017,7 @@ ref. - CEN  - func_80195A50 - found 6 matches total:
 ref. - CEN  - func_80195B68 - found 6 matches total:
 0.99 - DRE  - CollectHeartVessel - (decompiled)
 0.99 - NO3  - CollectHeartVessel - (decompiled)
-0.99 - NP3  - func_801BDDD8
+0.99 - NP3  - CollectHeartVessel - (decompiled)
 0.99 - NZ0  - CollectHeartVessel - (decompiled)
 0.99 - WRP  - CollectHeartVessel - (decompiled)
 0.99 - RWRP - func_8018EE84
@@ -1140,11 +1140,6 @@ ref. - NO3  - EntityUnkId5C - found 3 matches total:
 0.99 - RIC  - func_8016DF74
 0.99 - RIC  - func_8016F6F0
 0.99 - NP3  - func_801B5790
-
-ref. - ST0  - func_801B0324 - found 3 matches total:
-0.99 - DRA  - func_800E376C - (decompiled)
-0.99 - SEL  - func_801B1A98 - (decompiled)
-0.99 - SEL  - func_801B1B88 - (decompiled)
 
 ref. - DRA  - func_80132F60 - found 2 matches total:
 0.99 - DRA  - func_80133290
