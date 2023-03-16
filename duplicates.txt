@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 499
-Number of undecompiled duplicates found: 689
+Number of decompiled duplicates found: 498
+Number of undecompiled duplicates found: 686
 Number of overall exact duplicates found: 156
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1309,9 +1309,6 @@ ref. - NO3  - EntityUnkId26 - found 1 matches total:
 ref. - NO3  - EntityUnkId4D - found 1 matches total:
 0.99 - NP3  - EntityUnkId4D
 
-ref. - NO3  - EntityZoeTallWeight - found 1 matches total:
-0.99 - NP3  - func_801B4940
-
 ref. - NO3  - EntityZombie - found 1 matches total:
 0.99 - NP3  - EntityZombie
 
@@ -1335,9 +1332,6 @@ ref. - NP3  - EntitySwitch - found 1 matches total:
 
 ref. - NP3  - EntityTrapDoor - found 1 matches total:
 0.99 - NO3  - EntityTrapDoor - (decompiled)
-
-ref. - NP3  - func_801B5E98 - found 1 matches total:
-0.99 - NO3  - EntityUnkId2A - (decompiled)
 
 ref. - NP3  - func_801B8CC0 - found 1 matches total:
 0.99 - NZ0  - func_801B69E8
