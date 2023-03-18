@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 499
-Number of undecompiled duplicates found: 685
+Number of decompiled duplicates found: 491
+Number of undecompiled duplicates found: 682
 Number of overall exact duplicates found: 156
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -194,18 +194,6 @@ ref. - RWRP - func_8018D580 - found 11 matches total:
 1.00 - WRP  - DestroyEntity - (decompiled)
 1.00 - TT_000 - DestroyEntity - (decompiled)
 0.99 - MAD  - DestroyEntity - (decompiled)
-
-ref. - RWRP - func_8018EF78 - found 10 matches total:
-0.99 - CEN  - func_80195C5C - (decompiled)
-0.99 - DRE  - DestroyCurrentEntity - (decompiled)
-0.99 - MAD  - func_801937C4 - (decompiled)
-0.99 - MAD  - DestroyCurrentEntity - (decompiled)
-0.99 - NO3  - DestroyCurrentEntity - (decompiled)
-0.99 - NP3  - DestroyCurrentEntity - (decompiled)
-0.99 - NZ0  - DestroyCurrentEntity - (decompiled)
-0.99 - ST0  - func_801B61DC
-0.99 - ST0  - func_801B6314
-0.99 - WRP  - DestroyCurrentEntity - (decompiled)
 
 ref. - CEN  - EntityUnkId0E - found 9 matches total:
 0.99 - DRE  - EntityUnkId0E
