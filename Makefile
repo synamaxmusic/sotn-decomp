@@ -216,7 +216,7 @@ st%_dirs:
 
 $(BUILD_DIR)/tt_%.elf: $$(call list_o_files,servant/tt_$$*)
 	$(call link,tt_$*,$@)
-$(BUILD_DIR)/weapon.elf: $$(call list_o_files,weapon/)
+$(BUILD_DIR)/weapon0.elf: $$(call list_o_files,weapon)
 	$(call link,weapon,$@)
 $(BUILD_DIR)/stmad.elf: $$(call list_o_files,st/mad)
 	$(LD) -o $@ \
@@ -324,6 +324,9 @@ $(BUILD_DIR)/%.c.o: %.c $(ASPATCH)
 	$(CPP) $(CPP_FLAGS) $< | $(CC) $(CC_FLAGS) | $(ASPATCH) | $(AS) $(AS_FLAGS) -o $@
 
 # Handles assets
+$(BUILD_DIR)/$(ASSETS_DIR)/weapon/weapon%.png.o: $(ASSETS_DIR)/weapon/weapon%.png
+	./tools/png2bin.py $< $(BUILD_DIR)/assets/weapon/weapon$*.png.bin
+	$(LD) -r -b binary -o $@ $(BUILD_DIR)/$(ASSETS_DIR)/weapon/weapon$*.png.bin
 $(BUILD_DIR)/$(ASSETS_DIR)/%.layoutobj.json.o: $(ASSETS_DIR)/%.layoutobj.json
 	./tools/splat_ext/layoutobj.py $< $(BUILD_DIR)/$(ASSETS_DIR)/$*.bin
 	$(LD) -r -b binary -o $(BUILD_DIR)/$(ASSETS_DIR)/$*.o $(BUILD_DIR)/$(ASSETS_DIR)/$*.bin
