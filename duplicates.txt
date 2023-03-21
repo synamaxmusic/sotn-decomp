@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 479
-Number of undecompiled duplicates found: 674
+Number of decompiled duplicates found: 478
+Number of undecompiled duplicates found: 665
 Number of overall exact duplicates found: 156
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1227,9 +1227,6 @@ ref. - NO3  - EntityAlucardWaterEffect - found 1 matches total:
 ref. - NO3  - EntityBackgroundBushes - found 1 matches total:
 0.99 - NP3  - func_801B32A8
 
-ref. - NO3  - EntityExplosion2 - found 1 matches total:
-0.99 - NP3  - func_801C7650
-
 ref. - NO3  - EntityLargeUpwardsSplash - found 1 matches total:
 0.99 - NP3  - func_801C4DCC
 
@@ -1247,12 +1244,6 @@ ref. - NO3  - EntityMerman3 - found 1 matches total:
 
 ref. - NO3  - EntityMermanExplosion - found 1 matches total:
 0.99 - NP3  - EntityMermanExplosion - (decompiled)
-
-ref. - NO3  - EntityMermanRockLeftSide - found 1 matches total:
-0.99 - NP3  - func_801B4D60
-
-ref. - NO3  - EntityMermanRockRightSide - found 1 matches total:
-0.99 - NP3  - func_801B5108
 
 ref. - NO3  - EntityShuttingWindow - found 1 matches total:
 0.99 - NP3  - EntityShuttingWindow
@@ -1290,14 +1281,8 @@ ref. - NO3  - func_801CC5A4 - found 1 matches total:
 ref. - NO3  - func_801D0A2C - found 1 matches total:
 0.99 - NP3  - func_801C4144
 
-ref. - NO3  - func_801D2D40 - found 1 matches total:
-0.99 - NP3  - func_801C6458
-
 ref. - NP3  - EntitySwitch - found 1 matches total:
 0.99 - NO3  - EntitySwitch - (decompiled)
-
-ref. - NP3  - EntityTrapDoor - found 1 matches total:
-0.99 - NO3  - EntityTrapDoor - (decompiled)
 
 ref. - NP3  - func_801B8CC0 - found 1 matches total:
 0.99 - NZ0  - func_801B69E8
