@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 478
-Number of undecompiled duplicates found: 665
+Number of decompiled duplicates found: 479
+Number of undecompiled duplicates found: 664
 Number of overall exact duplicates found: 156
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1165,7 +1165,7 @@ ref. - DRA  - func_800E9C14 - found 1 matches total:
 0.99 - SEL  - StoreSaveData
 
 ref. - DRA  - func_800EA2B0 - found 1 matches total:
-1.00 - SEL  - LoadSaveData
+1.00 - SEL  - LoadSaveData - (decompiled)
 
 ref. - DRA  - func_800EA48C - found 1 matches total:
 0.99 - SEL  - func_801B9698
