@@ -1,6 +1,6 @@
-Number of decompiled duplicates found: 479
-Number of undecompiled duplicates found: 664
-Number of overall exact duplicates found: 156
+Number of decompiled duplicates found: 478
+Number of undecompiled duplicates found: 663
+Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
 0.99 - MAIN - InitHeap - (decompiled)
@@ -1152,6 +1152,9 @@ ref. - DRA  - EntityHolyWaterBreakGlass - found 1 matches total:
 ref. - DRA  - EntityStopWatch - found 1 matches total:
 0.99 - RIC  - func_801719A4
 
+ref. - DRA  - StoreSaveData - found 1 matches total:
+0.99 - SEL  - StoreSaveData
+
 ref. - DRA  - func_800E930C - found 1 matches total:
 0.99 - SEL  - func_801B8518
 
@@ -1160,12 +1163,6 @@ ref. - DRA  - func_800E9530 - found 1 matches total:
 
 ref. - DRA  - func_800E9880 - found 1 matches total:
 0.99 - SEL  - func_801B8A8C
-
-ref. - DRA  - func_800E9C14 - found 1 matches total:
-0.99 - SEL  - StoreSaveData
-
-ref. - DRA  - func_800EA2B0 - found 1 matches total:
-1.00 - SEL  - LoadSaveData - (decompiled)
 
 ref. - DRA  - func_800EA48C - found 1 matches total:
 0.99 - SEL  - func_801B9698
