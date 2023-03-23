@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 482
-Number of undecompiled duplicates found: 659
+Number of decompiled duplicates found: 488
+Number of undecompiled duplicates found: 653
 Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -65,12 +65,12 @@ ref. - CEN  - func_80192B00 - found 17 matches total:
 0.99 - NO3  - func_801C3618
 0.99 - NP3  - func_801BAD70
 0.99 - NP3  - func_801BAE88
-0.99 - NZ0  - func_801BB188
-0.99 - NZ0  - func_801BB2A0
-0.99 - ST0  - func_801B31A4
-0.99 - ST0  - func_801B32BC
-0.99 - WRP  - func_80189E9C - (decompiled)
-0.99 - WRP  - func_80189FB4
+0.99 - NZ0  - CreateEntityWhenInVerticalRange - (decompiled)
+0.99 - NZ0  - CreateEntityWhenInHorizontalRange - (decompiled)
+0.99 - ST0  - CreateEntityWhenInVerticalRange - (decompiled)
+0.99 - ST0  - CreateEntityWhenInHorizontalRange - (decompiled)
+0.99 - WRP  - CreateEntityWhenInVerticalRange - (decompiled)
+0.99 - WRP  - CreateEntityWhenInHorizontalRange - (decompiled)
 0.99 - RWRP - func_8018BE1C
 0.99 - RWRP - func_8018BF34
 
@@ -105,7 +105,7 @@ ref. - NP3  - func_801BAFA0 - found 17 matches total:
 0.99 - NP3  - func_801BB254 - (decompiled)
 0.99 - NZ0  - func_801BB3B8 - (decompiled)
 0.99 - NZ0  - func_801BB66C - (decompiled)
-0.99 - ST0  - func_801B33D4
+0.99 - ST0  - func_801B33D4 - (decompiled)
 0.99 - ST0  - func_801B3688
 0.99 - WRP  - func_8018A0CC - (decompiled)
 0.99 - WRP  - func_8018A380 - (decompiled)
