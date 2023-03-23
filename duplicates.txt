@@ -296,7 +296,7 @@ ref. - CEN  - EntityRelicOrb - found 8 matches total:
 0.99 - NO3  - EntityRelicOrb
 0.99 - NP3  - EntityRelicOrb
 0.99 - NZ0  - EntityRelicOrb
-0.99 - ST0  - func_801B6D34
+0.99 - ST0  - EntityInventoryDrop
 0.99 - WRP  - EntityRelicOrb
 0.99 - RWRP - func_8019024C
 
