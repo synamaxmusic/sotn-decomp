@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 505
-Number of undecompiled duplicates found: 636
+Number of undecompiled duplicates found: 635
 Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -911,14 +911,6 @@ ref. - RWRP - func_801959BC - found 7 matches total:
 0.99 - ST0  - func_801BD88C - (decompiled)
 0.99 - WRP  - func_80193A3C - (decompiled)
 
-ref. - CEN  - EntityInventoryDrop - found 6 matches total:
-0.99 - DRE  - EntityInventoryDrop
-0.99 - NO3  - EntityInventoryDrop
-0.99 - NP3  - EntityInventoryDrop
-0.99 - NZ0  - EntityInventoryDrop
-0.99 - WRP  - EntityInventoryDrop
-0.99 - RWRP - func_8018F9B4
-
 ref. - CEN  - EntityStageNamePopup - found 6 matches total:
 0.99 - DRE  - EntityStageNamePopup
 0.99 - NO3  - EntityStageNamePopup
@@ -1022,6 +1014,13 @@ ref. - NO3  - EntityUnkId2F - found 6 matches total:
 0.99 - NZ0  - EntityBossRoomBlock
 0.99 - ST0  - EntityStageTitleFadeout
 0.99 - TT_000 - func_80174038
+
+ref. - CEN  - EntityInventoryDrop - found 5 matches total:
+0.99 - DRE  - EntityInventoryDrop
+0.99 - NO3  - EntityInventoryDrop
+0.99 - NZ0  - EntityInventoryDrop
+0.99 - WRP  - EntityInventoryDrop
+0.99 - RWRP - func_8018F9B4
 
 ref. - CEN  - func_8018DF0C - found 5 matches total:
 0.99 - DRE  - func_80194774 - (decompiled)
