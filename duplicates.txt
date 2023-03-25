@@ -1,5 +1,5 @@
 Number of decompiled duplicates found: 506
-Number of undecompiled duplicates found: 634
+Number of undecompiled duplicates found: 630
 Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -870,7 +870,7 @@ ref. - CEN  - func_80195974 - found 7 matches total:
 0.99 - DRE  - func_8019BAB8
 0.99 - MAD  - func_801936E0 - (decompiled)
 0.99 - NO3  - CollectGold - (decompiled)
-0.99 - NP3  - func_801BDBE4
+0.99 - NP3  - CollectGold
 0.99 - NZ0  - CollectGold - (decompiled)
 0.99 - WRP  - CollectGold - (decompiled)
 0.99 - RWRP - func_8018EC90
@@ -919,14 +919,6 @@ ref. - CEN  - EntityStageNamePopup - found 6 matches total:
 0.99 - WRP  - EntityStageNamePopup
 0.99 - RWRP - func_8019390C
 
-ref. - CEN  - EntityUnkId03 - found 6 matches total:
-0.99 - DRE  - EntityPriceDrop
-0.99 - NO3  - EntityPriceDrop
-0.99 - NP3  - EntityPriceDrop
-0.99 - NZ0  - EntityPriceDrop
-0.99 - WRP  - EntityPriceDrop
-0.99 - RWRP - func_8018EFA0
-
 ref. - CEN  - EntityUnkId0C - found 6 matches total:
 0.99 - DRE  - EntityHeartDrop
 0.99 - NO3  - EntityHeartDrop
@@ -961,8 +953,8 @@ ref. - CEN  - func_80194EE0 - found 6 matches total:
 
 ref. - CEN  - func_801958F4 - found 6 matches total:
 0.99 - DRE  - func_8019BA38 - (decompiled)
-0.99 - NO3  - func_801C62F4 - (decompiled)
-0.99 - NP3  - func_801BDB64
+0.99 - NO3  - CollectHeart - (decompiled)
+0.99 - NP3  - CollectHeart
 0.99 - NZ0  - CollectHeart - (decompiled)
 0.99 - WRP  - CollectHeart - (decompiled)
 0.99 - RWRP - func_8018EC10
@@ -1108,6 +1100,10 @@ ref. - NO3  - EntityUnkId5C - found 3 matches total:
 0.99 - RIC  - func_8016DF74
 0.99 - RIC  - func_8016F6F0
 0.99 - NP3  - func_801B5790
+
+ref. - CEN  - EntityPrizeDrop - found 2 matches total:
+0.99 - DRE  - EntityPrizeDrop
+0.99 - RWRP - func_8018EFA0
 
 ref. - DRA  - func_80132F60 - found 2 matches total:
 0.99 - DRA  - func_80133290
