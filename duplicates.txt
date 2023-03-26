@@ -868,7 +868,7 @@ ref. - CEN  - func_8019565C - found 7 matches total:
 
 ref. - CEN  - func_80195974 - found 7 matches total:
 0.99 - DRE  - func_8019BAB8
-0.99 - MAD  - func_801936E0 - (decompiled)
+0.99 - MAD  - CollectGold - (decompiled)
 0.99 - NO3  - CollectGold - (decompiled)
 0.99 - NP3  - CollectGold
 0.99 - NZ0  - CollectGold - (decompiled)
@@ -961,10 +961,10 @@ ref. - CEN  - func_801958F4 - found 6 matches total:
 
 ref. - CEN  - func_80195A50 - found 6 matches total:
 0.99 - DRE  - func_8019BB94
-0.99 - NO3  - func_801C6450
-0.99 - NP3  - func_801BDCC0
-0.99 - NZ0  - func_801BE0D8
-0.99 - WRP  - func_8018CDEC
+0.99 - NO3  - CollectSubweapon
+0.99 - NP3  - CollectSubweapon
+0.99 - NZ0  - CollectSubweapon
+0.99 - WRP  - CollectSubweapon
 0.99 - RWRP - func_8018ED6C
 
 ref. - CEN  - func_80195B68 - found 6 matches total:
@@ -1183,17 +1183,17 @@ ref. - DRA  - func_801315F8 - found 1 matches total:
 ref. - DRE  - func_80194F14 - found 1 matches total:
 0.99 - NO3  - func_801BECCC - (decompiled)
 
+ref. - MAD  - CollectHeart - found 1 matches total:
+0.99 - ST0  - CollectHeart
+
+ref. - MAD  - CollectSubweapon - found 1 matches total:
+0.99 - ST0  - CollectSubweapon
+
 ref. - MAD  - EntityRelicOrb - found 1 matches total:
 0.99 - ST0  - func_801B7308
 
 ref. - MAD  - func_80192408 - found 1 matches total:
 0.99 - ST0  - func_801B4FD4
-
-ref. - MAD  - func_8019362C - found 1 matches total:
-0.99 - ST0  - func_801B60A8
-
-ref. - MAD  - func_801937EC - found 1 matches total:
-0.99 - ST0  - func_801B6204
 
 ref. - MAIN - AverageSZ3 - found 1 matches total:
 0.99 - MAIN - AverageSZ4
