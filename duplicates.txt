@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 506
-Number of undecompiled duplicates found: 626
+Number of decompiled duplicates found: 512
+Number of undecompiled duplicates found: 620
 Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -919,14 +919,6 @@ ref. - CEN  - EntityStageNamePopup - found 6 matches total:
 0.99 - WRP  - EntityStageNamePopup
 0.99 - RWRP - func_8019390C
 
-ref. - CEN  - EntityUnkId0C - found 6 matches total:
-0.99 - DRE  - EntityHeartDrop
-0.99 - NO3  - EntityHeartDrop
-0.99 - NP3  - EntityHeartDrop
-0.99 - NZ0  - EntityHeartDrop
-0.99 - WRP  - EntityHeartDrop
-0.99 - RWRP - func_80190D1C
-
 ref. - CEN  - EntityUnkId12 - found 6 matches total:
 0.99 - DRE  - func_80191B44 - (decompiled)
 0.99 - MAD  - func_8018E674
@@ -1006,6 +998,14 @@ ref. - NO3  - EntityUnkId2F - found 6 matches total:
 0.99 - NZ0  - EntityBossRoomBlock
 0.99 - ST0  - EntityStageTitleFadeout
 0.99 - TT_000 - func_80174038
+
+ref. - RWRP - func_80190D1C - found 6 matches total:
+0.99 - CEN  - EntityHeartDrop - (decompiled)
+0.99 - DRE  - EntityHeartDrop - (decompiled)
+0.99 - NO3  - EntityHeartDrop - (decompiled)
+0.99 - NP3  - EntityHeartDrop - (decompiled)
+0.99 - NZ0  - EntityHeartDrop - (decompiled)
+0.99 - WRP  - EntityHeartDrop - (decompiled)
 
 ref. - CEN  - func_8018DF0C - found 5 matches total:
 0.99 - DRE  - func_80194774 - (decompiled)

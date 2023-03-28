@@ -361,13 +361,7 @@ us/st/mad/nonmatchings/D8C8/func_8018EC90.s                         84          
 us/dra/nonmatchings/75F54/func_80133810.s                           84          12
 us/ric/nonmatchings/22380/func_80160D2C.s                           84          13
 us/dra/nonmatchings/5298C/DrawSettingsButton.s                      85           7
-us/st/cen/nonmatchings/D600/EntityUnkId0C.s                         85          12
-us/st/dre/nonmatchings/1C7DC/EntityHeartDrop.s                      85          12
-us/st/no3/nonmatchings/46684/EntityHeartDrop.s                      85          12          https://decomp.me/scratch/TfITc
-us/st/np3/nonmatchings/3DEF4/EntityHeartDrop.s                      85          12
-us/st/nz0/nonmatchings/3E30C/EntityHeartDrop.s                      85          12
 us/st/rwrp/nonmatchings/8DF0/func_80190D1C.s                        85          12
-us/st/wrp/nonmatchings/D020/EntityHeartDrop.s                       85          12
 us/st/rwrp/nonmatchings/8DF0/func_8018908C.s                        85          13
 us/st/sel/nonmatchings/2D260/func_801AD66C.s                        85          15
 us/dra/nonmatchings/47BB8/func_800EDB58.s                           86          11
