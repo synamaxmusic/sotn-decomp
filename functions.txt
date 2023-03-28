@@ -1019,7 +1019,6 @@ us/dra/nonmatchings/75F54/EntityTransparentWhiteCircle.s           703         1
 us/st/st0/nonmatchings/36358/func_801BC5C0.s                       709           0
 us/dra/nonmatchings/5D6C4/func_80101A80.s                          709         115
 us/st/sel/nonmatchings/2D260/TestCollisions.s                      709         138  Yes
-us/dra/nonmatchings/47BB8/func_800E81FC.s                          744          58
 us/st/cen/nonmatchings/D600/EntityRelicOrb.s                       748         142  Yes
 us/st/dre/nonmatchings/1C7DC/EntityRelicOrb.s                      748         142  Yes
 us/st/no3/nonmatchings/46684/EntityRelicOrb.s                      748         142  Yes
