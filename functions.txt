@@ -71,7 +71,6 @@ us/st/rwrp/nonmatchings/8DF0/func_8018EC10.s                        38          
 us/st/st0/nonmatchings/27D64/func_801AA218.s                        38           5
 us/st/st0/nonmatchings/27D64/func_801B57D0.s                        38           5
 us/st/cen/nonmatchings/D600/func_801904B8.s                         39           9
-us/dra/nonmatchings/5298C/func_800FB160.s                           40           4
 us/st/np3/nonmatchings/4997C/func_801CDD00.s                        41           6
 us/st/sel/nonmatchings/38D24/func_801B8D24.s                        41           7
 us/st/dre/nonmatchings/1C7DC/func_801A2580.s                        41           9
