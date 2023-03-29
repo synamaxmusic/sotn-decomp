@@ -638,7 +638,6 @@ us/st/sel/nonmatchings/2D260/func_801AE6D0.s                       187          
 us/st/nz0/nonmatchings/30958/func_801B2FD8.s                       187          18
 us/dra/nonmatchings/75F54/func_8012C600.s                          187          21
 us/dra/nonmatchings/75F54/func_8011E0EC.s                          187          22
-us/st/nz0/nonmatchings/30958/EntityCannon.s                        187          25
 us/dra/nonmatchings/75F54/func_80116408.s                          187          37  Yes
 us/dra/nonmatchings/62D70/func_801080DC.s                          189          18  Yes
 us/dra/nonmatchings/47BB8/func_800E9880.s                          189          25  Yes
