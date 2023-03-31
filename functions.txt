@@ -465,7 +465,7 @@ us/st/mad/nonmatchings/D8C8/func_8018DF0C.s                        117          
 us/st/no3/nonmatchings/46684/EntityUnkId4B.s                       117          23
 us/st/st0/nonmatchings/27D64/EntityLockCamera.s                    118          13
 us/ric/nonmatchings/32324/func_801706C0.s                          118          14
-us/servant/tt_000/nonmatchings/10E8/func_80173C64.s                119          13
+us/servant/tt_000/nonmatchings/10E8/func_80173C64.s                119          13          https://decomp.me/scratch/B45wo
 us/st/no3/nonmatchings/46684/EntityUnkId30.s                       119          18
 us/st/cen/nonmatchings/D600/func_8018DF60.s                        120           5
 us/st/dre/nonmatchings/14214/func_801947C8.s                       120           5
