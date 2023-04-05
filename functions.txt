@@ -405,7 +405,6 @@ us/st/cen/nonmatchings/D600/func_80195798.s                         98          
 us/st/np3/nonmatchings/3246C/func_801BDA08.s                        98          16
 us/st/rwrp/nonmatchings/8DF0/func_8018EAB4.s                        98          16
 us/dra/nonmatchings/62D70/CopyMapOverlayCallback.s                  99          11          https://decomp.me/scratch/1AWN1
-us/dra/nonmatchings/953A0/func_80135C2C.s                           99          13          https://decomp.me/scratch/Gy0Jr
 us/dra/nonmatchings/75F54/func_8012D024.s                           99          23
 us/dra/nonmatchings/75F54/func_8011BBE0.s                          100          10
 us/st/rwrp/nonmatchings/8DF0/func_8018E4DC.s                       100          13
