@@ -130,13 +130,13 @@ us/ric/nonmatchings/32324/func_80170874.s                           51          
 us/st/no3/nonmatchings/377D4/func_801B9C44.s                        52           7
 us/st/np3/nonmatchings/3246C/func_801B44B4.s                        52           7
 us/dra/nonmatchings/62D70/func_8010A3F0.s                           52           9          https://decomp.me/scratch/oKHMJ
-us/dra/nonmatchings/75F54/func_80117D3C.s                           52          13
+us/dra/nonmatchings/75F54/func_80117D3C.s                           52          13          https://decomp.me/scratch/bnUqc (Scraped 0.997)
 us/st/cen/nonmatchings/D600/func_801991C0.s                         53           7
 us/st/np3/nonmatchings/3DEF4/func_801C1430.s                        53           7
 us/st/rwrp/nonmatchings/8DF0/func_801924DC.s                        53           7
 us/st/cen/nonmatchings/D600/func_80192A3C.s                         54           2
 us/st/rwrp/nonmatchings/8DF0/func_8018BD58.s                        54           2
-us/dra/nonmatchings/47BB8/func_800EA720.s                           54           7
+us/dra/nonmatchings/47BB8/func_800EA720.s                           54           7          https://decomp.me/scratch/4mMbS (Scraped 0.616)
 us/st/sel/nonmatchings/2D260/func_801B3F94.s                        54          10
 us/st/cen/nonmatchings/D600/func_80193410.s                         54          11
 us/st/np3/nonmatchings/3246C/func_801BB680.s                        54          11
@@ -818,7 +818,6 @@ us/st/dre/nonmatchings/1C7DC/EntityEnemyBlood.s                    326          
 us/st/mad/nonmatchings/139E0/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
 us/st/no3/nonmatchings/46684/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
 us/st/np3/nonmatchings/3DEF4/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
-us/st/nz0/nonmatchings/3E30C/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
 us/st/rwrp/nonmatchings/8DF0/func_80194924.s                       326          38
 us/st/st0/nonmatchings/36358/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
 us/st/wrp/nonmatchings/D020/EntityEnemyBlood.s                     326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
