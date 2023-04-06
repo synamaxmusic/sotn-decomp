@@ -58,7 +58,6 @@ us/st/np3/nonmatchings/4997C/func_801CDFD8.s                        35          
 us/st/st0/nonmatchings/27D64/CollectGold.s                          36           3
 us/st/np3/nonmatchings/4997C/func_801CE258.s                        36           5
 us/dra/nonmatchings/42398/func_800E385C.s                           36           6          https://decomp.me/scratch/Ocshz
-us/dra/nonmatchings/5298C/func_800FAEC4.s                           37           3          https://decomp.me/scratch/f40LU
 us/ric/nonmatchings/22380/func_8015F9F0.s                           37           7
 us/st/cen/nonmatchings/D600/func_801935B4.s                         38           4
 us/st/cen/nonmatchings/D600/func_801942D0.s                         38           4
