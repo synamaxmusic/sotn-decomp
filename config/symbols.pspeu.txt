@@ -1,0 +1,5 @@
+SsSeqClose = 0x08926208;
+func_80020F44 = 0x08926218;
+SsSetMVol = 0x089261b4;
+SsSetSerialAttr = 0x089261c4;
+VSync = 0x0891b5bc;

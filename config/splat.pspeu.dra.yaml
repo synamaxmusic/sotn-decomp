@@ -1,0 +1,34 @@
+options:
+  platform:     psx
+  basename:     dra
+  base_path:    ..
+  build_path:   build/pspeu
+  target_path:  disks/pspeu/PSP_GAME/USRDIR/res/ps/PSPBIN/dra.bin
+  asm_path:     asm/pspeu/dra
+  asset_path:   assets/dra
+  src_path:     src/dra
+  compiler:     GCC
+  symbol_addrs_path:    config/generated.symbols.pspeu.dra.txt
+  undefined_funcs_auto_path: config/undefined_funcs_auto.pspeu.dra.txt
+  undefined_syms_auto_path:  config/undefined_syms_auto.pspeu.dra.txt
+  find_file_boundaries: yes
+  use_legacy_include_asm: no
+  migrate_rodata_to_functions: no
+  extensions_path: tools/splat_ext
+  section_order:
+    - ".data"
+    - ".rodata"
+    - ".text"
+    - ".bss"
+segments:
+  - [0x80, header]
+  - name: dra
+    type: code
+    start: 0x00000080
+    vram:  0x090DCA00
+    subalign: 4
+    subsegments:
+      - [0x80, c]
+      - [0xDF0, c]
+      - [0x68D90, data]
+  - [0xEED80]
