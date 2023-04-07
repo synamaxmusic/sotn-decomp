@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 513
-Number of undecompiled duplicates found: 619
+Number of decompiled duplicates found: 520
+Number of undecompiled duplicates found: 612
 Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -239,16 +239,6 @@ ref. - CEN  - EntityAbsorbOrb - found 8 matches total:
 0.99 - ST0  - EntityAbsorbOrb
 0.99 - WRP  - EntityAbsorbOrb
 0.99 - RWRP - func_80194590
-
-ref. - CEN  - EntityEnemyBlood - found 8 matches total:
-0.99 - DRE  - EntityEnemyBlood
-0.99 - MAD  - EntityEnemyBlood
-0.99 - NO3  - EntityEnemyBlood
-0.99 - NP3  - EntityEnemyBlood
-0.99 - NZ0  - EntityEnemyBlood - (decompiled)
-0.99 - ST0  - EntityEnemyBlood
-0.99 - WRP  - EntityEnemyBlood
-0.99 - RWRP - func_80194924
 
 ref. - CEN  - EntityExplosion - found 8 matches total:
 0.99 - DRE  - EntityExplosion - (decompiled)
@@ -661,7 +651,7 @@ ref. - RWRP - func_8018D8F0 - found 8 matches total:
 0.99 - MAD  - func_801920AC - (decompiled)
 
 ref. - RWRP - func_8018D934 - found 8 matches total:
-1.00 - CEN  - func_80194618 - (decompiled)
+1.00 - CEN  - MoveEntity - (decompiled)
 1.00 - DRE  - MoveEntity - (decompiled)
 1.00 - NO3  - MoveEntity - (decompiled)
 1.00 - NP3  - MoveEntity - (decompiled)
@@ -799,6 +789,16 @@ ref. - RWRP - func_80191490 - found 8 matches total:
 0.99 - NZ0  - func_801C07FC - (decompiled)
 0.99 - ST0  - func_801B7BFC - (decompiled)
 0.99 - WRP  - func_8018F510 - (decompiled)
+
+ref. - RWRP - func_80194924 - found 8 matches total:
+0.99 - CEN  - EntityEnemyBlood - (decompiled)
+0.99 - DRE  - EntityEnemyBlood - (decompiled)
+0.99 - MAD  - EntityEnemyBlood - (decompiled)
+0.99 - NO3  - EntityEnemyBlood - (decompiled)
+0.99 - NP3  - EntityEnemyBlood - (decompiled)
+0.99 - NZ0  - EntityEnemyBlood - (decompiled)
+0.99 - ST0  - EntityEnemyBlood - (decompiled)
+0.99 - WRP  - EntityEnemyBlood - (decompiled)
 
 ref. - RWRP - func_8019585C - found 8 matches total:
 1.00 - CEN  - func_8019C540 - (decompiled)

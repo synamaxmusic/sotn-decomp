@@ -812,14 +812,7 @@ us/dra/nonmatchings/75F54/EntitySubwpnCrashCross.s                 315          
 us/st/nz0/nonmatchings/30958/func_801B7034.s                       320          39
 us/dra/nonmatchings/62D70/func_801042C4.s                          324          24
 us/st/no3/nonmatchings/46684/EntityStrongWargDeathBeams.s          324          33
-us/st/cen/nonmatchings/D600/EntityEnemyBlood.s                     326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
-us/st/dre/nonmatchings/1C7DC/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
-us/st/mad/nonmatchings/139E0/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
-us/st/no3/nonmatchings/46684/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
-us/st/np3/nonmatchings/3DEF4/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
 us/st/rwrp/nonmatchings/8DF0/func_80194924.s                       326          38
-us/st/st0/nonmatchings/36358/EntityEnemyBlood.s                    326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
-us/st/wrp/nonmatchings/D020/EntityEnemyBlood.s                     326          38          https://decomp.me/scratch/sPUOP (Scraped 0.997)
 us/dra/nonmatchings/75F54/EntitySubwpnThrownVibhuti.s              326          41
 us/st/no3/nonmatchings/377D4/EntityUnkId5C.s                       328          36  Yes
 us/st/np3/nonmatchings/3246C/func_801B5790.s                       328          36  Yes
