@@ -547,7 +547,6 @@ us/dra/nonmatchings/42398/func_800E3278.s                          140          
 us/dra/nonmatchings/75F54/func_80116208.s                          142          24
 us/dra/nonmatchings/75F54/func_80132C2C.s                          143          10
 us/st/np3/nonmatchings/4997C/func_801CAE0C.s                       143          18
-us/st/nz0/nonmatchings/3E30C/func_801C5D20.s                       143          18
 us/dra/nonmatchings/5298C/func_800F84CC.s                          144          11
 us/dra/nonmatchings/75F54/func_8012E7A4.s                          144          15
 us/dra/nonmatchings/4F45C/func_800F14CC.s                          145          23
@@ -820,7 +819,7 @@ us/ric/nonmatchings/22380/func_80160788.s                          333          
 us/dra/nonmatchings/42398/func_800E5D30.s                          334          31
 us/st/no3/nonmatchings/46684/EntityAlucardSplash.s                 339          34
 us/st/np3/nonmatchings/3DEF4/func_801C56D8.s                       339          34
-us/st/nz0/nonmatchings/3E30C/EntitySkeleton.s                      339          65  Yes     https://decomp.me/scratch/QhrKI (Scraped 0.865)
+us/st/nz0/nonmatchings/45568/EntitySkeleton.s                      339          65  Yes     https://decomp.me/scratch/QhrKI (Scraped 0.865)
 us/st/nz0/nonmatchings/4672C/EntitySubwpnPickup.s                  340          50
 us/st/no3/nonmatchings/3E134/EntityDeathStolenItem.s               341          27  Yes
 us/dra/nonmatchings/75F54/func_80134F50.s                          342          99  Yes     https://decomp.me/scratch/5pgiv (Scraped 0.025)
@@ -960,7 +959,6 @@ us/dra/nonmatchings/75F54/EntityGuardText.s                        533          
 us/st/sel/nonmatchings/38D24/func_801B9C80.s                       533          97
 us/ric/nonmatchings/22380/func_8016147C.s                          540          72  Yes
 us/st/np3/nonmatchings/4997C/func_801CA654.s                       547         111  Yes
-us/st/nz0/nonmatchings/3E30C/EntityBloodDrips.s                    547         111  Yes     https://decomp.me/scratch/Au92k (Scraped 0.998)
 us/ric/nonmatchings/22380/func_8016B0C0.s                          550          47
 us/dra/nonmatchings/62D70/func_80109A44.s                          552          70
 us/st/st0/nonmatchings/36358/func_801B7308.s                       554          52  Yes

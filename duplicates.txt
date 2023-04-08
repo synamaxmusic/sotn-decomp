@@ -1,5 +1,5 @@
-Number of decompiled duplicates found: 515
-Number of undecompiled duplicates found: 611
+Number of decompiled duplicates found: 516
+Number of undecompiled duplicates found: 608
 Number of overall exact duplicates found: 155
 
 ref. - MAIN - ChangeClearRCnt - found 51 matches total:
@@ -1277,11 +1277,8 @@ ref. - NP3  - func_801C9F98 - found 1 matches total:
 ref. - NP3  - func_801CA498 - found 1 matches total:
 0.99 - NZ0  - func_801C53AC
 
-ref. - NP3  - func_801CA654 - found 1 matches total:
-0.99 - NZ0  - EntityBloodDrips
-
 ref. - NP3  - func_801CAE0C - found 1 matches total:
-0.99 - NZ0  - func_801C5D20
+0.99 - NZ0  - func_801C5D20 - (decompiled)
 
 ref. - NP3  - func_801CE69C - found 1 matches total:
 0.99 - NP3  - func_801CF94C
