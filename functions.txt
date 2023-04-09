@@ -476,7 +476,6 @@ us/dra/nonmatchings/75F54/func_80118970.s                          121          
 us/dra/nonmatchings/62D70/func_8010A234.s                          121          21          https://decomp.me/scratch/rdeqb
 us/st/sel/nonmatchings/2D260/func_801B2F50.s                       122           3
 us/st/np3/nonmatchings/4997C/func_801CA498.s                       122          11
-us/st/nz0/nonmatchings/3E30C/func_801C53AC.s                       122          11
 us/st/no3/nonmatchings/3C4EC/EntityUnkId52.s                       123          16
 us/st/no3/nonmatchings/3C4EC/EntityUnkId50.s                       124          16
 us/st/cen/nonmatchings/D600/EntityUnkId12.s                        124          18
@@ -925,9 +924,9 @@ us/st/wrp/nonmatchings/6FD0/EntityNumericDamage.s                  466          
 us/dra/nonmatchings/75F54/func_8012F178.s                          467          35
 us/dra/nonmatchings/75F54/EntityHitByLightning.s                   468          56
 us/dra/nonmatchings/75F54/func_801291C4.s                          469          62
-us/st/no3/nonmatchings/46684/EntityBoneScimitar.s                  472          85  Yes     https://decomp.me/scratch/AvvlV (Scraped 0.938)
-us/st/np3/nonmatchings/3DEF4/EntityBoneScimitar.s                  472          85  Yes     https://decomp.me/scratch/AvvlV (Scraped 0.938)
-us/st/nz0/nonmatchings/3E30C/EntityBoneScimitar.s                  472          85  Yes     https://decomp.me/scratch/AvvlV (Scraped 0.938)
+us/st/no3/nonmatchings/46684/EntityBoneScimitar.s                  472          85  Yes     https://decomp.me/scratch/4kFBl (Scraped 0.941)
+us/st/np3/nonmatchings/3DEF4/EntityBoneScimitar.s                  472          85  Yes     https://decomp.me/scratch/4kFBl (Scraped 0.941)
+us/st/nz0/nonmatchings/3E30C/EntityBoneScimitar.s                  472          85  Yes     https://decomp.me/scratch/4kFBl (Scraped 0.941)
 us/ric/nonmatchings/22380/func_8016CC74.s                          474          62
 us/dra/nonmatchings/75F54/EntityTeleport.s                         475          58  Yes
 us/dra/nonmatchings/75F54/EntityMpReplenished.s                    479          48  Yes
