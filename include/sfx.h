@@ -180,7 +180,6 @@ typedef enum { MONO_SOUND, STEREO_SOUND } soundMode;
 #define JP_VO_SH_SONO_TEIDO 0x530 // Shaft: Sono teido no chikara de tatakai...
 #endif
 
-#define SFX_WEAPON_62C 0x62C
 #define NA_SE_EV_GLASS_BREAK 0x632
 #define NA_SE_BREAK_CANDLE 0x634
 #define SFX_UNK_635 0x635
@@ -293,7 +292,6 @@ typedef enum { MONO_SOUND, STEREO_SOUND } soundMode;
 #define BIBLE_SUBWPN_SWOOSH 0x8C3
 
 // STAGE DRE
-#define NA_SE_SU_SHOOT_PINKBALLS 0x62C
 #define SE_SUC_REVEAL 0x637
 #define NA_SE_SU_LANDING 0x646
 #define SE_DRE_FADE_TO_WHITE 0x65A
@@ -317,7 +315,6 @@ typedef enum { MONO_SOUND, STEREO_SOUND } soundMode;
 
 // STAGE NO3 / NP3
 #define NA_SE_EV_WINDOW_LATCH 0x79D
-#define SE_DEATH_AMBIENCE 0x631
 #define SE_DEATH_TAKES_ITEMS 0x7A0
 #define NA_VO_DEATH_LAUGH 0x7A1
 #define SE_ITEM_YOINK 0x7A2
@@ -326,7 +323,6 @@ typedef enum { MONO_SOUND, STEREO_SOUND } soundMode;
 
 // SHARED SOUNDS
 // These are sounds that are shared across multiple BIN files
-#define SE_WEAPON_STAB 0x62E
 #define SE_DOOR_OPEN 0x642
 #define SE_DOOR_CLOSE 0x64F
 #define SE_WEAPON_WHACK 0x678
@@ -362,7 +358,6 @@ typedef enum { MONO_SOUND, STEREO_SOUND } soundMode;
 #define SFX_DARK_SHIELD 0x63C
 
 // UNUSED SOUNDS
-#define SE_UNK_MAD_630 0x630
 #define SE_UNK_TE1_651 0x651
 #define SE_UNK_TE3_667 0x667
 #define SE_UNK_TE1_66F 0x66F
