@@ -12,8 +12,8 @@ options:
   symbol_addrs_path:
     - config/symbols.us.txt
     - config/symbols.us.sttop.txt
-  undefined_funcs_auto_path: config/undefined_funcs_auto.us.sttop.txt
-  undefined_syms_auto_path: config/undefined_syms_auto.us.sttop.txt
+  undefined_funcs_auto_path: build/us/config/undefined_funcs_auto.us.sttop.txt
+  undefined_syms_auto_path: build/us/config/undefined_syms_auto.us.sttop.txt
   find_file_boundaries: true
   use_legacy_include_asm: false
   migrate_rodata_to_functions: true
@@ -44,8 +44,8 @@ segments:
       - [0xA30, .data, e_room_bg]
       - [0xA68, .data, e_red_door_tiles]
       - [0xA98, .data, e_lock_camera]
-      - [0xAF8, data, e_breakable]
-      - [0xBDC, data, 296F4]
+      - [0xAF8, .data, e_breakable]
+      - [0xC08, data, 296F4]
       - [0xE28, .data, st_update]
       - [0xE74, .data, collision]
       - [0x1234, .data, e_red_door]
