@@ -432,7 +432,7 @@ void DopplegangerStepKill(DamageParam* damage, s16 dopStep, s16 arg2) {
         DOPPLEGANGER.step_s++;
         break;
     case 17:
-        g_Dop.unk5E = 5;
+        g_Dop.stonedShakeCount = 5;
         if (D_us_801D3314 % 16 == 7) {
             g_Dop.padTapped = PAD_UP;
             g_api.PlaySfx(SFX_STONE_MOVE_B);
@@ -1129,7 +1129,7 @@ void DopplegangerStepStone(s32 arg0) {
         func_80113E68();
         DOPPLEGANGER.palette = PAL_FLAG(PAL_CC_STONE_EFFECT);
         g_api.PlaySfx(SFX_BO4_UNK_7DC);
-        g_Dop.unk5E = 8;
+        g_Dop.stonedShakeCount = 8;
         g_Dop.timers[2] = 0;
         DOPPLEGANGER.step_s = 1;
         break;
@@ -1168,10 +1168,10 @@ void DopplegangerStepStone(s32 arg0) {
         if ((g_Dop.padTapped & PAD_DIRECTION_MASK) || arg0 != 0) {
             g_Dop.padTapped |= PAD_DIRECTION_MASK;
             DOPPLEGANGER.poseTimer = 16;
-            g_Dop.unk5E--;
+            g_Dop.stonedShakeCount--;
             g_api.PlaySfx(SFX_STONE_MOVE_B);
 
-            if (g_Dop.unk5E == 0) {
+            if (g_Dop.stonedShakeCount == 0) {
                 SetDopplegangerAnim(0x3B);
                 CreateEntFactoryFromEntity(g_CurrentEntity, FACTORY(16, 3), 0);
                 g_api.PlaySfx(SFX_BO4_UNK_7DD);

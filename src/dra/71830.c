@@ -1650,7 +1650,8 @@ void PlayerStepStoned(s32 arg0) {
         g_Player.timers[2] = 0;
         g_Player.timers[0] = 0;
         g_Player.timers[1] = 0;
-        g_Player.unk5E = GetStatusAilmentTimer(STATUS_AILMENT_PETRIFIED, 8);
+        g_Player.stonedShakeCount =
+            GetStatusAilmentTimer(STATUS_AILMENT_PETRIFIED, 8);
         CreateEntFactoryFromEntity(g_CurrentEntity, FACTORY(BP_47, 3), 0);
         func_8010E168(1, 4);
         PLAYER.step_s = 1;
@@ -1721,10 +1722,10 @@ void PlayerStepStoned(s32 arg0) {
             arg0 != 0 || D_800ACE44 != 0) {
             g_Player.padTapped |= (PAD_UP | PAD_RIGHT | PAD_DOWN | PAD_LEFT);
             // Counter for how many wiggles left until we're out
-            g_Player.unk5E--;
+            g_Player.stonedShakeCount--;
             PLAYER.poseTimer = 0x10;
             PlaySfx(SFX_STONE_MOVE_B);
-            if (g_Player.unk5E <= 0) {
+            if (g_Player.stonedShakeCount <= 0) {
                 SetPlayerAnim(0x3B);
                 if (PLAYER.ext.player.anim != 0x3A) {
                     CreateEntFactoryFromEntity(
@@ -1934,7 +1935,7 @@ void PlayerStepKill(DamageParam* damage, s16 arg_PlayerStep, s16 arg2) {
         PLAYER.step_s++;
         break;
     case 17:
-        g_Player.unk5E = 5;
+        g_Player.stonedShakeCount = 5;
         if (D_80137FF0 % 16 == 7) {
             g_Player.padTapped = PAD_UP;
             PlaySfx(SFX_STONE_MOVE_B);

@@ -1147,7 +1147,7 @@ void EntityPlayerPinkEffect(Entity* self) {
             case 0x83: // There is no un-stoning potion, perhaps related to
                        // fairy using Hammer.
                 if (PLAYER.step == Player_StatusStone) {
-                    g_Player.unk5E = 1;
+                    g_Player.stonedShakeCount = 1;
                     D_800ACE44 = 0x40;
                 }
                 break;
